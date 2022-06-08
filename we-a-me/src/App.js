@@ -1,10 +1,10 @@
-import NavBar from "./components/navbar/NavBar";
-import NavBarIndex from "./components/navbar/NavBarIndex/NavBarIndex";
+import NavBar from "./components/NavBar/NavBar";
+import NavBarIndex from "./components/NavBarIndex/NavBarIndex";
 
 function App() {
   return (
     <div>
-      <NavBarIndex/>
+      <NavBar/>
     </div>
   );
 }
