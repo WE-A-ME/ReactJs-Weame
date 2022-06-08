@@ -1,0 +1,101 @@
+.container{
+    max-width: 100%;
+    background-color: rgba(1, 33, 105, 0.08);
+  }
+  
+   
+  .logo{
+      width: 90px;
+      margin-right: -9px;
+      margin-left: 18px;
+  }
+   
+  #pesquisa input[type=text]{
+      background: #FFFFFF;
+      border-radius: 5px 0 0 5px;
+      width: 400px;
+      height: 49px;
+      text-align: left;
+      padding: 12px 16px 14px;
+      font-weight:300;
+      
+  }
+  
+  #pesquisa input{
+    border-color: #0077B7;
+  }
+  
+   
+  #pesquisa button{
+      background: #FFFFFF;
+      border-radius: 0 5px 5px 0;
+      width: 51px;
+      height: 49px;  
+      border: #FFFFFF;
+      color: #0077B7;
+      float: right;
+  }
+  
+  #local i{
+    color: #0077B7;
+    margin-top: 12.5px;
+    margin-left: 115px;
+  }
+  
+  #icone:hover{
+    color: #3872f5;
+  }
+  
+  #iconelocal:hover{
+    color: #3872f5;
+  }
+  
+  
+  #letracliente{
+    font-weight: 700;
+    font-size: 19px;
+    color: #012169;
+  }
+  
+  #letralocal{
+    color: #0136AB;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-right: 10px;
+  }
+  
+  #letralocal:hover{
+    color: #3872f5;
+  }
+  
+  #letracliente:hover{
+    color: #3872f5;
+  }
+  
+  #navbar{
+    margin-right: 35px;
+    margin-top: 10px;
+  }
+  
+  #servicos{
+    background-color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-align: justify;
+  }
+  
+  .linhahorizontal{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(1, 33, 105, 0.08);
+    margin-top: 12px;
+  }
+  
+  #navbarletra{
+    color: #012169;
+  }
+
+  #navbarletra:hover{
+    color: #3872f5;
+  }
