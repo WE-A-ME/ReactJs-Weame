@@ -17,7 +17,7 @@ function SobreNos() {
         </div>
     
         <div className="container">
-            <div className="row">
+            <div className="row row-cols-1 row-cols-md-4 g-4 align-items-center">
                 <div className="col-md-3">
                     <div className="card"  id="cartao2">
                         <img src={Danielly} className="card-img-top" alt="Foto da aluna do Instituto Proa" title="Danielly Alves Silva" id="imagem2"/>

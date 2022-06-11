@@ -21,7 +21,7 @@ function Categorias() {
         </div>
     
         <div className="container-fluid">
-            <div className="row">
+            <div className="row row-cols-1 row-cols-md-3 g-4 align-items-center">
                 <div className="col-md-2 align-items-center">
                     <div className="card"  id="cartao">
                     <a href=""><img src={Reformas} className="card-img-top" id="imagem"/></a>

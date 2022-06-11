@@ -13,7 +13,7 @@ function NavBarIndex() {
                     <img className="logo" src={Logo} title="We-a-Me" alt="We-a-Me Logo" />
                 </a>
     
-                <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id='navbar'>
                     <li><a href="#" className="nav-link px-2" id="navbarletra">Categorias</a></li>
                     <li><a href="#" className="nav-link px-2" id="navbarletra">Para Profissionais</a></li>
                     <li><a href="#" className="nav-link px-2 " id="navbarletra">Suporte</a></li>
