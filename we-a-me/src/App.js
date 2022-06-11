@@ -1,6 +1,3 @@
-import NavBar from "./components/NavBar/NavBar";
-import NavbarCategorias from "./components/NavbarCategorias/NavbarCategorias";
-
 import React from 'react';
 import NavBarIndex from "./components/NavBarIndex/NavBarIndex";
 import Categorias from "./Paginas/Categorias/Categorias";
