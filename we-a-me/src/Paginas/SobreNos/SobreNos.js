@@ -10,7 +10,7 @@ import Eduarda from './fotos/Eduarda.jpg'
 function SobreNos() {
     return (
 
-    <main className="main" id="fundo">
+    <main className="main">
         
         <div className="titulo">
             <h2>Sobre Nós</h2>
