@@ -1,0 +1,36 @@
+h2{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 61px;
+    color: #0070BA;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+#cartao{
+    width: 210px;
+    height: 220px;
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 45.9271px;
+    margin-left: 110px;
+    text-align: center;
+}
+
+
+#imagem{
+    border-radius: 30.6181px;
+    width: 160px;
+    height: 160px;
+    margin-top: 16px;
+}
+
+
+#nome{
+    color: #012169;
+    font-size: 17px;
+  }

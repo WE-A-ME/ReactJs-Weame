@@ -1,0 +1,76 @@
+.main{
+    background: #fff;
+}
+
+h2{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 61px;
+    color: #0070BA;
+}
+
+.titulo{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#cartao2{
+    width: 260px;
+    height: 478px;
+    margin-top: 25px;
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0.96) 0%, rgba(244, 244, 244, 0) 100%);
+    border-radius: 45.9271px;
+    margin-left: 11px;
+}
+
+
+#imagem2{
+    border-radius: 30.6181px;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+
+#profissao{
+    margin-bottom: 18px;
+}
+
+
+#texto{
+    font-size: 14px;
+    text-align: center;
+}
+
+#nome{
+  color: #012169;
+}
+
+#proa{
+    font-size: 14px;
+    color: #0070BA;
+    font-weight: 600;
+}
+
+.card-text{
+    color: #111;
+}
+
+#redesociais{
+  font-size: 33px;
+  color: #012169;
+  line-height: 13px;
+  margin-left: 70px;
+  line-height: 1px;
+  gap: 24px;
+}
+
+#github{
+    color: #111;
+}
+
+#github:hover{
+    color: #3872f5;
+}

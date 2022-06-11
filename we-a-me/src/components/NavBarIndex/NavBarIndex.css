@@ -1,22 +1,16 @@
-#nav-container{
+#nav{
     max-width: 100%;
     background-color: rgba(1, 33, 105, 0.08);
 }
 
 .logo{
-    width: 92px;
+    width: 90px;
     margin-left: 18px;
-    margin-right: -5px;
-}
-
-#navbar{
-  margin-right: 10px;
 }
 
 
 #navbar li{
-    padding: 9px;
-    margin-right: 4px;
+    padding: 10px;
 }
 
 
@@ -47,7 +41,7 @@
     text-decoration: none;
     background: #012169;
     border-radius: 8px;
-    margin-right: 25px;
+    margin-right: 28px;
     width: 115px;
     height: 49px;
     font-size: 18px;
