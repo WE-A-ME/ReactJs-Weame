@@ -7,7 +7,7 @@ function NavBarIndex() {
         
         <div className="container-fluid" id="fundo">
 
-        <header className="d-flex flex-wrap align-items-center justify-content-center minha-classNamee py-3 mb-4 border-bottom">
+        <header className="d-flex flex-wrap align-items-center justify-content-center minha-class py-3 mb-4 border-bottom">
             
                 <a href="#" className="d-flex col-md-3 mb-2 mb-md-0 text-dark text-decoration-none ">
                     <img className="logo" src={Logo} title="We-a-Me" alt="We-a-Me Logo" />
