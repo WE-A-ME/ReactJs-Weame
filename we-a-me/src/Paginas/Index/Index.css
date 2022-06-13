@@ -1,9 +1,4 @@
-.container- {
-    /* padding: 6em; */
-  }
-  
-  /* Main Box 01 Start */
-  
+
   .main--box--01 {
     display: flex;
     justify-content: center;
@@ -79,7 +74,7 @@
     width: 150px;
   }
   
-  .card {
+  .card1 {
     width: 10rem;
     height: 10rem;
     align-items: center;

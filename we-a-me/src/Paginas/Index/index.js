@@ -41,21 +41,21 @@ function Index() {
                     <h2>Categorias oferecidas</h2>
                 </div>
                 <div className="main--box--cards--01">
-                    <div className="card">
+                    <div className="card1">
                         <img className="card-img-top" alt="..." />
                         <div className="card-body">
                             <p className="card-text">Reformas e Reparos</p>
                         </div>
                     </div>
        
-                    <div className="card">
+                    <div className="card1">
                         <img  className="card-img-top" alt="..." />
                         <div className="card-body">
                             <p className="card-text">Auto</p>
                         </div>
                     </div>
        
-                    <div className="card">
+                    <div className="card1">
                         <img  className="card-img-top" alt="..." />
                         <div className="card-body">
                             <p className="card-text">Modas</p>
@@ -64,21 +64,21 @@ function Index() {
                 </div>
        
                 <div className="main--box--cards--01 pt-5">
-                    <div className="card">
+                    <div className="card1">
                         <img  className="card-img-top" alt="..." />
                         <div className="card-body">
                             <p className="card-text">Programação</p>
                         </div>
                     </div>
        
-                    <div className="card">
+                    <div className="card1">
                         <img  className="card-img-top" alt="..." />
                         <div className="card-body">
                             <p className="card-text">Limpeza</p>
                         </div>
                     </div>
        
-                    <div className="card">
+                    <div className="card1">
                         <img  className="card-img-top" alt="..." />
                         <div className="card-body">
                             <p className="card-text">Assistência Técnica</p>
