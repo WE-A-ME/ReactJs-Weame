@@ -1,5 +1,9 @@
 import './Index.css';
-
+import Box1 from './img/img_box_01.svg'
+import Box2 from './img/img_box_02.svg'
+import Comercio1 from './img/img_box_02.svg'
+import Comercio2 from './img/img_box_02.svg'
+import Box2 from './img/img_box_02.svg'
 
 function Index() {
 
@@ -13,13 +17,13 @@ function Index() {
                     <p className="col-9">Com a We-A-Me é possivel encontrar e divulgar comercios e serviços autonomos em sua região com os melhores profissionais. </p>
                 </div>
        
-                <div className="main--img--01"><img alt="" /></div>
+                <div className="main--img--01"><img src={Box1} alt="" /></div>
             </div>
        
        
        
             <div className="main--box--02">
-                <div className="main--img--02"><img  alt="" /></div>
+                <div className="main--img--02"><img src={Box2} alt="" /></div>
        
                 <div className="main--box--02--text col-6">
                     <h2>Conheça nossos benefícios e faça parte desta comunidade</h2>
@@ -34,58 +38,6 @@ function Index() {
                 </div>
        
             </div>
-       
-       
-            <div className="main--box--03">
-                <div className="main--box--03--title">
-                    <h2>Categorias oferecidas</h2>
-                </div>
-                <div className="main--box--cards--01">
-                    <div className="card1">
-                        <img className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Reformas e Reparos</p>
-                        </div>
-                    </div>
-       
-                    <div className="card1">
-                        <img  className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Auto</p>
-                        </div>
-                    </div>
-       
-                    <div className="card1">
-                        <img  className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Modas</p>
-                        </div>
-                    </div>
-                </div>
-       
-                <div className="main--box--cards--01 pt-5">
-                    <div className="card1">
-                        <img  className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Programação</p>
-                        </div>
-                    </div>
-       
-                    <div className="card1">
-                        <img  className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Limpeza</p>
-                        </div>
-                    </div>
-       
-                    <div className="card1">
-                        <img  className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Assistência Técnica</p>
-                        </div>
-                    </div>
-                </div>
-            </div >
        
        
             <div className="main--box--04">
