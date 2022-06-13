@@ -11,7 +11,6 @@ function App() {
   return (
     <div>
       <NavBarIndex/>
-      <Index/>
       <Categorias/>
       <SobreNos/>
     </div>
