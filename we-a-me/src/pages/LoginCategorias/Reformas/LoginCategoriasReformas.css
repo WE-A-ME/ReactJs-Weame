@@ -16,7 +16,7 @@ h2{
   height: 300px;
   float: right;
   margin-top: 25px;
-  margin-right: 80px;
+  margin-right: 90px;
   background: linear-gradient(180deg, rgba(244, 244, 244, 0.96) 0%, rgba(244, 244, 244, 0) 100%);
   border-radius: 45.9271px;
   max-width: 775px;
@@ -107,6 +107,23 @@ font-size: 15px;
 }
 
 
+#cartao5{
+  text-align: center;
+  margin-left: 95px;
+  background-color:linear-gradient(180deg, rgba(244, 244, 244, 0.96) 0%, rgba(244, 244, 244, 0) 100%);
+  color: #012169;
+  border-radius: 20px;
+  margin-top: 39px;
+  width: 18rem;
+}
+
+#titulocartao{
+  font-weight: 450;
+}
+
+#cartao5 label{
+  letter-spacing: 37.8px;
+}
 
 @media (min-width: 767px){
   .minha-classe {
