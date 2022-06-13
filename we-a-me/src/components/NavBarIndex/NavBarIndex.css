@@ -3,8 +3,13 @@
 }
 
 .logo{
-    width: 92px;
+    width: 72px;
     margin-left: 20px;
+}
+
+#navbar{
+  font-size: 14px;
+  margin-left: 20px;
 }
 
 #navbarletra{
