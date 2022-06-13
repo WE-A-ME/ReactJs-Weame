@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Start */
+
+header {
+  background-color: #01216914;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  border-bottom: solid 1px #000;
+}
+
+.logo {
+  width: 110px;
+  margin-left: 30px;
+}
+
+.header--items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.header--items a {
+  text-decoration: none;
+  color: #012169;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 11px;
+}
+
+.header--items a:hover {
+  color: #0070BA;
+}
+
+.header--buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.header--buttons .button {
+  color: #012169;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: all ease 0.5s;
+}
+
+.button--entrar {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header--buttons a:hover {
+  color: #0070BA;
+}
+
+.header--buttons button {
+  width: 127px;
+  height: 53px;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #012169;
+  color: #fff;
+  opacity: 1;
+  transition: all ease 0.5s;
+}
+
+.header--buttons button:hover {
+  opacity: 0.8;
+}
+
+/* Header End */
+
+/* Footer Start */
+
+footer {
+  display: flex;
+  overflow: hidden;
+  border-top: solid 1px #000;
+  background-color: #01216914;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo {
+  margin-top: 1em;
+  width: 110px;
+  margin-left: 30px;
+}
+
+.footer--topicos {
+  color: #0070BA;
+  margin-left: 2em;
+}
+
+.footer--topicos a {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+  font-size: 0.6em;
+  text-decoration: none;
+  color: #0070BA;
+}
+
+.footer--topicos a:hover {
+  color: #0070ba;
+  text-decoration: underline;
+}
+
+.footer--topicos h5 {
+  font-size: 1em;
+  text-align: center;
+}
+
+.btn {
+  border: 0;
+  cursor: auto;
+}
+
+.btn .btn-primary {
+  background: #2b60de;
+}
+
+.btn h5,
+p {
+  color: #0070BA;
+  font-size: 1em;
+}
+
+.btn button {
+  width: 100px;
+  height: 43px;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn input {
+  width: 20em;
+  height: 40px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.footer--topicos--copy p {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* Footer End */

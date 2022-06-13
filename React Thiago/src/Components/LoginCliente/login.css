@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+    /* overflow: hidden; */
+}
+
+.conteudo {
+    display: flex;
+}
+
+.main--login {
+    width: 363px;
+    height: 435px;
+    border-radius: 8px;
+    background: #012169;
+}
+
+.main--inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.button-email,
+.button-senha {
+    margin-top: 10px;
+    background: #EAE6E6;
+    border-radius: 8px;
+    width: 303px;
+    height: 53px;
+}
+
+.btn-entrar {
+    font-size: 20px;
+    font-weight: 700;
+    color: #012169;
+    margin-top: 20px;
+    background: #EAE6E6;
+    width: 120px;
+    height: 53px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main--inputs a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.btn--login--google,
+.btn--login--linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 303px;
+    height: 53px;
+    border-radius: 8px;
+    cursor: pointer;
+}
