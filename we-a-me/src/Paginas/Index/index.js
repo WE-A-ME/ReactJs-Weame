@@ -1,9 +1,6 @@
 import './Index.css';
 import Box1 from './img/img_box_01.svg'
 import Box2 from './img/img_box_02.svg'
-import Comercio1 from './img/img_box_02.svg'
-import Comercio2 from './img/img_box_02.svg'
-import Box2 from './img/img_box_02.svg'
 
 function Index() {
 
