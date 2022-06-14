@@ -20,7 +20,7 @@ import Comercio4 from './img/comercio4.jpg'
 import './Categorias.css'
 
 
-function Categorias() {
+export function Categorias() {
     return (
 
     <main className="main">
@@ -197,6 +197,4 @@ function Categorias() {
 
     );
   }
-  
-  export default Categorias;
   
