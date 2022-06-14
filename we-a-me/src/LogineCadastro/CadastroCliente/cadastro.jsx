@@ -1,9 +1,9 @@
 import React from "react";
 import cadastro from "./cadastro.css";
-import Logo from './img/logo.png'
-import LogoGoogle from "../img/CadastroEmpresa/img-google.png";
-import LogoLinkedin from "../img/CadastroEmpresa/img-linkedin.png";
-import Cadastro from "../img/CadastroEmpresa/img-cadastro.png";
+import Logo from './img/logo.png';
+import logo_google from "../../components/Pages Thiago/img/CadastroEmpresa/img-google.png";
+import logo_linkedin from "../../components/Pages Thiago/img/CadastroEmpresa/img-linkedin.png";
+import img_cadastro from "../../components/Pages Thiago/img/CadastroEmpresa/img-cadastro.png";
 
 export function CadastroEmpresa() {
   return (
