@@ -1,4 +1,4 @@
-import './Navbar.css';
+import './navbar.css';
 import Logo from './logo.png'
 
 function NavBar() {
@@ -7,7 +7,7 @@ function NavBar() {
         <header className="d-flex flex-wrap align-items-center justify-content-center minha-class py-3 mb-4">
             
                 <a href="#" className="d-flex  col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img className="logo" src={Logo} title="We-a-Me" alt="We-a-Me Logo" />
+                    <img className="header--logo" src={Logo} title="We-a-Me" alt="We-a-Me Logo" />
                 </a>
 
                 <form className="" id="pesquisa">
@@ -19,8 +19,8 @@ function NavBar() {
     
                 <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="navbar">
                   <li id="local"> <i id="iconelocal" className="fa-solid fa-location-dot"/></li>
-                  <li><a id="letralocal" href="#" className="nav-link">Osasco, SP</a></li>
-                  <li id="cliente"><a id="letracliente" href="#" className="nav-link">Olá, Jailson!</a></li>
+                  <a id="letra-local" href="#" className="nav-link">Osasco, SP</a>
+                  <a id="letra-cliente" href="#" className="nav-link">Olá, Jailson!</a>
                 </ul>
         </header>
       </div>

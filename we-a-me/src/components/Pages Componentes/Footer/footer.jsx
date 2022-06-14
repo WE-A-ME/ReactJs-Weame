@@ -8,10 +8,10 @@ export function Footer() {
 
         <div class="container-">
             <footer class=" p-2">
-                <div class="row text-center">
+                <div class="row text-center justify-content-center">
 
                     <div className="col-1">
-                        <a href="../1-Index/index.html"><img className="logofooter" src={Logo} alt="" /></a>
+                        <a href="../1-Index/index.html"><img className="footer--logo" src={Logo} alt="" /></a>
                     </div>
 
                     <div class="footer--topicos col-3">
@@ -39,7 +39,7 @@ export function Footer() {
 
                     </div>
 
-                    <div class="footer--topicos col-3">
+                    <div class="footer--topicos col-2">
                         <h5>Para Profissionais</h5>
 
                         <a href="#">Como se Cadastrar!</a>
@@ -47,7 +47,7 @@ export function Footer() {
 
                     </div>
 
-                    <div class="footer--topicos--copy">
+                    <div class="footer--topicos--copy col-12">
                     <p>&copy; 2022 We-A-Me. Todos Direitos Reservado.</p>
 
                 </div>

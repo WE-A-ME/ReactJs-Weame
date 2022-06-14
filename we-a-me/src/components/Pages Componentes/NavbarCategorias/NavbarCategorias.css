@@ -1,0 +1,30 @@
+#servicos {
+  background-color: #fff;
+  font-size: 18px;
+  width: 100%;
+  text-align: justify;
+  margin-top: 0.8em;
+}
+
+#navbarletra {
+  color: #012169;
+}
+
+#navbarlink {
+  color: #3872f5;
+}
+
+#navbarlink:hover {
+  color: #012169;
+}
+
+#navbarletra:hover {
+  color: #3872f5;
+}
+
+.linhahorizontal {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(1, 32, 105, 0.514);
+  margin-top: 12px;
+}

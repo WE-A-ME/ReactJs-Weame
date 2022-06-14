@@ -1,20 +1,24 @@
-import NavBarIndex from "./components/NavBarIndex/NavBarIndex";
-import NavBar from "./components/NavBar/NavBar";
-import NavbarCategorias from "./components/NavbarCategorias/NavbarCategorias";
+import  "./App.css";
 import Categorias from "./Paginas/Categorias/Categorias";
 import SobreNos from "./Paginas/SobreNos/SobreNos";
-import { Footer } from "./components/Footer/footer";
+import { Footer } from "./components/Pages Componentes/Footer/footer";
 import Index from "./Paginas/Index";
+import NavBar from "./components/Pages Componentes/navbar-input/navbar";
+import { NavbarCategorias } from "./components/Pages Componentes/NavbarCategorias/NavbarCategorias";
+import { NavBarIndex } from "./components/NavBarIndex/NavBarIndex";
 
 
 function App() {
   return (
     <div>
       <NavBarIndex/>
-      <Index/>
-      <Categorias/>
-      <SobreNos/>
-      <Footer/>
+      <NavbarCategorias/>
+      {/* <Index/> */}
+      {/* <Categorias/> */}
+      {/* <SobreNos/> */}
+      {/* <Footer/> */}
+      {/* <NavBar /> */}
+    
     </div>
   );
 }
