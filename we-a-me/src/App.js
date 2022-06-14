@@ -2,7 +2,6 @@ import  "./App.css";
 import Categorias from "./Paginas/Categorias/Categorias";
 import SobreNos from "./Paginas/SobreNos/SobreNos";
 import { Footer } from "./components/Pages Componentes/Footer/footer";
-import Index from "./Paginas/Index";
 import NavBar from "./components/Pages Componentes/navbar-input/navbar";
 import { NavbarCategorias } from "./components/Pages Componentes/NavbarCategorias/NavbarCategorias";
 import { NavBarIndex } from "./components/NavBarIndex/NavBarIndex";
