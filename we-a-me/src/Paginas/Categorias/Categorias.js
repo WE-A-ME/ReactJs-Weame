@@ -9,14 +9,14 @@ import Limpeza from './img/Limpeza.gif'
 import Moda from './img/Moda.gif'
 import Programação from './img/Programação.gif'
 import Saude from './img/Beleza.gif'
-import Comercio1 from './img/comercio1.png'
-import Comercio2 from './img/comercio2.png'
-import Comercio3 from './img/comercio3.png'
-import Comercio4 from './img/comercio4.png'
-import Profissional1 from './img/profissional1.png'
-import Profissional2 from './img/profissional2.png'
-import Profissional3 from './img/profissional3.png'
-import Profissional4 from './img/profissional4.png'
+import Profissional1 from './img/profissional1.jpg'
+import Profissional2 from './img/profissional2.jpg'
+import Profissional3 from './img/profissional3.jpg'
+import Profissional4 from './img/profissional4.jpg'
+import Comercio1 from './img/comercio1.jpg'
+import Comercio2 from './img/comercio2.jpg'
+import Comercio3 from './img/comercio3.jpg'
+import Comercio4 from './img/comercio4.jpg'
 import './Categorias.css'
 
 
@@ -110,19 +110,19 @@ function Categorias() {
        
                 <div className="main--box--circle--01">
                     <div className="circle">
-                        <div><img src={Comercio1} alt="" /></div>
+                        <div><img src={Profissional1} alt="" id="imagensprofissionais" /></div>
                         <div className="circle--name">
-                            <h2>José Vieira Silva</h2>
+                            <h3>Maria das Graças</h3>
                         </div>
                         <div className="circle--autonomo">
-                            <p>Jardineiro</p>
+                            <p>Costureira</p>
                         </div>
                     </div>
        
                     <div className="circle">
-                        <div><img src={Comercio2} alt="" /></div>
+                        <div><img src={Profissional2} alt="" id="imagensprofissionais"  /></div>
                         <div className="circle--name">
-                            <h2>Antonio Bezerra</h2>
+                            <h3>Antonio Bezerra</h3>
                         </div>
                         <div className="circle--autonomo">
                             <p>Artesão</p>
@@ -130,22 +130,22 @@ function Categorias() {
                     </div>
        
                     <div className="circle">
-                        <div><img src={Comercio3} alt="" /></div>
+                        <div><img src={Profissional3} alt="" id="imagensprofissionais"  /></div>
                         <div className="circle--name">
-                            <h2>Junior Gonçalves</h2>
+                            <h3>José Vieira Silva</h3>
                         </div>
                         <div className="circle--autonomo">
-                            <p>Cabeleleiro</p>
+                            <p>Jardineiro</p>
                         </div>
                     </div>
        
                     <div className="circle">
-                        <div><img src={Profissional1} alt="" /></div>
+                        <div><img src={Profissional4} alt="" id="imagensprofissionais"  /></div>
                         <div className="circle--name">
-                            <h2>Maria das Graças</h2>
+                            <h3>Junior Gonçalves</h3>
                         </div>
                         <div className="circle--autonomo">
-                            <p>Costureira</p>
+                            <p>Cabeleleiro</p>
                         </div>
                     </div>
                 </div>
@@ -153,29 +153,9 @@ function Categorias() {
        
                 <div className="main--box--circle--01">
                     <div className="circle">
-                        <div><img src={Profissional2} alt="" /></div>
+                        <div><img src={Comercio1} alt="" id="imagensprofissionais" /></div>
                         <div className="circle--name">
-                            <h2>Circo´s Store</h2>
-                        </div>
-                        <div className="circle--autonomo">
-                            <p>Comércio</p>
-                        </div>
-                    </div>
-       
-                    <div className="circle">
-                        <div><img src={Profissional3} alt="" /></div>
-                        <div className="circle--name">
-                            <h2>Deli Mark</h2>
-                        </div>
-                        <div className="circle--autonomo">
-                            <p>Barbearia</p>
-                        </div>
-                    </div>
-       
-                    <div className="circle">
-                        <div><img src={Profissional4} alt="" /></div>
-                        <div className="circle--name">
-                            <h2>Tony´ps</h2>
+                            <h3>Super Pizza</h3>
                         </div>
                         <div className="circle--autonomo">
                             <p>Pizzaria</p>
@@ -183,9 +163,29 @@ function Categorias() {
                     </div>
        
                     <div className="circle">
-                        <div><img src={Comercio4} alt="" /></div>
+                        <div><img src= {Comercio2} alt="" id="imagensprofissionais" /></div>
                         <div className="circle--name">
-                            <h2>Betty´s Burguers</h2>
+                            <h3>BarberShop</h3>
+                        </div>
+                        <div className="circle--autonomo">
+                            <p>Barbearia</p>
+                        </div>
+                    </div>
+       
+                    <div className="circle">
+                        <div><img src= {Comercio3} alt="" id="imagensprofissionais" /></div>
+                        <div className="circle--name">
+                            <h3>Pão Bom</h3>
+                        </div>
+                        <div className="circle--autonomo">
+                            <p>Padaria</p>
+                        </div>
+                    </div>
+       
+                    <div className="circle">
+                        <div><img src= {Comercio4} alt="" id="imagensprofissionais" /></div>
+                        <div className="circle--name">
+                            <h3>Big Lanches</h3>
                         </div>
                         <div className="circle--autonomo">
                             <p>Lanchonete</p>

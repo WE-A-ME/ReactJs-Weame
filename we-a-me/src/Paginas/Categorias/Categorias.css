@@ -34,3 +34,39 @@ h2{
     color: #012169;
     font-size: 17px;
   }
+
+  /*Box dos Profissionais*/
+
+  #imagensprofissionais{
+    width: 150px;
+    height: 150px;
+    border-radius: 30.6181px;
+    border-color: 1px #012169;
+  }
+
+
+  .main--box--circle--01{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .main--box--04--title {
+    color: #012169;
+    text-align: center;
+    padding: 3em;
+  }
+  
+  .circle {
+    text-align: center;
+  }
+  
+  .circle--name h3 {
+    margin-top: 0.3em;
+    font-size: 20px;
+    color: #012169;
+  }
+  
+  .circle--autonomo {
+    font-size: 15px;
+  }

@@ -87,28 +87,3 @@
   
   /* Main Box 04 Start */
   
-  .main--box--circle--01{
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-  }
-  
-  .main--box--04--title {
-    color: #012169;
-    text-align: center;
-    padding: 3em;
-  }
-  
-  .circle {
-    text-align: center;
-  }
-  
-  .circle--name h2 {
-    margin-top: 0.3em;
-    font-size: 20px;
-    color: #012169;
-  }
-  
-  .circle--autonomo {
-    font-size: 15px;
-  }
