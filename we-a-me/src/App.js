@@ -6,7 +6,9 @@ import Index from "./Paginas/1-Index";
 import NavBar from "./components/Pages Componentes/NavBar Input/navbar";
 import { NavbarCategorias } from "./components/Pages Componentes/Navbar Categorias/NavbarCategorias";
 import { NavBarIndex } from "./components/Pages Componentes/NavBar Index/NavBarIndex";
-
+import NavBar from "./components/Pages Componentes/navbar-input/navbar";
+import { NavbarCategorias } from "./components/Pages Componentes/NavbarCategorias/NavbarCategorias";
+import { NavBarIndex } from "./components/NavBarIndex/NavBarIndex";
 
 function App() {
   return (
