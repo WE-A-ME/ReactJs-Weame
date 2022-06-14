@@ -1,0 +1,45 @@
+footer {
+    display: flex;
+    overflow: hidden;
+    background-color: #01216914;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .logofooter {
+    margin-top: 1em;
+    width: 110px;
+    margin-left: 30px;
+  }
+  
+  .footer--topicos {
+    color: #0070BA;
+    margin-left: 4em;
+  }
+  
+  .footer--topicos a {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: #0070BA;
+  }
+  
+  .footer--topicos a:hover {
+    color: #0070ba;
+    text-decoration: underline;
+  }
+  
+  .footer--topicos h5 {
+    font-size: 1em;
+    text-align: center;
+  }
+  
+ 
+  .footer--topicos--copy{
+    margin-top: 1.5em;
+    color: #0070BA;
+    text-align: center;
+  }
+  

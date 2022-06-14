@@ -3,16 +3,18 @@ import NavBar from "./components/NavBar/NavBar";
 import NavbarCategorias from "./components/NavbarCategorias/NavbarCategorias";
 import Categorias from "./Paginas/Categorias/Categorias";
 import SobreNos from "./Paginas/SobreNos/SobreNos";
-import Reformas from './pages/LoginCategorias/Reformas/LoginCategoriasReformas';
-import index from "./Paginas/Index";
+import { Footer } from "./components/Footer/footer";
 import Index from "./Paginas/Index";
+
 
 function App() {
   return (
     <div>
       <NavBarIndex/>
+      <Index/>
       <Categorias/>
       <SobreNos/>
+      <Footer/>
     </div>
   );
 }
