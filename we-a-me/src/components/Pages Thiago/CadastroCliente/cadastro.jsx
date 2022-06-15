@@ -1,13 +1,13 @@
 import React from "react";
 import cadastro from "./cadastro.css";
 import Logo from './img/logo.png';
-import logo_google from "../../components/Pages Thiago/img/CadastroEmpresa/img-google.png";
-import logo_linkedin from "../../components/Pages Thiago/img/CadastroEmpresa/img-linkedin.png";
-import img_cadastro from "../../components/Pages Thiago/img/CadastroEmpresa/img-cadastro.png";
+import logo_google from "./img/img-google.png";
+import logo_linkedin from "./img/img-linkedin.png";
+import img_cadastro from "./img/img-cadastro.png";
 
 export function CadastroEmpresa() {
   return (
-    <div>
+    <div className="container-">
       <img className="header--logo" src={Logo} alt="" />
       <div class="conteudo">
         <div class="main--img">
