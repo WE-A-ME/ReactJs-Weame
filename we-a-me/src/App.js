@@ -3,6 +3,7 @@ import { NavBarIndex } from "./components/Pages Componentes/NavBar Index/NavBarI
 import { Footer } from "./components/Pages Componentes/Footer/footer";
 import { NavbarCategorias } from "./components/Pages Componentes/Navbar Categorias/NavbarCategorias";
 import {  Categorias} from "./Paginas/Categorias/Categorias";
+import { Suporte } from "./Paginas/Suporte/Suporte";
 import SobreNos from "./Paginas/SobreNos/SobreNos";
 import {Index} from "./components/Pages Thiago/1-Index/index";
 import { CadastroEmpresa } from "./LogineCadastro/CadastroCliente/cadastro";
@@ -14,6 +15,7 @@ function App() {
         <NavBarIndex/> 
         <Index/> 
         <Categorias/> 
+        <Suporte/>
         <SobreNos/>
         <Footer/>
     </div>

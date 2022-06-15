@@ -1,0 +1,46 @@
+.suporte{
+    display: flex;
+    padding: 4em;
+}
+
+  .titulo5 h2{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 39px;
+    color: #012169;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .main--box--02 {
+    display: flex;
+    padding: 4em;
+  }
+
+.caixa{
+   margin-left: 50px;
+}
+  
+ #imagemsuporte{
+    width: 520px;
+    height: 550px;
+    margin-top: -2em;
+    justify-content: left;
+  }
+  
+.caixaazul{
+    width: 473px;
+    height: 153px;
+    background-color: #012169;
+    color: #FFFFFF;
+    align-items: center;
+    margin-top: 90px;
+    margin-right: 10px;
+}
+
+.caixaazul p{
+    color: #FFFFFF;
+    font-style: italic;
+}
+  

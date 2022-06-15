@@ -23,7 +23,7 @@ import './Categorias.css'
 export function Categorias() {
     return (
 
-    <main className="main">
+    <main className="maincategorias">
         <div className="titulo">
             <h2>Categorias</h2>
         </div>
