@@ -1,10 +1,12 @@
+import React from 'react';
 import './LoginCategoriasReformas.css';
 import Profissional from './img/imagemprofissional.jpg';
 import Profissional2 from './img/imagemprofissional2.jpg';
 import Profissional3 from './img/imagemprofissional3.jpg';
-import { NavBarIndex } from '../../../components/Pages Componentes/NavBar Index/NavBarIndex';
-import { NavbarCategorias } from '../../../components/Pages Componentes/Navbar Categorias/NavbarCategorias';
-import { Footer } from '../../../components/Pages Componentes/Footer/footer';
+import { NavBarIndex } from '../../../Pages Componentes/NavBar Index/NavBarIndex';
+import { NavbarCategorias } from '../../../Pages Componentes/Navbar Categorias/NavbarCategorias';
+import { Footer } from '../../../Pages Componentes/Footer/footer';
+
 
 export function Reformas() {
   return (

@@ -7,7 +7,7 @@ import { Suporte } from "./components/Pages Thiago/Suporte/Suporte";
 import SobreNos from "./components/Page Danielly/SobreNos/SobreNos";
 import { Index } from "./components/Pages Thiago/1-Index/index";
 import { CadastroEmpresa } from "./components/Pages Thiago/CadastroCliente/cadastro";
-import { Reformas } from "./pages/LoginCategorias/Reformas/LoginCategoriasReformas";
+import { Reformas } from "./components/Page Danielly/LoginCategorias/Reformas/LoginCategoriasReformas";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       {/* <Categorias/> OK */}
       {/* <Suporte/> OK */}
       {/* <SobreNos/> OK */}
-      {/* <Reformas /> Arrumar o Footer */}
+      <Reformas/>
       {/* <Footer/> OK */}
     </div>
   );
