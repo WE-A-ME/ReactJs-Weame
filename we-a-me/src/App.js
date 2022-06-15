@@ -8,11 +8,10 @@ import { CadastroEmpresa } from "./LogineCadastro/CadastroCliente/cadastro";
 function App() {
   return (
     <div>
-      {/* <NavBarIndex/> */}
-      {/* <NavbarCategorias/> */}
-      {/* <Index/> */}
-      {/* <Categorias/> */}
-      <CadastroEmpresa/>
+        <NavBarIndex/> 
+        <NavbarCategorias/>
+        <Index/> 
+        <Categorias/> 
     </div>
   );
 }
