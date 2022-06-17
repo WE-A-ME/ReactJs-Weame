@@ -8,21 +8,29 @@ footer {
 .footer--logo {
   margin-top: 2em;
   width: 110px;
-  /* margin-left: 3em; */
 }
 
 .footer--topicos {
   color: #0070BA;
-  margin-left: 4em;
+  margin-left: 3em;
+}
+
+.footer--topicos h5{
+  margin-left: -10px;
 }
 
 .footer--topicos a {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 2em;
   margin-top: 0.5em;
   font-size: 0.6em;
   text-decoration: none;
   color: #0070BA;
+}
+
+#footer--topicos--01{
+  margin-left: 10px;
 }
 
 .footer--topicos a:hover {

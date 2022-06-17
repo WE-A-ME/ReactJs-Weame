@@ -19,7 +19,7 @@ function App() {
       {/* <Categorias/> OK */}
       {/* <Suporte/> OK */}
       {/* <SobreNos/> OK */}
-      <Reformas/>
+      {/* <Reformas/> */}
       {/* <Footer/> OK */}
     </div>
   );
