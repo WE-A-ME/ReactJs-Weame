@@ -14,7 +14,7 @@ export function Footer() {
                         <a href="../1-Index/index.html"><img className="footer--logo" src={Logo} alt="" /></a>
                     </div>
 
-                    <div class="footer--topicos col-3">
+                    <div class="footer--topicos col-2">
                         <h5>Como Funciona</h5>
 
                         <a href="#">O que você precisa saber
@@ -42,8 +42,8 @@ export function Footer() {
                     <div class="footer--topicos col-2">
                         <h5>Para Profissionais</h5>
 
-                        <a href="#">Como se Cadastrar!</a>
-                        <a href="#">Iniciar Cadastro</a>
+                        <a id="footer--topicos--01" href="#">Como se Cadastrar!</a>
+                        <a id="footer--topicos--01" href="#">Iniciar Cadastro</a>
 
                     </div>
 

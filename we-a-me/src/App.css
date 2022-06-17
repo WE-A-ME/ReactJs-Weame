@@ -1,6 +1,27 @@
-*{
-    font-family: 'Inter', sans-serif;
-    margin:0;
-    padding: 0;
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
   border: 0;
-  }
+}
+
+/* TODO Cores Utilizadas: 
+!012169 -- Azul Escuro
+!#0070ba -- Azul Claro
+TODO Tags Utilizadas:
+*h1:
+!font-size: 35px;
+!font-weight: 600;
+!color: #012169  
+*p:
+!font-size: 17px;
+!font-weight: 400;
+!color: #696969;
+
+*/
+
+:root {
+  --AzulEscuro:#012169;
+  --AzulClaro:#0070ba;
+  --TituloH1:font-size: 35px;font-weight: 600;
+}
