@@ -23,6 +23,7 @@
   border-radius: 45.9271px;
   margin-left: 110px;
   text-align: center;
+  border: solid 2px #012169;
 }
 
 
@@ -39,7 +40,7 @@
   font-size: 17px;
 }
 
-/*Box dos Profissionais*/
+/*!Box dos Profissionais!*/
 
 #imagensprofissionais {
   width: 150px;
@@ -67,7 +68,8 @@
 
 .circle--name h3 {
   margin-top: 0.3em;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 25px;
   color: #012169;
 }
 

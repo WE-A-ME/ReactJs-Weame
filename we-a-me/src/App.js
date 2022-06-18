@@ -14,11 +14,11 @@ function App() {
   return (
     <div>
       {/* <NavBarIndex/> OK  */}
-      {/* <Index/> */}
+      {/* <Index/> Colocar o conteudo do figma */}
       {/* <CadastroCliente/> OK */}
-      <Categorias/> OK
+      {/* <Categorias/> Trocar os Gifs */}
       {/* <Suporte/> OK */}
-      {/* <SobreNos/> OK */}
+      {/* <SobreNos/> Detalhar  */}
       {/* <Reformas/> */}
       {/* <Footer/> OK */}
     </div>
