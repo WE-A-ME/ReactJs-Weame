@@ -1,0 +1,45 @@
+.conteudo{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    
+    
+}
+
+
+
+
+
+
+.conteudo h1{
+    color: #012169;
+    background-color: #00000014;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+.conteudo .lorem{
+color: #000;
+}
+
+.lorem{
+    /* width: 700px;
+    height: 700px; */
+    font-family:'Inter', sans-serif;
+    font-style:bold;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center; 
+
+}
+
+.duvidas{
+    color: #012169;
+    background-color: #00000014;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}

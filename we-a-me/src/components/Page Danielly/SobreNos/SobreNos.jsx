@@ -27,64 +27,40 @@ function SobreNos() {
                     <div className="row row-cols-1 row-cols-md-4 g-4 align-items-center">
                         <div className="col-md-3">
                             <div className="card" id="cartao2">
-                                <img src={Danielly} className="card-img-top" alt="Foto da aluna do Instituto Proa" title="Danielly Alves Silva" id="imagem2" />
+                                <img src={Danielly} className="card-img-top" alt="Foto da aluna do Instituto Proa chamada Danielly Alves Silva" title="Danielly Alves Silva" id="imagem2" />
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Danielly Silva</h5>
-                                    <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedora Front-End </small></p>
-                                    <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <ul className="nav col-6" id="redesociais">
-                                        <li><a href="https://www.linkedin.com/in/daniellyalvessilva/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/daniellysilva" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                    </ul>
+                                    <p className="card-title"id="profissao">Desenvolvedora Front-End</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-3">
                             <div class="card" id="cartao2">
-                                <img src={Hasan} className="card-img-top" alt="Foto do aluno do Instituto Proa" title="Hasan Basam de Souza Dahbur" id="imagem2" />
+                                <img src={Hasan} className="card-img-top" alt="Foto do aluno do Instituto Proa chamado Hasan Basam de Souza Dahbur" title="Hasan Basam de Souza Dahbur" id="imagem2" />
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Hasan Basam</h5>
-                                    <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedor Full-Stack </small></p>
-                                    <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <ul className="nav col-6" id="redesociais">
-                                        <li><a href="https://www.linkedin.com/in/hasan-basam-26416b232/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/HasanBasamm" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                    </ul>
+                                    <p className="card-text" id="profissao">Desenvolvedor Full-Stack</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-3">
                             <div className="card" id="cartao2">
-                                <img src={Lennon} className="card-img-top" alt="Foto do aluno do Instituto Proa" title="Lennon de Oliveira Manholeto" id="imagem2" />
+                                <img src={Lennon} className="card-img-top" alt="Foto do aluno do Instituto Proa chamado Lennon de Oliveira Manholeto" title="Lennon de Oliveira Manholeto" id="imagem2" />
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Lennon Manholeto</h5>
-                                    <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedor Front-End </small></p>
-                                    <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <ul className="nav col-6" id="redesociais">
-                                        <li><a href="https://www.linkedin.com/in/lennon-manholeto-72797a190/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/Lennonmanholeto" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                    </ul>
+                                    <p className="card-text" id="profissao">Desenvolvedor Front-End</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-3">
                             <div className="card" id="cartao2">
-                                <img src={Mariana} className="card-img-top" alt="Foto da aluna do Instituto Proa" title="Mariana Alves Belo da Silva" id="imagem2" />
+                                <img src={Mariana} className="card-img-top" alt="Foto da aluna do Instituto Proa chamada Mariana Alves Belo da Silva" title="Mariana Alves Belo da Silva" id="imagem2" />
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Mariana Alves</h5>
-                                    <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedora de Banco de Dados </small></p>
-                                    <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <ul className="nav col-6" id="redesociais">
-                                        <li><a href="https://www.linkedin.com/in/mariana-alves-belo-da-silva-47a1391ab/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                        <li><a href="https://github.com/MarianaABSilva" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                    </ul>
+                                    <p className="card-text" id="profissao">Desenvolvedora de Banco de Dados</p>
                                 </div>
                             </div>
                         </div>
@@ -94,48 +70,30 @@ function SobreNos() {
                         <div className="row justify-content-md-center">
                             <div className="col-md-4">
                                 <div className="card" id="cartao2">
-                                    <img src={Geovanna} className="card-img-top" alt="Foto da aluna do Instituto Proa" title="Geovanna Ramalho" id="imagem2" />
+                                    <img src={Geovanna} className="card-img-top" alt="Foto da aluna do Instituto Proa chamada Geovanna Ramalho" title="Geovanna Ramalho" id="imagem2" />
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Geovanna Ramalho</h5>
-                                        <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedora Front-End </small></p>
-                                        <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <ul className="nav col-6" id="redesociais">
-                                            <li><a href="https://www.linkedin.com/in/geovanna-ramalho-a8a73394/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                            <li><a href="https://github.com/Geo-Ramalho" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                        </ul>
+                                        <p className="card-text" id="profissao">Desenvolvedora Front-End</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-md-4">
                                 <div className="card" id="cartao2">
-                                    <img src={Thiago} className="card-img-top" alt="Foto do aluno do Instituto Proa" title="Thiago Santos Guimarães" id="imagem2" />
+                                    <img src={Thiago} className="card-img-top" alt="Foto do aluno do Instituto Proa chamado Thiago Santos Guimarães" title="Thiago Santos Guimarães" id="imagem2" />
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Thiago Guimarães</h5>
-                                        <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedor Full-Stack </small></p>
-                                        <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <ul className="nav col-6" id="redesociais">
-                                            <li><a href="https://www.linkedin.com/in/thiago-santos-guimar%C3%A3es/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                            <li><a href="https://github.com/tijigui" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                        </ul>
+                                        <p className="card-text" id="profissao">Desenvolvedor Full-Stack</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-md-3">
                                 <div className="card" id="cartao2">
-                                    <img src={Eduarda} className="card-img-top" alt="Foto da aluna do Instituto Proa" title="Maria Eduarda Hais Eeswaramoorthy" id="imagem2" />
+                                    <img src={Eduarda} className="card-img-top" alt="Foto da aluna do Instituto Proa chamada Maria Eduarda Hais Eeswaramoorthy" title="Maria Eduarda Hais Eeswaramoorthy" id="imagem2" />
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">M. Eduarda Hais</h5>
-                                        <p className="card-text" id="profissao"><small className="text-muted">Desenvolvedora Front-End </small></p>
-                                        <h6 className="card-subtitle mb-2" id="proa">Como foi aprender no PROA?</h6>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <ul className="nav col-6" id="redesociais">
-                                            <li><a href="https://www.linkedin.com/in/maria-eduarda-hais-eeswaramoorthy-073171232/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                                            <li><a href="https://github.com/eduardahais" target="_blank"><i className="fa-brands fa-github-square" id="github"></i></a></li>
-                                        </ul>
+                                        <p className="card-title" id="profissao">Desenvolvedora Front-End</p>
                                     </div>
                                 </div>
                             </div>
