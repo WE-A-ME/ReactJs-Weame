@@ -3,13 +3,13 @@
     padding: 3em;
 }
 
-.titulo{
+.titulosobrenos{
     font-weight: 600;
     font-size: 35px;
     line-height: 61px;
     color: #012169;
     text-align: center;
-    margin-top: 35px;
+    padding: 1rem;
 }
 
 #cartao2{

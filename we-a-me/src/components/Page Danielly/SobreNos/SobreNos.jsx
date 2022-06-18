@@ -19,7 +19,7 @@ function SobreNos() {
 
             <main className="main ">
 
-                <div className="titulo">
+                <div className="titulosobrenos">
                     <h2>Sobre Nós</h2>
                 </div>
 

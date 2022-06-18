@@ -1,16 +1,15 @@
 .titulo{
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 61px;
-  color: #012169;
-  text-align: center;
-  margin-top: 35px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 61px;
+    color: #012169;
+    text-align: center;
+    padding: 2rem;
 }
 
 #cartao3{
   height: 300px;
   float: inline-start;
-  margin-top: 25px;
   margin-left: 90px;
   background: linear-gradient(180deg, rgba(244, 244, 244, 0.96) 0%, rgba(244, 244, 244, 0) 100%);
   border-radius: 45.9271px;

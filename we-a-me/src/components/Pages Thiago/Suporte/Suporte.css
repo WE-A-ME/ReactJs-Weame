@@ -5,21 +5,25 @@
 
   .titulo5 h2{
     font-weight: 600;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 35px;
+    line-height: 61px;
     color: #012169;
-    align-items: center;
+    text-align: center;
     margin-top: 15px;
   }
 
   .main--box--02 {
     display: flex;
-    padding: 4em;
+    padding: 2em;
   }
 
 .caixa{
-   margin-left: 50px;
+  float: right;
+}
+
+.textosuporte{
+  text-align: center;
+  padding: 1rem;
 }
   
  #imagemsuporte{
@@ -30,17 +34,12 @@
   }
   
 .caixaazul{
-    width: 473px;
-    height: 153px;
+    width: 490px;
+    height: 165px;
     background-color: #012169;
     color: #FFFFFF;
     align-items: center;
-    margin-top: 90px;
-    margin-right: 10px;
+    padding: 0.5rem;
 }
 
-.caixaazul p{
-    color: #FFFFFF;
-    font-style: italic;
-}
   
