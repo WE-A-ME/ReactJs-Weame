@@ -31,7 +31,7 @@ export function Categorias() {
             <NavBarIndex />
             <NavbarCategorias />
 
-            <main className="maincategorias">
+            <main className="main--categorias">
                 <div className="titulo">
                     <h2>Categorias</h2>
                 </div>
@@ -102,7 +102,7 @@ export function Categorias() {
                 </div>
                 <div className="main--box--04">
                     <div className="main--box--04--title">
-                        <h2>Profissionais qualificados</h2>
+                        <h2>Profissionais Qualificados</h2>
                     </div>
 
                     <div className="main--box--circle--01">

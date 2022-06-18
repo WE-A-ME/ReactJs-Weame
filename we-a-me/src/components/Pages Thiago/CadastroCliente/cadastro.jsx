@@ -5,7 +5,7 @@ import logo_google from "./img/img-google.png";
 import logo_linkedin from "./img/img-linkedin.png";
 import img_cadastro from "./img/img-cadastro.png";
 
-export function CadastroEmpresa() {
+export function CadastroCliente() {
   return (
     <div className="container-">
       <img className="header--logo" src={Logo} alt="" />

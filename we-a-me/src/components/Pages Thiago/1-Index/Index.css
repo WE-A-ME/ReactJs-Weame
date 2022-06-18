@@ -17,6 +17,18 @@
     color: #696969;
   }
   
+.btn--categorias{
+  background:#012169;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 10em;
+  height: 50px;
+  border-radius: 0.9em;
+  border: solid 2px #0070ba;
+  margin: 0.5em;
+}
+
   .main--img--01 {
     width: 80vh;
     margin-top: -2em;

@@ -13,11 +13,13 @@ export function Index() {
             <NavBarIndex />
 
             <main>
+                
                 <div className="container-">
                     <div className="main--box--01">
                         <div className="main--box--01--text col-4">
                             <h1>Explore os serviços que a We-A-Me oferece e descubra  o que você procura.</h1>
                             <p className="col-11">Com a We-A-Me é possivel encontrar e divulgar comercios e serviços autonomos em sua região com os melhores profissionais. </p>
+                            <button type="button" className="btn--categorias">Ir para Categorias</button>
                         </div>
                         <div className="main--img--01"><img src={Box1} alt="" /></div>
                     </div>
