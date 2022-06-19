@@ -22,7 +22,7 @@ function App() {
       {/* <SobreNos/> Detalhar  */}
       {/* <Reformas/> */}
       {/* <Footer/> OK */}
-      <PaginaCliente/>
+      {/* <PaginaCliente/> */}
     </div>
   );
 }
