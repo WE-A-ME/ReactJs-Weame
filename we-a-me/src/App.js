@@ -8,6 +8,7 @@ import SobreNos from "./components/Page Danielly/SobreNos/SobreNos";
 import { Index } from "./components/Pages Thiago/1-Index/index";
 import { CadastroCliente } from "./components/Pages Thiago/CadastroCliente/cadastro";
 import { Reformas } from "./components/Page Danielly/LoginCategorias/Reformas/LoginCategoriasReformas";
+import { PaginaCliente } from "./components/Page Danielly/Pagina Inicial Cliente/PaginaCliente";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       {/* <SobreNos/> Detalhar  */}
       {/* <Reformas/> */}
       {/* <Footer/> OK */}
+      <PaginaCliente/>
     </div>
   );
 }

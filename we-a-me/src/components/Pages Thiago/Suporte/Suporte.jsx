@@ -7,7 +7,7 @@ export function Suporte() {
         
         <div>
             <div className="main--box--02">
-                <div className="main--img--02 flex"><img src={ImagemSuporte} alt="" id="imagemsuporte"/></div>
+                <div className="main--img--02 flex"><img src={ImagemSuporte} alt="A imagem é um desenho de uma mulher atendendo alguém no telefone" id="imagemsuporte"/></div>
   
                 <div className="main--box--02--text caixa col-5">
                     <div className="titulo5"><h2 >Algum problema ou dúvida?</h2></div> 
