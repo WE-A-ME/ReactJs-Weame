@@ -1,24 +1,33 @@
+button {
+  color: #fff;
+  font-weight: 600;
+  background: #012169;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+}
 
-  .main--box--01 {
-    display: flex;
-    justify-content: center;
-    padding: 4em;
-  }
-  
-  .main--box--01--text h1 {
-    font-size: 35px;
-    font-weight: 600;
-    color: #012169;
-  }
-  
-  .main--box--01--text p {
-    font-size: 17px;
-    font-weight: 400;
-    color: #696969;
-  }
-  
-.btn--categorias{
-  background:#012169;
+/* !Main Box 01 Start! */
+.main--box--01 {
+  display: flex;
+  justify-content: center;
+  padding: 4em;
+}
+
+.main--box--01--text h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #012169;
+}
+
+.main--box--01--text p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #696969;
+}
+
+.btn--categorias {
+  background: #012169;
   color: #fff;
   font-size: 15px;
   font-weight: 600;
@@ -29,75 +38,99 @@
   margin: 0.5em;
 }
 
-  .main--img--01 {
-    width: 80vh;
-    margin-top: -2em;
-  }
-  
-  /* Main Box 01 End */
-  
-  /* Main Box 02 Start */
-  
-  .main--box--02 {
-    display: flex;
-    padding: 4em;
-  }
-  
-  .main--img--02 {
-    width: 80vh;
-    margin-top: -2em;
-    justify-content: left;
-  }
-  
-  .main--box--02--text h2 {
-    font-size: 37px;
-    font-weight: 600;
-    line-height: 1.2em;
-    color: #012169;
-    font-style: normal;
-  }
-  
-  .main--box--02--text ul {
-    font-size: 17px;
-    font-weight: 400;
-    color: #696969;
-  }
-  
-  .main--box--02--text {
-    margin-left: 15vh;
-  }
-  
-  /* Main Box 02 End */
-  
-  /* Main Box 03 Start */
-  
-  .main--box--03--title {
-    color: #012169;
-    text-align: center;
-    padding: 3em;
-  }
-  
-  .main--box--cards--01 {
-    display: flex;
-    gap: 3em;
-    justify-content: center;
-    margin-top: 3em;
-  }
-  
-  .card-img-top {
-    width: 150px;
-  }
-  
-  .card1 {
-    width: 10rem;
-    height: 10rem;
-    align-items: center;
-    background: #F6F6F6;
-    border-radius: 28.3289px;
-    border: solid 2px #0070ba;
-  }
-  
-  /* Main Box 03 End */
-  
-  /* Main Box 04 Start */
-  
+.main--img--01 {
+  width: 80vh;
+  margin-top: -2em;
+}
+
+/* !Main Box 01 End! */
+
+/* !Main Box 02 Start! */
+
+.main--box--02 {
+  display: flex;
+  padding: 4em;
+}
+
+.main--img--02 {
+  width: 80vh;
+  margin-top: -2em;
+  justify-content: left;
+}
+
+.main--box--02--text h2 {
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #012169;
+  font-style: normal;
+}
+
+.main--box--02--text ul {
+  font-size: 17px;
+  font-weight: 400;
+  color: #696969;
+}
+
+.main--box--02--text {
+  margin-left: 15vh;
+}
+
+/* !Main Box 02 End! */
+
+/* !Main Box 03 Start! */
+
+.main--box--03 {
+  display: flex;
+  justify-content: center;
+  padding: 4em;
+}
+
+.main--box--03--text h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #012169;
+}
+
+.main--box--03--text p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #696969;
+}
+
+
+.main--img--03 {
+  width: 80vh;
+  margin-top: -2em;
+}
+
+/* !Main Box 03 End! */
+
+/* !Main Box 04 Start! */
+
+.main--box--04 {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 6em;
+  margin-bottom: 5em;
+}
+
+.card-body {
+  border: solid 2px #012169;
+  border-radius: 14px;
+}
+
+.card-title {
+  color: #012169;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #696969;
+}
+
+/* !Main Box 04 End! */

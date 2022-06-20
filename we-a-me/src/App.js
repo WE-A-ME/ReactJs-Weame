@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       {/* <NavBarIndex/> OK  */}
-      {/* <Index/> Colocar o conteudo do figma */}
+      {/* <Index/> OK */}
       {/* <CadastroCliente/> OK */}
       {/* <Categorias/> Trocar os Gifs */}
       {/* <Suporte/> OK */}
