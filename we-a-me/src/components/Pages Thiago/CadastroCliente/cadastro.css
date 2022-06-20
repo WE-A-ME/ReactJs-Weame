@@ -109,6 +109,9 @@ header img {
     justify-content: space-evenly;
     width: 303px;
     height: 53px;
+    background: #fff;
+    font-weight: 500;
+    color: #012169;
     border-radius: 8px;
     cursor: pointer;
 }
