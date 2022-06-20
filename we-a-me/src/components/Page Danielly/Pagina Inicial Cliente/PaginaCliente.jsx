@@ -18,10 +18,17 @@ import Assistencia from './img/Assistência Técnica.gif'
 import Programacao from './img/Programação.gif'
 import Alimentos from './img/Alimentos.gif'
 import Comercio from './img/Comércio.gif'
+import NavBar from '../../Pages Componentes/NavBar Input/navbar'
+import { NavbarCategorias } from '../../Pages Componentes/Navbar Categorias/NavbarCategorias'
+import { Footer } from '../../Pages Componentes/Footer/footer'
 
 export function PaginaCliente() {
     return (
-        
+
+        <div>
+            <NavBar/>
+            <NavbarCategorias/>
+
         <main className="main ">
 
         <div className="titulocliente">
@@ -446,6 +453,7 @@ export function PaginaCliente() {
         </div>
         
     </main>
-
+    <Footer/>
+    </div>
     );
   }
