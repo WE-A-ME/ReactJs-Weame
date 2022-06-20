@@ -11,6 +11,7 @@ import { Reformas } from "./components/Page Danielly/LoginCategorias/Reformas/Lo
 import { PaginaCliente } from "./components/Page Danielly/Pagina Inicial Cliente/PaginaCliente";
 
 
+
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
       {/* <Reformas/> */}
       {/* <Footer/> OK */}
        {/* <PaginaCliente/>  */}
+    {/* <Reformas/> */}
     </div>
   );
 }

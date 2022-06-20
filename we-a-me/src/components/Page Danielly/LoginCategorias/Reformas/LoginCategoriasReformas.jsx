@@ -38,8 +38,8 @@ export function Reformas() {
             </div>
             <div class="col-md-8">
               <div class="card-body" id="texto1">
-                <h5 class="card-title" id="nome2">Jorge dos Santos</h5>
-                <p class="card-text" id="profissao9"><small class="text-muted">Especialista em Pinturas e Consertos Residenciais. </small></p>
+                <h5 class="card-title" id="nome">Jorge dos Santos</h5>
+                <p class="card-text" id="profissao">Especialista em Pinturas e Consertos Residenciais.</p>
                 <div class="icones">
                   <ul class="nav col-12" id="informacoes3">
                     <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
@@ -74,8 +74,8 @@ export function Reformas() {
             </div>
             <div class="col-md-8">
               <div class="card-body" id="texto1">
-                <h5 class="card-title" id="nome2">Bárbara Martins</h5>
-                <p class="card-text" id="profissao9"><small class="text-muted">Auxiliar de Manutenção Mecânica. </small></p>
+                <h5 class="card-title" id="nome">Bárbara Martins</h5>
+                <p class="card-text" id="profissao">Auxiliar de Manutenção Mecânica.</p>
                 <div class="icones">
                   <ul class="nav col-12" id="informacoes3">
                     <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
@@ -111,8 +111,8 @@ export function Reformas() {
             </div>
             <div class="col-md-8">
               <div class="card-body" id="texto1">
-                <h5 class="card-title" id="nome2">Pedro Lacerda Junior</h5>
-                <p class="card-text" id="profissao9"><small class="text-muted">Empreiteiro</small></p>
+                <h5 class="card-title" id="nome">Pedro Lacerda Junior</h5>
+                <p class="card-text" id="profissao">Empreiteiro</p>
                 <div class="icones">
                   <ul class="nav col-12" id="informacoes3">
                     <li> <i class="fa-solid fa-location-dot"></i>   Osasco</li>
@@ -121,27 +121,13 @@ export function Reformas() {
                   </ul>
                 </div>
                 <div id="texto1">
-                  <p class="card-text">Tenho bastante disposição e habilidade. Atualmente possuo mais de 10 anos de experiência e boas referências, o que comprova a qualidade do meu trabalho. Possuo curso técnico, garantindo um serviço de qualidade por um ótimo preço! Venha fazer um orçamento! </p>
+                  <p class="card-text">Tenho bastante disposição e habilidade. Atualmente possuo mais de 10 anos de experiência e boas referências, o que comprova a qualidade do meu trabalho. Possuo curso técnico, garantindo um serviço de qualidade por um ótimo preço!</p>
                 </div>
               </div>
               <button id="botao">
                 <a href="#">Visitar Perfil</a>
               </button>
             </div>
-          </div>
-        </div>
-        <div class="card" id="cartao5">
-          <div class="card-body">
-            <h5 class="card-title" id="titulocartao">Avaliação</h5>
-            <input type="range" class="form-range" id="customRange1" min="0" max="5" />
-            <label for="customRange1" class="form-label">012345</label>
-          </div>
-        </div>
-        <div class="card" id="cartao5">
-          <div class="card-body">
-            <h5 class="card-title" id="titulocartao">Distância</h5>
-            <input type="range" class="form-range" id="customRange1" min="0" max="5" />
-            <label for="customRange1" class="form-label">012345</label>
           </div>
         </div>
       </main>
