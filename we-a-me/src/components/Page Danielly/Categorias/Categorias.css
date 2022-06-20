@@ -64,13 +64,12 @@
 
 .circle {
   text-align: center;
+  padding-top: 0.4rem;
+  
 }
 
-.circle--name h3 {
-  margin-top: 0.3em;
-  font-weight: 600;
-  font-size: 25px;
-  color: #012169;
+.circle h5 {
+  margin-top: 1.3em;
 }
 
 .circle--autonomo {

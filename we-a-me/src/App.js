@@ -11,18 +11,20 @@ import { Reformas } from "./components/Page Danielly/LoginCategorias/Reformas/Lo
 import { PaginaCliente } from "./components/Page Danielly/Pagina Inicial Cliente/PaginaCliente";
 
 
+
 function App() {
   return (
     <div>
       {/* <NavBarIndex/> OK  */}
-      {/* <Index/> OK */}
+      {/* <Index/>  */}
       {/* <CadastroCliente/> OK */}
-      {/* <Categorias/> Trocar os Gifs */}
+      {/* <Categorias/>  */}
       {/* <Suporte/> OK */}
       {/* <SobreNos/> Detalhar  */}
       {/* <Reformas/> */}
       {/* <Footer/> OK */}
-       <PaginaCliente/>
+      {/* <PaginaCliente/>  */}
+      {/* <Reformas/> */}
     </div>
   );
 }

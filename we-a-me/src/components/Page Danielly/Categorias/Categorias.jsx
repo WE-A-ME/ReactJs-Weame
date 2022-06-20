@@ -108,40 +108,40 @@ export function Categorias() {
                     <div className="main--box--circle--01">
                         <div className="circle">
                             <div><img src={Profissional1} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>Maria das Graças</h3>
+                            <div className="card-title" id="nome">
+                                <h5>Maria das Graças</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Costureira</p>
                             </div>
                         </div>
 
                         <div className="circle">
                             <div><img src={Profissional2} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>Antonio Bezerra</h3>
+                            <div className="card-title" id="nome">
+                                <h5>Antonio Bezerra</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Artesão</p>
                             </div>
                         </div>
 
                         <div className="circle">
                             <div><img src={Profissional3} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>José Vieira Silva</h3>
+                            <div className="card-title" id="nome">
+                                <h5>José Vieira Silva</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Jardineiro</p>
                             </div>
                         </div>
 
                         <div className="circle">
                             <div><img src={Profissional4} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>Junior Gonçalves</h3>
+                            <div className="card-title" id="nome">
+                                <h5>Junior Gonçalves</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Cabeleleiro</p>
                             </div>
                         </div>
@@ -151,40 +151,40 @@ export function Categorias() {
                     <div className="main--box--circle--01">
                         <div className="circle">
                             <div><img src={Comercio1} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>Super Pizza</h3>
+                            <div className="card-title" id="nome">
+                                <h5>Super Pizza</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Pizzaria</p>
                             </div>
                         </div>
 
                         <div className="circle">
                             <div><img src={Comercio2} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>BarberShop</h3>
+                            <div className="card-title" id="nome">
+                                <h5>BarberShop</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Barbearia</p>
                             </div>
                         </div>
 
                         <div className="circle">
                             <div><img src={Comercio3} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>Pão Bom</h3>
+                            <div className="card-title" id="nome">
+                                <h5>Pão Bom</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Padaria</p>
                             </div>
                         </div>
 
                         <div className="circle">
                             <div><img src={Comercio4} alt="" id="imagensprofissionais" /></div>
-                            <div className="circle--name">
-                                <h3>Big Lanches</h3>
+                            <div className="card-title" id="nome">
+                                <h5>Big Lanches</h5>
                             </div>
-                            <div className="circle--autonomo">
+                            <div className="circle--autonomo" id='profissao'>
                                 <p>Lanchonete</p>
                             </div>
                         </div>
