@@ -21,9 +21,9 @@ function App() {
       {/* <Categorias/>  */}
       {/* <Suporte/> OK */}
       {/* <SobreNos/> Detalhar  */}
-      {/* <Reformas/> */}
+       <Reformas/> 
       {/* <Footer/> OK */}
-       <PaginaCliente/> 
+       {/* <PaginaCliente/>  */}
       {/* <Reformas/> */}
     </div>
   );
