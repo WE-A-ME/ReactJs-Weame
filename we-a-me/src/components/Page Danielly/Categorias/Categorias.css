@@ -12,6 +12,7 @@
 
 .titulo {
   text-align: center;
+  padding: 1rem;
 }
 
 
@@ -49,29 +50,14 @@
   border-color: 1px #012169;
 }
 
-
-.main--box--circle--01 {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-}
-
-.main--box--04--title {
-  color: #012169;
+#cartaogorias{
+  width: 215px;
+  height: 270px;
+  margin-top: 25px;
+  border-radius: 45.9271px;
+  margin-left: 11px;
   text-align: center;
-  padding: 3em;
-}
-
-.circle {
-  text-align: center;
-  padding-top: 0.4rem;
-  
-}
-
-.circle h5 {
-  margin-top: 1.3em;
-}
-
-.circle--autonomo {
-  font-size: 15px;
+  border: none;
+  display: grid;
+ 
 }

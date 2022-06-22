@@ -28,6 +28,23 @@
   margin-top: 60px;
 }
 
+#avaliacao1{
+  text-align: center;
+  margin-left: 12px;
+  }
+  
+  #estrelas1{
+  margin-left: 65px;
+  margin-top: 25px;
+  color: #012169;
+  }
+  
+  #nota{
+  margin-right: 6px;
+  margin-top: 1.5px;
+  font-weight: 700;
+  font-size: 15px;
+  }
 
 #texto1{
   margin-top: 15px;

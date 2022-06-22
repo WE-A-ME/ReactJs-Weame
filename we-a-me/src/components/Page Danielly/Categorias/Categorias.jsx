@@ -100,96 +100,101 @@ export function Categorias() {
                         </div>
                     </div>
                 </div>
-                <div className="main--box--04">
-                    <div className="main--box--04--title">
-                        <h2>Profissionais Qualificados</h2>
-                    </div>
-
-                    <div className="main--box--circle--01">
-                        <div className="circle">
-                            <div><img src={Profissional1} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>Maria das Graças</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Costureira</p>
-                            </div>
-                        </div>
-
-                        <div className="circle">
-                            <div><img src={Profissional2} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>Antonio Bezerra</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Artesão</p>
-                            </div>
-                        </div>
-
-                        <div className="circle">
-                            <div><img src={Profissional3} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>José Vieira Silva</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Jardineiro</p>
-                            </div>
-                        </div>
-
-                        <div className="circle">
-                            <div><img src={Profissional4} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>Junior Gonçalves</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Cabeleleiro</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="main--box--circle--01">
-                        <div className="circle">
-                            <div><img src={Comercio1} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>Super Pizza</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Pizzaria</p>
-                            </div>
-                        </div>
-
-                        <div className="circle">
-                            <div><img src={Comercio2} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>BarberShop</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Barbearia</p>
-                            </div>
-                        </div>
-
-                        <div className="circle">
-                            <div><img src={Comercio3} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>Pão Bom</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Padaria</p>
-                            </div>
-                        </div>
-
-                        <div className="circle">
-                            <div><img src={Comercio4} alt="" id="imagensprofissionais" /></div>
-                            <div className="card-title" id="nome">
-                                <h5>Big Lanches</h5>
-                            </div>
-                            <div className="circle--autonomo" id='profissao'>
-                                <p>Lanchonete</p>
-                            </div>
-                        </div>
-                    </div>
+                <div className="titulo">
+                    <h2>Profissionais qualificados</h2>
                 </div>
+
+                <div className="container-fluid">
+                    <div className="row justify-content-md-center align-items-center">
+
+                        <div className='col-md-2'></div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Profissional1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">Maria das Graças</h5>
+                                    <p className="card-text" id="profissao">Costureira</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Profissional2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="Denise Ferreira" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">Antonio Bezerra</h5>
+                                    <p className="card-text" id="profissao">Artesão</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Profissional3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Graça de Jesus" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">José Vieira Silva</h5>
+                                    <p className="card-text" id="profissao">Jardineiro</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Profissional4} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">Jorge dos Santos</h5>
+                                    <p className="card-text" id="profissao">Reformas e Reparo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-md-2'></div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Comercio1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">Super Pizza</h5>
+                                    <p className="card-text" id="profissao">Pizzaria</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Comercio2} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">BarberShop</h5>
+                                    <p className="card-text" id="profissao">Barbearia</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Comercio3} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">Pão Bom</h5>
+                                    <p className="card-text" id="profissao">Padaria</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-2">
+                            <div className="card" id="cartaogorias">
+                                <a href=""><img src={Comercio4} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <div className="card-body" id="texto">
+                                    <h5 className="card-title" id="nome">Big Lanches</h5>
+                                    <p className="card-text" id="profissao">Lanchonete</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                 </div>
             </main>
 
             <Footer />

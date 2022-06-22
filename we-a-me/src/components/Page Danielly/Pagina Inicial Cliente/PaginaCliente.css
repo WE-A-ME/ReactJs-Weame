@@ -18,7 +18,7 @@
     border-radius: 45.9271px;
     margin-left: 11px;
     text-align: center;
-    border: none;
+  border: none;
     display: grid;
 }
 
@@ -70,6 +70,10 @@
     font-size: 16px;
 }
 
+.estrelasprof ul{
+    font-size: 21px;
+    align-items: center;
+}
 
 #texto{
     margin-bottom: 50px;

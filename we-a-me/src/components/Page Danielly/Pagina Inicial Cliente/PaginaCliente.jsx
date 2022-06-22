@@ -44,6 +44,15 @@ export function PaginaCliente() {
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Jorge dos Santos</h5>
                                     <p className="card-text" id="profissao">Reformas e Reparo</p>
+                                    <div className="estrelasprof">
+                                        <ul className="nav col-12 card-title justify-content-md-center">
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -54,6 +63,15 @@ export function PaginaCliente() {
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Denise Ferreira</h5>
                                     <p className="card-text" id="profissao">Programação</p>
+                                    <div className="estrelasprof">
+                                        <ul className="nav col-12 card-title justify-content-md-center">
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -64,6 +82,15 @@ export function PaginaCliente() {
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Graça de Jesus</h5>
                                     <p className="card-text" id="profissao">Limpeza</p>
+                                    <div className="estrelasprof">
+                                        <ul className="nav col-12 card-title justify-content-md-center">
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -74,6 +101,15 @@ export function PaginaCliente() {
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Jéssica Farias</h5>
                                     <p className="card-text" id="profissao">Manutenção de T.I</p>
+                                    <div className="estrelasprof">
+                                        <ul className="nav col-12 card-title justify-content-md-center">
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -84,6 +120,14 @@ export function PaginaCliente() {
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Danielly Silva</h5>
                                     <p className="card-text" id="profissao">Doces e Confeitaria</p>
+                                    <div className="estrelasprof">
+                                        <ul className="nav col-12 card-title justify-content-md-center">
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                            <li><i className="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -112,6 +156,15 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Pedro Almeida</h5>
                                         <p className="card-text" id="profissao">Design de Sites</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -122,6 +175,15 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Joice de Oliveira</h5>
                                         <p className="card-text" id="profissao">Fotografia</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -132,6 +194,15 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Maria Elisa</h5>
                                         <p className="card-text" id="profissao">Costura</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -142,6 +213,15 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Jéssica Farias</h5>
                                         <p className="card-text" id="profissao">Manutenção de T.I</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -152,6 +232,14 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Beatriz Santos</h5>
                                         <p className="card-text" id="profissao">Maquiagem</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -179,6 +267,15 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Padaria Pão Bom</h5>
                                         <p className="card-text" id="profissao">Comércio</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -189,6 +286,14 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Pastelaria</h5>
                                         <p className="card-text" id="profissao">Comércio</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -199,6 +304,14 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Padaria Vitória</h5>
                                         <p className="card-text" id="profissao">Comércio</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -209,6 +322,14 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Bomboniere</h5>
                                         <p className="card-text" id="profissao">Comércio</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -219,6 +340,13 @@ export function PaginaCliente() {
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Esfilharia</h5>
                                         <p className="card-text" id="profissao">Comércio</p>
+                                        <div className="estrelasprof">
+                                            <ul className="nav col-12 card-title justify-content-md-center">
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                                <li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

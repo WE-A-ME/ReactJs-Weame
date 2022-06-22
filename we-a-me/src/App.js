@@ -18,13 +18,13 @@ function App() {
       {/* <NavBarIndex/> OK  */}
       {/* <Index/>  */}
       {/* <CadastroCliente/> OK */}
-      {/* <Categorias/>  */}
+       <Categorias/>  
       {/* <Suporte/> OK */}
       {/* <SobreNos/> Detalhar  */}
-       <Reformas/> 
+        {/* <Reformas/>   */}
       {/* <Footer/> OK */}
-       {/* <PaginaCliente/>  */}
-      {/* <Reformas/> */}
+        {/* <PaginaCliente/>   */}
+     
     </div>
   );
 }
