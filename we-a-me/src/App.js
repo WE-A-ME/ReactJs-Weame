@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       {/* <NavBarIndex/> OK  */}
-      {/* <Index/>  */}
+       <Index/>  
       {/* <CadastroCliente/> OK */}
       {/* <Categorias/>   */}
       {/* <Suporte/> OK */}
