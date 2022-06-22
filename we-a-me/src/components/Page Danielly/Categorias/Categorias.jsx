@@ -111,7 +111,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Profissional1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href=""><img src={Profissional1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id='imagensprofissionais' /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Maria das Graças</h5>
                                     <p className="card-text" id="profissao">Costureira</p>
@@ -121,7 +121,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Profissional2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="Denise Ferreira" id="imagemprof" /></a>
+                                <a href=""><img src={Profissional2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="Denise Ferreira" id='imagensprofissionais' /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Antonio Bezerra</h5>
                                     <p className="card-text" id="profissao">Artesão</p>
@@ -131,7 +131,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Profissional3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Graça de Jesus" id="imagemprof" /></a>
+                                <a href=""><img src={Profissional3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Graça de Jesus" id='imagensprofissionais' /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">José Vieira Silva</h5>
                                     <p className="card-text" id="profissao">Jardineiro</p>
@@ -141,7 +141,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Profissional4} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href=""><img src={Profissional4} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id='imagensprofissionais'/></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Jorge dos Santos</h5>
                                     <p className="card-text" id="profissao">Reformas e Reparo</p>
@@ -153,7 +153,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Comercio1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href=""><img src={Comercio1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id='imagensprofissionais' /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Super Pizza</h5>
                                     <p className="card-text" id="profissao">Pizzaria</p>
@@ -163,7 +163,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Comercio2} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href=""><img src={Comercio2} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id='imagensprofissionais'/></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">BarberShop</h5>
                                     <p className="card-text" id="profissao">Barbearia</p>
@@ -173,7 +173,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Comercio3} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href=""><img src={Comercio3} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id='imagensprofissionais' /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Pão Bom</h5>
                                     <p className="card-text" id="profissao">Padaria</p>
@@ -183,7 +183,7 @@ export function Categorias() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaogorias">
-                                <a href=""><img src={Comercio4} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href=""><img src={Comercio4} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id='imagensprofissionais' /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Big Lanches</h5>
                                     <p className="card-text" id="profissao">Lanchonete</p>
