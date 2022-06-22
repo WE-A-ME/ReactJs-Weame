@@ -13,8 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/categorias" element={<Categorias />} />
-          <Route path="/login" element={<PaginaCliente />} />
-          
+          <Route path="/paginacliente" element={<PaginaCliente />} />
+
         </Routes>
       </Router>
 
