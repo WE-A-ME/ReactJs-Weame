@@ -4,14 +4,15 @@ import Logo from './img/logo.png';
 import logo_google from "./img/img-google.png";
 import logo_linkedin from "./img/img-linkedin.png";
 import img_cadastro from "./img/img-cadastro.png";
+import { Link } from "react-router-dom";
 
 export function CadastroCliente() {
   return (
     <div className="container-">
-      <img className="header--logo" src={Logo} alt="" />
+     <Link to='/'><img className="header--logo" src={Logo} alt="" /></Link>
       <div class="conteudo">
         <div class="main--img">
-          <img src={img_cadastro} alt="" />
+         <img src={img_cadastro} alt="" /> 
         </div>
         <div class="main--login">
           <div class="main--inputs">

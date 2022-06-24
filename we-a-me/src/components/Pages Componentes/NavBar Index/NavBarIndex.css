@@ -44,6 +44,10 @@
     font-size: 19px;
 }
 
+.entrar a{
+  font-size: 19px;
+}
+
 #entrar:hover{
     color: #012169;
     background-color: rgba(1, 33, 105, 0.08);

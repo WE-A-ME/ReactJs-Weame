@@ -1,11 +1,14 @@
 
 import ImagemSuporte from './imagem.png'
 import './Suporte.css'
+import { Footer } from '../../Pages Componentes/Footer/footer'
+import { NavBarIndex } from '../../Pages Componentes/NavBar Index/NavBarIndex'
 
 export function Suporte() {
     return (
         
         <div>
+            <NavBarIndex/>
             <div className="main--box--02">
                 <div className="main--img--02 flex"><img src={ImagemSuporte} alt="A imagem é um desenho de uma mulher atendendo alguém no telefone" id="imagemsuporte"/></div>
   
@@ -24,7 +27,7 @@ export function Suporte() {
   
         </div>
                   
-          
+        <Footer/>  
       </div>
 
     );

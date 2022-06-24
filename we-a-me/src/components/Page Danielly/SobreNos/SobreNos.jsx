@@ -8,9 +8,8 @@ import Thiago from './fotos/Thiago.png'
 import Eduarda from './fotos/Eduarda.jpg'
 import { Footer } from '../../Pages Componentes/Footer/footer'
 import { NavBarIndex } from '../../Pages Componentes/NavBar Index/NavBarIndex'
-import { NavbarCategorias } from '../../Pages Componentes/Navbar Categorias/NavbarCategorias'
 
-function SobreNos() {
+export function SobreNos() {
     return (
 
         <div>
@@ -60,7 +59,7 @@ function SobreNos() {
                                 <img src={Mariana} className="card-img-top" alt="Foto da aluna do Instituto Proa chamada Mariana Alves Belo da Silva" title="Mariana Alves Belo da Silva" id="imagem2" />
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Mariana Alves</h5>
-                                    <p className="card-text" id="profissao">Desenvolvedora de Banco de Dados</p>
+                                    <p className="card-text" id="profissao">Desenvolvedora Front-End</p>
                                 </div>
                             </div>
                         </div>
@@ -108,4 +107,3 @@ function SobreNos() {
     );
 }
 
-export default SobreNos;

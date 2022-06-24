@@ -21,6 +21,7 @@ import './Categorias.css'
 import { NavbarCategorias } from '../../Pages Componentes/Navbar Categorias/NavbarCategorias'
 import { NavBarIndex } from '../../Pages Componentes/NavBar Index/NavBarIndex'
 import { Footer } from '../../Pages Componentes/Footer/footer'
+import { Link } from "react-router-dom";
 
 
 export function Categorias() {
@@ -40,7 +41,7 @@ export function Categorias() {
                     <div className="row row-cols-1 row-cols-md-3 g-4 align-items-center">
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Reformas} className="card-img-top" id="imagem" /></a>
+                                <Link to='/reformas'><img src={Reformas} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Reformas e Reparo</h5>
                             </div>
                         </div>
