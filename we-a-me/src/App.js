@@ -9,6 +9,7 @@ import { Suporte } from "./components/Pages Thiago/Suporte/Suporte";
 import { SobreNos } from "./components/Page Danielly/SobreNos/SobreNos";
 import { CadastroCliente } from "./components/Pages Thiago/CadastroCliente/cadastro";
 import { LoginCliente } from "./components/Pages Thiago/LoginCliente/login";
+import { PaginaClienteReformas } from "./components/Page Danielly/ReformasLogin/Pagina Inicial Cliente/PaginaClienteReformas";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/cadastrocliente" element={<CadastroCliente />} />
           <Route path="/reformas" element={<Reformas />} />
           <Route path="/logincliente" element={<LoginCliente />} />
+          <Route path="/loginreformas" element={<PaginaClienteReformas />} />
         </Routes>
       </Router>
 

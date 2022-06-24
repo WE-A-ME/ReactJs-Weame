@@ -6,7 +6,7 @@ export function NavbarCategoriasLogin() {
     return (
         <div className="container-fluid" id="servicos">
             <ul className="nome-categorias nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 mt-0">
-                <Link to='/reformas' className="nav-link px-2" id="navbarletra">Reformas e Reparo</Link>
+                <Link to='/loginreformas' className="nav-link px-2" id="navbarletra">Reformas e Reparo</Link>
                 <a href="#" className="nav-link px-2" id="navbarletra">Beleza</a>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Auto</a>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Assistência Técnica</a>
