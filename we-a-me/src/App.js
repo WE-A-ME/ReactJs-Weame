@@ -12,6 +12,7 @@ import { LoginCliente } from "./components/Pages Thiago/LoginCliente/login";
 import { PaginaClienteReformas } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Reformas/PaginaClienteReformas";
 import { PaginaClienteBeleza } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Beleza/PaginaClienteBeleza";
 import { PaginaClienteAuto } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Auto/PaginaClienteAuto";
+import { PaginaClienteAssistencia } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Assistencia/PaginaClienteAssistencia";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/loginreformas" element={<PaginaClienteReformas />} />
           <Route path="/loginbeleza" element={<PaginaClienteBeleza />} />
           <Route path="/loginauto" element={<PaginaClienteAuto />} />
+          <Route path="/loginassistencia" element={<PaginaClienteAssistencia />} />
         </Routes>
       </Router>
 
