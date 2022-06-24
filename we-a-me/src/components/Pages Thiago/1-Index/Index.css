@@ -1,10 +1,16 @@
-button {
+.buttonindex {
   color: #fff;
-  font-weight: 600;
   background: #012169;
   width: 300px;
   height: 60px;
   border-radius: 30px;
+  text-decoration: none;
+}
+
+.buttonindex a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 /* !Main Box 01 Start! */
