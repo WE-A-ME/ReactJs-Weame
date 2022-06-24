@@ -9,7 +9,9 @@ import { Suporte } from "./components/Pages Thiago/Suporte/Suporte";
 import { SobreNos } from "./components/Page Danielly/SobreNos/SobreNos";
 import { CadastroCliente } from "./components/Pages Thiago/CadastroCliente/cadastro";
 import { LoginCliente } from "./components/Pages Thiago/LoginCliente/login";
-import { PaginaClienteReformas } from "./components/Page Danielly/ReformasLogin/Pagina Inicial Cliente/PaginaClienteReformas";
+import { PaginaClienteReformas } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Reformas/PaginaClienteReformas";
+import { PaginaClienteBeleza } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Beleza/PaginaClienteBeleza";
+import { PaginaClienteAuto } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Auto/PaginaClienteAuto";
 
 function App() {
   return (
@@ -24,8 +26,11 @@ function App() {
           <Route path="/sobrenos" element={<SobreNos />} />
           <Route path="/cadastrocliente" element={<CadastroCliente />} />
           <Route path="/reformas" element={<Reformas />} />
+          {/* Paginas depois de ter feito o login */}
           <Route path="/logincliente" element={<LoginCliente />} />
           <Route path="/loginreformas" element={<PaginaClienteReformas />} />
+          <Route path="/loginbeleza" element={<PaginaClienteBeleza />} />
+          <Route path="/loginauto" element={<PaginaClienteAuto />} />
         </Routes>
       </Router>
 
