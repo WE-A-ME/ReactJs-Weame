@@ -19,7 +19,7 @@ import Programacao from './img/Programação.gif'
 import Alimentos from './img/Alimentos.gif'
 import Comercio from './img/Comércio.gif'
 import NavBar from '../../Pages Componentes/NavBar Input/navbar'
-import { NavbarCategorias } from '../../Pages Componentes/Navbar Categorias/NavbarCategorias'
+import { NavbarCategoriasLogin } from '../../Pages Componentes/Navbar Categorias copy/NavbarCategoriasLogin'
 import { Footer } from '../../Pages Componentes/Footer/footer'
 
 export function PaginaCliente() {
@@ -27,7 +27,7 @@ export function PaginaCliente() {
 
         <div>
             <NavBar />
-            <NavbarCategorias />
+            <NavbarCategoriasLogin />
 
             <main className="main ">
 
