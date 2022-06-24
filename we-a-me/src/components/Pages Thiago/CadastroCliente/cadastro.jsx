@@ -14,7 +14,7 @@ export function CadastroCliente() {
         <div class="main--img">
          <img src={img_cadastro} alt="" /> 
         </div>
-        <div class="main--login">
+        <div class="main--cadastro">
           <div class="main--inputs">
             <input class="button-nome" type="text" placeholder="Nome Completo" />
             <input class="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
