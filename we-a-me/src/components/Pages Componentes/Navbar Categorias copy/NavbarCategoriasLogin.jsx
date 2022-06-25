@@ -13,9 +13,9 @@ export function NavbarCategoriasLogin() {
                 <Link to='/loginalimentos' className="nav-link px-2" id="navbarletra">Alimentos</Link>
                 <Link to='/loginprogramacao' className="nav-link px-2" id="navbarletra">Programação</Link>
                 <Link to='/loginlimpeza' className="nav-link px-2" id="navbarletra">Limpeza</Link>
-                <a href="#" className="nav-link px-2 " id="navbarletra">Design</a>
-                <a href="#" className="nav-link px-2 " id="navbarletra">Comércio</a>
-                <a href="#" className="nav-link px-2 " id="navbarletra">Moda</a>
+                <Link to='/logindesign' className="nav-link px-2" id="navbarletra">Design</Link>
+                <Link to='/logincomercio' className="nav-link px-2" id="navbarletra">Comércio</Link>
+                <Link to='/loginmoda' className="nav-link px-2" id="navbarletra">Moda</Link>
             </ul>
             <div className="linhahorizontal"></div>
         </div>

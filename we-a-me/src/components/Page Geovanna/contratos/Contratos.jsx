@@ -1,10 +1,13 @@
 import React from "react";
 import oqvcp from "./Contratos.css";
+import { NavBarIndex } from "../../Pages Componentes/NavBar Index/NavBarIndex";
+import { Footer } from "../../Pages Componentes/Footer/footer";
 
 export function Contratos(){
     
  return(
     <div>
+        <NavBarIndex/>
             <div className="conteudo">
 
 <h1 className="h1">Politica de Privacidade We-A-Me</h1>
@@ -206,6 +209,8 @@ Você pode desativar os cookies através das preferências do seu navegador. Sem
 
 <h2 class="duvidas">Dúvidas? Acesse nossos outros tópicos.</h2>
 </div>
+
+        <Footer/>
 
     </div>
 

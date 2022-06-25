@@ -1,10 +1,13 @@
 import React from "react";
 import oqvcp from "./OqVcP.css";
+import { NavBarIndex } from "../../Pages Componentes/NavBar Index/NavBarIndex";
+import { Footer } from "../../Pages Componentes/Footer/footer";
 
 export function OqVcP(){
     
  return(
     <div>
+        <NavBarIndex/>
             <div className="conteudo">
 
 <h1 className="h1">O que você precisa saber!</h1>
@@ -17,6 +20,8 @@ export function OqVcP(){
 
 <h2 class="duvidas">Dúvidas? Acesse nossos outros tópicos.</h2>
 </div>
+
+        <Footer/>
 
     </div>
 
