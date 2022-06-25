@@ -15,7 +15,7 @@ export function NavbarCategorias() {
                 <a href="#" className="nav-link px-2 " id="navbarletra">Limpeza</a>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Design</a>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Comércio</a>
-                <a href="#" className="nav-link px-2 " id="navbarletra">Moda</a>
+                <Link to='/moda' className="nav-link px-2" id="navbarletra">Moda</Link>
             </ul>
             <div className="linhahorizontal"></div>
         </div>

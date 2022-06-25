@@ -11,7 +11,7 @@ export function Footer() {
                 <div class="row text-center justify-content-center">
 
                     <div className="col-1">
-                        <a href="../1-Index/index.html"><img className="footer--logo" src={Logo} alt="" /></a>
+                        <a href="#"><img className="footer--logo" src={Logo} alt="" /></a>
                     </div>
 
                     <div class="footer--topicos col-2">
@@ -29,7 +29,7 @@ export function Footer() {
                     <div class="footer--topicos col-3">
                         <h5>Categorias mais Procuradas</h5>
 
-                        <a href="#Reformas e Reparos">Reformas
+                        <a href="/reformas">Reformas
                             e Reparos</a>
                         <a href="#Saude & Beleza">Saúde &
                             Beleza</a>

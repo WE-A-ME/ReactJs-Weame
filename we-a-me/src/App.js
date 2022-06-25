@@ -5,6 +5,7 @@ import { Index } from "./components/Pages Thiago/1-Index";
 import { Categorias } from "./components/Page Danielly/Categorias/Categorias";
 import { PaginaCliente } from "./components/Page Danielly/Pagina Inicial Cliente/PaginaCliente";
 import { Reformas } from "./components/Page Danielly/LoginCategorias/Reformas/LoginCategoriasReformas";
+import { Moda } from "./components/Page Mariana/Moda/LoginCategoriasModa";
 import { Suporte } from "./components/Pages Thiago/Suporte/Suporte";
 import { Contratos } from "./components/Page Geovanna/contratos/Contratos";
 import { ComoAvaliar } from "./components/Page Geovanna/comoavaliar/ComoAvaliar";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/comoserparceiro" element={<ComoSerParceiro />} />
           <Route path="/cadastrocliente" element={<CadastroCliente />} />
           <Route path="/reformas" element={<Reformas />} />
+          <Route path="/moda" element={<Moda />} />
           {/* Paginas depois de ter feito o login */}
           <Route path="/logincliente" element={<LoginCliente />} />
           <Route path="/loginreformas" element={<PaginaClienteReformas />} />
