@@ -28,10 +28,10 @@ export function PaginaClienteModa() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Neide Pablo" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Maria Santos" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
-                                    <h5 className="card-title" id="nome">Neide Pablo</h5>
-                                    <p className="card-text" id="profissao">Designer Gráfico</p>
+                                    <h5 className="card-title" id="nome">Maria Santos</h5>
+                                    <p className="card-text" id="profissao">Estilista</p>
                                     <div className="estrelasprof">
                                         <ul className="nav col-12 card-title justify-content-md-center">
                                             <li><i className="fa-solid fa-star"></i></li>
@@ -47,11 +47,11 @@ export function PaginaClienteModa() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="Amanda Nobrega" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="Barbara Alves" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
-                                    <h5 className="card-title" id="nome">Amanda Nobrega</h5>
+                                    <h5 className="card-title" id="nome">Barbara Alves</h5>
                                     <p className="card-text" id="profissao">
-                                    Web Designer</p>
+                                    Costureira</p>
                                     <div className="estrelasprof">
                                         <ul className="nav col-12 card-title justify-content-md-center">
                                             <li><i className="fa-solid fa-star"></i></li>
@@ -67,10 +67,10 @@ export function PaginaClienteModa() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Igor Sobrinho" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Yasmin Mendes" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
-                                    <h5 className="card-title" id="nome">Igor Sobrinho</h5>
-                                    <p className="card-text" id="profissao">Designer de Moda</p>
+                                    <h5 className="card-title" id="nome">Yasmin Mendes</h5>
+                                    <p className="card-text" id="profissao">Fotógrafa</p>
                                     <div className="estrelasprof">
                                         <ul className="nav col-12 card-title justify-content-md-center">
                                             <li><i className="fa-solid fa-star"></i></li>
@@ -86,10 +86,10 @@ export function PaginaClienteModa() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Beatriz Fernanda" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Cinthia Fernanda" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
-                                    <h5 className="card-title" id="nome">Beatriz Fernanda</h5>
-                                    <p className="card-text" id="profissao">Designer Interiores</p>
+                                    <h5 className="card-title" id="nome">Cinthia Fernanda</h5>
+                                    <p className="card-text" id="profissao">Fotógrafa</p>
                                     <div className="estrelasprof">
                                         <ul className="nav col-12 card-title justify-content-md-center">
                                             <li><i className="fa-solid fa-star"></i></li>
@@ -105,10 +105,10 @@ export function PaginaClienteModa() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal5} className="card-img-top" alt="Foto da Danielly Silva que trabalha na área de Doces e Confeitaria" title="Aurora Boreal" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal5} className="card-img-top" alt="Foto da Danielly Silva que trabalha na área de Doces e Confeitaria" title="Izabela Teixeira" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
-                                    <h5 className="card-title" id="nome">Aurora Boreal</h5>
-                                    <p className="card-text" id="profissao">Designer de Sites</p>
+                                    <h5 className="card-title" id="nome">Izabela Teixeira</h5>
+                                    <p className="card-text" id="profissao">Costureira</p>
                                     <div className="estrelasprof">
                                         <ul className="nav col-12 card-title justify-content-md-center">
                                             <li><i className="fa-solid fa-star"></i></li>
@@ -141,10 +141,10 @@ export function PaginaClienteModa() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal6} className="card-img-top" alt="Foto do Pedro Almeida que trabalha na área de Design de Sites" title="Douglas de Mello" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal6} className="card-img-top" alt="Foto do Pedro Almeida que trabalha na área de Design de Sites" title="Marcela Monteiro" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
-                                        <h5 className="card-title" id="nome">Douglas de Mello</h5>
-                                        <p className="card-text" id="profissao">Designer de Moda</p>
+                                        <h5 className="card-title" id="nome">Marcela Monteiro</h5>
+                                        <p className="card-text" id="profissao">Estilista</p>
                                         <div className="estrelasprof">
                                             <ul className="nav col-12 card-title justify-content-md-center">
                                                 <li><i className="fa-solid fa-star"></i></li>
@@ -160,10 +160,10 @@ export function PaginaClienteModa() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Joice de Oliveira que trabalha na área de Fotografia" title="Beatriz Fernanda" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Joice de Oliveira que trabalha na área de Fotografia" title="Cinthia Fernanda" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
-                                        <h5 className="card-title" id="nome">Beatriz Fernanda</h5>
-                                        <p className="card-text" id="profissao">Designer Interiores</p>
+                                        <h5 className="card-title" id="nome">Cinthia Fernanda</h5>
+                                        <p className="card-text" id="profissao">Fotógrafa</p>
                                         <div className="estrelasprof">
                                             <ul className="nav col-12 card-title justify-content-md-center">
                                                 <li><i className="fa-solid fa-star"></i></li>
@@ -179,10 +179,10 @@ export function PaginaClienteModa() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto da Maria Elisa que trabalha na área de Costura" title="Neide Pablo" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto da Maria Elisa que trabalha na área de Costura" title="Maria Santos" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
-                                        <h5 className="card-title" id="nome">Neide Pablo</h5>
-                                        <p className="card-text" id="profissao">Designer Gráfico</p>
+                                        <h5 className="card-title" id="nome">Maria Santos</h5>
+                                        <p className="card-text" id="profissao">Estilista</p>
                                         <div className="estrelasprof">
                                             <ul className="nav col-12 card-title justify-content-md-center">
                                                 <li><i className="fa-solid fa-star"></i></li>
@@ -198,10 +198,10 @@ export function PaginaClienteModa() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal7} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Isabelle Basam" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal7} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Kaylane Andrade" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
-                                        <h5 className="card-title" id="nome">Isabelle Basam</h5>
-                                        <p className="card-text" id="profissao">Web Designer</p>
+                                        <h5 className="card-title" id="nome">Kaylane Andrade</h5>
+                                        <p className="card-text" id="profissao">Costureira</p>
                                         <div className="estrelasprof">
                                             <ul className="nav col-12 card-title justify-content-md-center">
                                                 <li><i className="fa-solid fa-star"></i></li>
@@ -217,10 +217,10 @@ export function PaginaClienteModa() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Beatriz Santos que trabalha na área de Maquiagem" title="Igor Sobrinho" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Beatriz Santos que trabalha na área de Maquiagem" title="Yasmin Mendes" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
-                                        <h5 className="card-title" id="nome">Igor Sobrinho</h5>
-                                        <p className="card-text" id="profissao">Designer de Moda</p>
+                                        <h5 className="card-title" id="nome">Yasmin Mendes</h5>
+                                        <p className="card-text" id="profissao">Fotógrafa</p>
                                         <div className="estrelasprof">
                                             <ul className="nav col-12 card-title justify-content-md-center">
                                                 <li><i className="fa-solid fa-star"></i></li>
