@@ -10,7 +10,7 @@ export function NavbarCategoriasLogin() {
                 <Link to='/loginbeleza' className="nav-link px-2" id="navbarletra">Beleza</Link>
                 <Link to='/loginauto' className="nav-link px-2" id="navbarletra">Auto</Link>
                 <Link to='/loginassistencia' className="nav-link px-2" id="navbarletra">Assistência Técnica</Link>
-                <a href="#" className="nav-link px-2 " id="navbarletra">Alimentos</a>
+                <Link to='/loginalimentos' className="nav-link px-2" id="navbarletra">Alimentos</Link>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Programação</a>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Limpeza</a>
                 <a href="#" className="nav-link px-2 " id="navbarletra">Design</a>

@@ -13,6 +13,7 @@ import { PaginaClienteReformas } from "./components/Page Danielly/Login/Pagina I
 import { PaginaClienteBeleza } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Beleza/PaginaClienteBeleza";
 import { PaginaClienteAuto } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Auto/PaginaClienteAuto";
 import { PaginaClienteAssistencia } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Assistencia/PaginaClienteAssistencia";
+import { PaginaClienteAlimentos } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Alimentos/PaginaClienteAlimentos";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/loginbeleza" element={<PaginaClienteBeleza />} />
           <Route path="/loginauto" element={<PaginaClienteAuto />} />
           <Route path="/loginassistencia" element={<PaginaClienteAssistencia />} />
+          <Route path="/loginalimentos" element={<PaginaClienteAlimentos />} />
         </Routes>
       </Router>
 
