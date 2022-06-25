@@ -47,7 +47,7 @@ export function PaginaClienteAssistencia() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="João Paciência" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal2} className="card-img-top" alt="Foto da Denise Ferreira que trabalha na área de Programação" title="Lennon Faveri" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Lennon Faveri</h5>
                                     <p className="card-text" id="profissao">
@@ -67,7 +67,7 @@ export function PaginaClienteAssistencia() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Rafael Palillo" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Graça de Jesus que trabalha na área de Limpeza" title="Leornado Cabral" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Leornado Cabral</h5>
                                     <p className="card-text" id="profissao">Manutenção de TI</p>
@@ -86,7 +86,7 @@ export function PaginaClienteAssistencia() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Marcos Lopes" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Lisa Duarte" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Lisa Duarte</h5>
                                     <p className="card-text" id="profissao">Assistência de Celular</p>
@@ -105,7 +105,7 @@ export function PaginaClienteAssistencia() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal5} className="card-img-top" alt="Foto da Danielly Silva que trabalha na área de Doces e Confeitaria" title="João Batista" id="imagemprof" /></a>
+                                <a href=""><img src={Profissinal5} className="card-img-top" alt="Foto da Danielly Silva que trabalha na área de Doces e Confeitaria" title="Fabiana Amaro" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Fabiana Amaro</h5>
                                     <p className="card-text" id="profissao">Manutenção de TI</p>
@@ -141,7 +141,7 @@ export function PaginaClienteAssistencia() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal6} className="card-img-top" alt="Foto do Pedro Almeida que trabalha na área de Design de Sites" title="Joana Martins" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal6} className="card-img-top" alt="Foto do Pedro Almeida que trabalha na área de Design de Sites" title="Gustavo Lima" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Gustavo Lima</h5>
                                         <p className="card-text" id="profissao">Manutenção de Celular</p>
@@ -160,7 +160,7 @@ export function PaginaClienteAssistencia() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Joice de Oliveira que trabalha na área de Fotografia" title="Marcos Lopes" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal4} className="card-img-top" alt="Foto da Joice de Oliveira que trabalha na área de Fotografia" title="Lisa Duarte" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Lisa Duarte</h5>
                                         <p className="card-text" id="profissao">Assistência de Celular</p>
@@ -179,7 +179,7 @@ export function PaginaClienteAssistencia() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto da Maria Elisa que trabalha na área de Costura" title="Maria Soares" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto da Maria Elisa que trabalha na área de Costura" title="Rafael Miguel" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Rafael Miguel</h5>
                                         <p className="card-text" id="profissao">Manutenção de TI</p>
@@ -198,7 +198,7 @@ export function PaginaClienteAssistencia() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal7} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Roberto Gabriel" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal7} className="card-img-top" alt="Foto da Jéssica Farias que trabalha na área de Manutenção de T.I" title="Vitoria Marcos" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Vitoria Marcos</h5>
                                         <p className="card-text" id="profissao">Assistência de Celular</p>
@@ -217,7 +217,7 @@ export function PaginaClienteAssistencia() {
 
                             <div className="col-md-2">
                                 <div className="card" id="cartaoprof">
-                                    <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Beatriz Santos que trabalha na área de Maquiagem" title="Rafael Palillo" id="imagemprof" /></a>
+                                    <a href=""><img src={Profissinal3} className="card-img-top" alt="Foto da Beatriz Santos que trabalha na área de Maquiagem" title="Leornado Cabral" id="imagemprof" /></a>
                                     <div className="card-body" id="texto">
                                         <h5 className="card-title" id="nome">Leornado Cabral</h5>
                                         <p className="card-text" id="profissao">Manutenção de TI</p>

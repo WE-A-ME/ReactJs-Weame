@@ -14,6 +14,8 @@ import { PaginaClienteBeleza } from "./components/Page Danielly/Login/Pagina Ini
 import { PaginaClienteAuto } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Auto/PaginaClienteAuto";
 import { PaginaClienteAssistencia } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Assistencia/PaginaClienteAssistencia";
 import { PaginaClienteAlimentos } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Alimentos/PaginaClienteAlimentos";
+import { PaginaClienteProgramacao } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Programação/PaginaClienteProgramacao";
+import { PaginaClienteLimpeza } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Limpeza/PaginaClienteLimpeza";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
           <Route path="/loginauto" element={<PaginaClienteAuto />} />
           <Route path="/loginassistencia" element={<PaginaClienteAssistencia />} />
           <Route path="/loginalimentos" element={<PaginaClienteAlimentos />} />
+          <Route path="/loginprogramacao" element={<PaginaClienteProgramacao />} />
+          <Route path="/loginlimpeza" element={<PaginaClienteLimpeza />} />
         </Routes>
       </Router>
 
