@@ -27,7 +27,7 @@ export function NavBarIndex() {
 
                     <div className="col-md-3 text-end">
                         <Link id="criarconta"  to="/cadastrocliente">Criar conta</Link>
-                        <button type="button" className="entrar btn btn-link" ><Link to='logincliente' >Entrar</Link></button>
+                        <button type="button" className="entrar btn btn-link" ><Link to='/logincliente' >Entrar</Link></button>
                     </div>
                 </header>
             </div>
