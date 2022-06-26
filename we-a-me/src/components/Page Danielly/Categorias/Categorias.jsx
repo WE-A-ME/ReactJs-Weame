@@ -95,7 +95,7 @@ export function Categorias() {
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Moda} className="card-img-top" id="imagem" /></a>
+                                <a href="/moda"><img src={Moda} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Moda</h5>
                             </div>
                         </div>
