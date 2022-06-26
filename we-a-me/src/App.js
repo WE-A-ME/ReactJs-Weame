@@ -24,6 +24,14 @@ import { PaginaClienteLimpeza } from "./components/Page Danielly/Login/Pagina In
 import { PaginaClienteDesign } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Design/PaginaClienteDesign";
 import { PaginaClienteComercio } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Comercio/PaginaClienteComercio";
 import { PaginaClienteModa } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Moda/PaginaClienteModa";
+import { Beleza } from "./components/Page Lennon/2-Beleza/CategoriasBeleza";
+import { Auto } from "./components/Page Lennon/3-Auto/CategoriasAuto";
+import { Assistencia } from "./components/Page Lennon/4-Assistencia/CategoriasAssistencia";
+import { Alimentos } from "./components/Page Lennon/5-Alimentos/CategoriasAlimentos";
+import { Programacao } from "./components/Page Lennon/6-Programacao/CategoriasProgramacao";
+import { Limpeza } from "./components/Page Lennon/7-Limpeza/CategoriasLimpeza";
+import { Design } from "./components/Page Lennon/8-Design/CategoriasDesign";
+import { Comercio } from "./components/Page Lennon/9-Comércio/CategoriasComercio";
 
 function App() {
   return (
@@ -42,6 +50,14 @@ function App() {
           <Route path="/comoserparceiro" element={<ComoSerParceiro />} />
           <Route path="/cadastrocliente" element={<CadastroCliente />} />
           <Route path="/reformas" element={<Reformas />} />
+          <Route path="/beleza" element={<Beleza />} />
+          <Route path="/auto" element={<Auto />} />
+          <Route path="/assistencia" element={<Assistencia />} />
+          <Route path="/Alimentos" element={<Alimentos />} />
+          <Route path="/Programacao" element={<Programacao />} />
+          <Route path="/Limpeza" element={<Limpeza />} />
+          <Route path="/Design" element={<Design />} />
+          <Route path="/Comercio" element={<Comercio />} />
           <Route path="/moda" element={<Moda />} />
           {/* Paginas depois de ter feito o login */}
           <Route path="/logincliente" element={<LoginCliente />} />
@@ -55,6 +71,7 @@ function App() {
           <Route path="/logindesign" element={<PaginaClienteDesign />} />
           <Route path="/logincomercio" element={<PaginaClienteComercio />} />
           <Route path="/loginmoda" element={<PaginaClienteModa />} />
+          
         </Routes>
       </Router>
 

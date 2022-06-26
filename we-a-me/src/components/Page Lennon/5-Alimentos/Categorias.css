@@ -1,0 +1,123 @@
+.titulo{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 61px;
+    color: #012169;
+    text-align: center;
+    padding: 2rem;
+}
+
+.colunas{
+  padding: 2rem;
+}
+
+#cartao3{
+  height: 300px;
+  background: linear-gradient(180deg, rgba(244, 244, 244, 0.96) 0%, rgba(244, 244, 244, 0) 100%);
+  border-radius: 45.9271px;
+  max-width: 775px;
+  border: none;
+  margin-top: 15px;
+}
+
+#imagem3{
+  border-radius: 30.6181px;
+  width: 190px;
+  height: 162px;
+  margin-left: 32px;
+  margin-top: 60px;
+}
+
+#avaliacao1{
+  text-align: center;
+  margin-left: 12px;
+  }
+  
+  #estrelas1{
+  margin-left: 65px;
+  margin-top: 25px;
+  color: #012169;
+  }
+  
+  #nota{
+  margin-right: 6px;
+  margin-top: 1.5px;
+  font-weight: 700;
+  font-size: 15px;
+  }
+
+#texto1{
+  margin-top: 15px;
+}
+
+#profissaore{
+  color: #0070ba;
+  font-weight: 500;
+  font-size: 14.5px;
+}
+
+#informacoes3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24.88px;
+}
+
+#informacoes3 li{
+  color: #012169;;
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 13px;
+  margin-bottom: 15px;
+}
+
+#texto1{
+  font-size: 14px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+#nome2{
+color: #012169;
+}
+
+#botao{
+width: 131.08px;
+height: 35.4px;
+background-color: #012169;
+border-radius: 11px;
+margin-left: 16px;
+}
+
+
+button a{
+text-decoration: none;
+text-transform: none;
+color: #FFFFFF;
+font-size: 12.3px;
+}
+
+button a:hover{
+color: #fff;
+}
+
+#botao:hover{
+background-color: #0070BA;
+}
+
+.botoesfundo button{
+  width: 45px;
+  height: 50px;
+  background-color: #0070ba;
+  border: #0070ba;
+}
+
+
+@media (min-width: 767px){
+  .minha-classe {
+      max-width: 1000px;
+      height: 2000px;
+      text-align: center;
+  }
+}
