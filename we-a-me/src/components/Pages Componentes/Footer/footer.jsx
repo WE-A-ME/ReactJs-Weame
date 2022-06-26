@@ -17,11 +17,11 @@ export function Footer() {
                     <div class="footer--topicos col-2">
                         <h5>Como Funciona</h5>
 
-                        <a href="#">O que você precisa saber
+                        <a href="/OqVcP">O que você precisa saber
                             ?</a>
-                        <a href="#">Como Avaliar</a>
-                        <a href="#">Como ser Parceiro</a>
-                        <a href="#">Contratos</a>
+                        <a href="/comoavaliar">Como Avaliar</a>
+                        <a href="/comoserparceiro">Como ser Parceiro</a>
+                        <a href="/contratos">Contratos</a>
 
                     </div>
 
@@ -34,7 +34,7 @@ export function Footer() {
                         <a href="#Saude & Beleza">Saúde &
                             Beleza</a>
                         <a href="#Auto">Auto</a>
-                        <a href="#Moda">Moda</a>
+                        <a href="/moda">Moda</a>
                         <a href="#Limpeza" class="">Limpeza</a>
 
                     </div>

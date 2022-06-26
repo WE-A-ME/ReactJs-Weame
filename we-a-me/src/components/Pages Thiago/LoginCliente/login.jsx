@@ -4,16 +4,15 @@ import logo from "./img/logo.png";
 import img_login from "./img/img-Login.png";
 import logo_google from "./img/img-google.png";
 import logo_linkedin from "./img/img-linkedin.png";
-import { Link } from "react-router-dom";
 
 
 export function LoginCliente() {
   return (
     <div>
-      <img className="logo" src={logo} alt="" />
+     <a href="/"><img className="header--logo" src={logo} alt="" /></a>
       <div className="conteudo">
         <div className="main--img">
-         <Link to='/'> <img src={img_login} alt="" /></Link>
+         <img src={img_login} alt="" />
         </div>
 
         <div className="main--login">
