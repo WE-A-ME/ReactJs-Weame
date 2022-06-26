@@ -47,49 +47,49 @@ export function Categorias() {
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Saude} className="card-img-top" id="imagem" /></a>
+                                <a href="/beleza"><img src={Saude} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Saúde & Beleza</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Auto} className="card-img-top" id="imagem" /></a>
+                                <a href="/auto"><img src={Auto} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Auto</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Assistência} className="card-img-top" id="imagem" /></a>
+                                <a href="/assistencia"><img src={Assistência} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Assistência Técnica</h5>
                             </div>
                         </div>
                         <div className="col-md-3 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Alimentos} className="card-img-top" id="imagem" /></a>
+                                <a href="/Alimentos"><img src={Alimentos} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Alimentos</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Programação} className="card-img-top" id="imagem" /></a>
+                                <a href="/Programacao"><img src={Programação} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Programação</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Limpeza} class="card-img-top" id="imagem" /></a>
+                                <a href="/Limpeza"><img src={Limpeza} class="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Limpeza</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Artes} class="card-img-top" id="imagem" /></a>
+                                <a href="/Design"><img src={Artes} class="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Artes & Design</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <a href=""><img src={Comercio} className="card-img-top" id="imagem" /></a>
+                                <a href="/Comercio"><img src={Comercio} className="card-img-top" id="imagem" /></a>
                                 <h5 className="card-text" id="nome">Comércio</h5>
                             </div>
                         </div>
