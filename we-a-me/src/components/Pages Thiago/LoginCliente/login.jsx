@@ -9,6 +9,7 @@ import logo_linkedin from "./img/img-linkedin.png";
 export function LoginCliente() {
   return (
     <div>
+    <div className="container-">
      <a href="/"><img className="header--logo" src={logo} alt="" /></a>
       <div className="conteudo">
         <div className="main--img">
@@ -25,6 +26,7 @@ export function LoginCliente() {
             <button className="btn--login--linkedin"><img src={logo_linkedin} alt="" /> Entrar com o Linkedin</button>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
