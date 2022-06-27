@@ -1,0 +1,59 @@
+.ppp{
+    padding: 1.5rem;
+}
+
+#cartaocliente{
+    width: 285px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 45.9271px;
+    border: none;
+    display: grid;
+}
+
+.nomecliente{
+    margin-bottom: 40px;
+    margin-right: 82px;
+}
+
+
+#imagemcliente{
+    border-radius: 30.6181px;
+    width: 195px;
+    height: 170px;
+    margin-top: 15px;
+}
+
+
+#nomecliente{
+  color: #012169;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.informacoes{
+border: #000;
+margin-left: 190px;
+}
+
+.nascimento{
+    margin-left: 190px; 
+    margin-top: 35px;
+}
+
+.nascimento button{
+    font-size: 19px;
+}
+
+.email{
+   margin-left: 5rem;
+}
+
+.informacoes button{
+    font-size: 19px;
+}
+
+.editar{
+    background-color: #012169;
+    color: #fff;
+}

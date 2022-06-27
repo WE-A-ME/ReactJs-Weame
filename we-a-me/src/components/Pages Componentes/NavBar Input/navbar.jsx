@@ -26,7 +26,7 @@ function NavBar() {
               Olá, Jailson
             </p>
             <ul class="dropdown-menu" aria-labelledby="dropdown">
-              <li><a class="dropdown-item" href="#">Meus Dados</a></li>
+              <li><a class="dropdown-item" href="/loginmeusdados">Meus Dados</a></li>
               <li><a class="dropdown-item" href="/">Sair</a></li>
             </ul>
           </div>

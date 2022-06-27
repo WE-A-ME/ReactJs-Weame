@@ -32,6 +32,7 @@ import { Programacao } from "./components/Page Lennon/6-Programacao/CategoriasPr
 import { Limpeza } from "./components/Page Lennon/7-Limpeza/CategoriasLimpeza";
 import { Design } from "./components/Page Lennon/8-Design/CategoriasDesign";
 import { Comercio } from "./components/Page Lennon/9-Comércio/CategoriasComercio";
+import { MeusDados } from "./components/Page Danielly/Meus Dados/MeusDados";
 
 function App() {
   return (
@@ -71,7 +72,7 @@ function App() {
           <Route path="/logindesign" element={<PaginaClienteDesign />} />
           <Route path="/logincomercio" element={<PaginaClienteComercio />} />
           <Route path="/loginmoda" element={<PaginaClienteModa />} />
-          
+          <Route path="/loginmeusdados" element={<MeusDados />} />
         </Routes>
       </Router>
 
