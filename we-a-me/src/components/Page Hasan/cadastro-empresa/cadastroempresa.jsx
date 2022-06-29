@@ -5,7 +5,7 @@ import group from "./img/Group 47450.png";
 
 export function CadastroEmpresa(){
     return (
-        <div>
+        <div className="cadastroempresa">
             <main>
                 <div> 
                     <img className="logo" src={img_logo} alt=""/>

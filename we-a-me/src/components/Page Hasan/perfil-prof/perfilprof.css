@@ -1,3 +1,8 @@
+.perfilprof{
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+}
 
 .hight{
     justify-content: space-around;
@@ -9,17 +14,17 @@
     align-items: center;
     margin-top: -5px;
 }
-.contato{
+.contato1{
     width: 200px;
     margin-top: 80px;
     margin-right: 200px;
     text-align: center;
 }
-.contato h2{
+.contato1 h2{
     font-size: 22px;
     color: #0136AB;
 }
-.contato p{
+.contato1 p{
     font-size: 18px;
     color: black;
 }
@@ -52,7 +57,7 @@
     font-size: 16px;
     color: #0136AB;
 }
-.img{
+.imgprofissional {
     width: 200px;
     height: 200px;
     border-radius: 8px;
@@ -111,7 +116,7 @@ section {
     color: #0136AB;
     margin-bottom: 30px;
 }
-p{
+.perfilprof p{
     text-align: justify;
 }
 .text-front{
@@ -121,13 +126,13 @@ p{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.row {
+.servicosfeitos {
     display: grid;
     grid-template-columns: 400px 400px 400px;
     justify-content: center;
     align-items: center;
 }
-.card {
+.trabalho {
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
@@ -137,12 +142,13 @@ p{
     transition: all 0.3s ease-out;
     text-align: center;
 }
-.card:hover {
+
+.trabalho:hover {
     transform: translateY(-5px);
     cursor: pointer;
 }
    
-.card p {
+.trabalho p {
     color: #9fa2ad;
     font-size: 16px;
     text-align: center;

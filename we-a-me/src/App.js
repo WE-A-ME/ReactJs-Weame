@@ -62,7 +62,7 @@ function App() {
           <Route path="/categorias/Design" element={<Design />} />
           <Route path="/categorias/Comercio" element={<Comercio />} />
           <Route path="/categorias/moda" element={<Moda />} />
-          <Route path="/cadastroempresa" element={<CadastroCliente />} />
+          <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
           <Route path="/perfilprof" element={<PerfilProf />} />
           {/* Paginas depois de ter feito o login */}
           <Route path="/logincliente" element={<LoginCliente />} />

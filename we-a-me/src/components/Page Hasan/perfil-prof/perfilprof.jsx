@@ -17,11 +17,11 @@ import { Footer } from "../../Pages Componentes/Footer/footer";
 
 export function PerfilProf (){
     return(
-        <div>
+        <div className="perfilprof">
             <NavBarIndex/>
             <div className="hight">
-        <div className="box1">
-            <img src={img_pintor} className="img" alt="..."/>
+        <div className="box1 ">
+            <img src={img_pintor} className="imgprofissional" alt="..."/>
             <h2>Jaison Costa Dos Santos</h2>
             <h3>Pintor e Consertos Residenciais</h3>
             <div className="info">
@@ -45,7 +45,7 @@ export function PerfilProf (){
                 <li className="star-icon" data-avaliacao="5"></li>
             </ul>
         </div>
-        <div className="contato">
+        <div className="contato1">
             <h2>Meu contato</h2>
             <p>(11) 98765-0987</p>
             <img src={vectorWhats} className="img-icon" alt="..."/>
@@ -86,38 +86,38 @@ export function PerfilProf (){
             </div>
         </section>
         <h2 className="text-front">Serviços Já Realizados</h2>
-        <div className="row">
-            <div className="card blue">
+        <div className="row servicosfeitos">
+            <div className="card blue trabalho">
                 <h2>Montar a churrasqueira.</h2>
                 <p>Serviços Realizado em 21/03/2020</p>
                 <img className="image" src={img_fundo02} alt="" />
             </div>
 
-            <div className="card blue">
+            <div className="card blue trabalho">
                 <h2>Consertar o portão.</h2>
                 <p>Serviços Realizado em 12/03/2020</p>
                 <img className="image" src={img_fundo03} alt="" />
             </div>
 
-            <div className="card blue">
+            <div className="card blue trabalho">
                 <h2>Pintura que fiz na escola do meu bairro.</h2>
                 <p>Serviços Realizado em 12/06/2020</p>
                 <img className="image" src={img_fundo04} alt="" />
             </div>
 
-            <div className="card blue">
+            <div className="card blue trabalho">
                 <h2>Conserto com ármario.</h2>
                 <p>Serviços Realizado em 09/08/2020</p>
                 <img className="image" src={img_fundo05} alt="" />
             </div>
 
-            <div className="card blue">
+            <div className="card blue trabalho">
                 <h2>Conserto com o chuveiro.</h2>
                 <p>Serviços Realizado em 07/09/2020</p>
                 <img className="image" src={img_fundo06} alt="" />
             </div>
 
-            <div className="card blue">
+            <div className="card blue trabalho">
                 <h2>Conserto com a porta do banheiro e o chuveiro.</h2>
                 <p>Serviços Realizado em 12/03/2020</p>
                 <img className="image" src={img_fundo07} alt="" />

@@ -1,3 +1,8 @@
+.cadastroempresa{
+    margin: 0;
+    padding-top: 0;
+    overflow: hidden;
+}
 
 .conteudo {
     display: flex;
