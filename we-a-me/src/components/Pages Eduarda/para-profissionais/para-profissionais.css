@@ -1,0 +1,47 @@
+
+.texto h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0070ba;
+    margin-left: 4em;
+    margin-top: 0em;
+
+}
+
+.paragrafo p{
+    background: #e3e4e6;
+    width: 500px;
+    height: 65px;
+    border-radius: 17px;
+    border: 0;
+    text-align: center;
+    margin-left: 8em;
+    margin-top: 0em;
+}
+
+
+.btn-cadastro button {
+    background: #0070ba;
+    width: 200px;
+    height: 45px;
+    border-radius: 17px;
+    border: 0;
+    margin-left: 9.5em;
+    margin-top: 0em;
+}
+
+.btn-cadastro button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_profissionais img{
+    margin-left: 45em;
+    margin-top: -6em;
+    width: 400px;
+}
