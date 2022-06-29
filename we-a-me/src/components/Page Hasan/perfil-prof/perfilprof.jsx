@@ -12,13 +12,13 @@ import img_fundo06 from "./img/Fundo-06.png";
 import img_fundo07 from "./img/image 5.png";
 import avaliacao from "./avaliacao";
 import vectorWhats from "./img/VectorWhatsapp.png";
-import {NavBar} from "../../Pages Componentes/NavBar Input"
-import {Footer} from "../../Pages Componentes/Footer"
+import { NavBarIndex } from "../../Pages Componentes/NavBar Index/NavBarIndex";
+import { Footer } from "../../Pages Componentes/Footer/footer";
 
 export function PerfilProf (){
     return(
         <div>
-            <NavBar/>
+            <NavBarIndex/>
             <div className="hight">
         <div className="box1">
             <img src={img_pintor} className="img" alt="..."/>
