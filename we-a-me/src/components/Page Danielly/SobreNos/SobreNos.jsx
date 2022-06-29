@@ -19,7 +19,7 @@ export function SobreNos() {
             <main className="main ">
 
                 <div className="titulosobrenos">
-                    <h2>Sobre Nós</h2>
+                    <h2>Nosso Time</h2>
                 </div>
 
                 <div className="container">

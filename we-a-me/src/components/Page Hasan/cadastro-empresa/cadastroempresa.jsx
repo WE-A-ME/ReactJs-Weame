@@ -2,13 +2,14 @@ import React from "react";
 import cadastroempresa from "./cadastroempresa.css";
 import img_logo from "./img/logo.png";
 import group from "./img/Group 47450.png";
+import { Link } from "react-router-dom";
 
 export function CadastroEmpresa(){
     return (
         <div className="cadastroempresa">
             <main>
                 <div> 
-                    <img className="logo" src={img_logo} alt=""/>
+                  <Link to="/"><img className="logo" src={img_logo} alt=""/></Link>
                 </div>
                 <div className="conteudo">
                     <img src={group} alt="" className="imagem"/>

@@ -3,6 +3,7 @@ import paraprofissionais from "./para-profissionais.css";
 import img_paraprofissionais from "../para-profissionais/img/para_profissionais.png"
 import { NavBarIndex } from "../../Pages Componentes/NavBar Index/NavBarIndex"
 import { Footer } from "../../Pages Componentes/Footer/footer";
+import { Link } from "react-router-dom";
 
 export function ParaProfissionais() {
   return (
@@ -17,7 +18,7 @@ export function ParaProfissionais() {
         Nós te ajudaremos a alavancar o seu negócio. </p>
     </div>
     <div className="btn-cadastro">
-      <button><a href="">Começar cadastro</a></button>
+      <Link to="/cadastroempresa"><button><a href="">Começar cadastro</a></button></Link>
     </div>
     <div className="img_profissionais">
       <img src={img_paraprofissionais}></img>

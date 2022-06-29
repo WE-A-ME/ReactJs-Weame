@@ -35,6 +35,8 @@ import { Comercio } from "./components/Page Lennon/9-Comércio/CategoriasComerci
 import { MeusDados } from "./components/Page Danielly/Meus Dados/MeusDados";
 import { CadastroEmpresa } from "./components/Page Hasan/cadastro-empresa/cadastroempresa";
 import { PerfilProf } from "./components/Page Hasan/perfil-prof/perfilprof";
+import { ComoFunciona } from "./components/Pages Eduarda/como-funciona/ComoFunciona";
+import { ParaProfissionais } from "./components/Pages Eduarda/para-profissionais/para-profissionais"
 
 function App() {
   return (
@@ -64,6 +66,8 @@ function App() {
           <Route path="/categorias/moda" element={<Moda />} />
           <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
           <Route path="/perfilprof" element={<PerfilProf />} />
+          <Route path="/paraprofissionais" element={<ParaProfissionais />} />
+          <Route path="/comofunciona" element={<ComoFunciona />} />
           {/* Paginas depois de ter feito o login */}
           <Route path="/logincliente" element={<LoginCliente />} />
           <Route path="/logincliente/reformas" element={<PaginaClienteReformas />} />

@@ -33,7 +33,7 @@
     justify-content: left;
   }
   
-.caixaazul{
+.caixaaz{
     width: 490px;
     height: 165px;
     background-color: #012169;
@@ -42,7 +42,7 @@
     padding: 0.5rem;
 }
 
-.caixaazul p{
+.caixaaz p{
   color: #FFFFFF;
 }
 
