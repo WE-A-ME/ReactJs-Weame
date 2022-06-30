@@ -31,19 +31,19 @@ export function Footer() {
 
                         <a href="/reformas">Reformas
                             e Reparos</a>
-                        <a href="#Saude & Beleza">Saúde &
+                        <a href="/beleza">Saúde &
                             Beleza</a>
-                        <a href="#Auto">Auto</a>
+                        <a href="/Auto">Auto</a>
                         <a href="/moda">Moda</a>
-                        <a href="#Limpeza" class="">Limpeza</a>
+                        <a href="/Limpeza" class="">Limpeza</a>
 
                     </div>
 
                     <div class="footer--topicos col-2">
                         <h5>Para Profissionais</h5>
 
-                        <a id="footer--topicos--01" href="#">Como se Cadastrar!</a>
-                        <a id="footer--topicos--01" href="#">Iniciar Cadastro</a>
+                        <a id="footer--topicos--01" href="/paraprofissionais">Como se Cadastrar!</a>
+                        <a id="footer--topicos--01" href="/cadastroempresa">Iniciar Cadastro</a>
 
                     </div>
 

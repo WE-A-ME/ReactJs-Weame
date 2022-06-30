@@ -15,7 +15,7 @@
 .localizacao {
     background-color: #012169;
     width: 363px;
-    height: 540px;
+    height: 590px;
     border-radius: 8px; 
     margin-left: 200px;
     display: grid;
@@ -25,9 +25,9 @@
     padding: 12px 16px 14px;
 }
 .titulolocalizacao{
-    margin-top: 20px;
     color: #fff;
     text-align: center;
+    margin-top: 10px;
 }
 
 .titulolocalizacao h2{
@@ -51,5 +51,6 @@
     border-radius: 8px;
     margin-left: 91px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
+

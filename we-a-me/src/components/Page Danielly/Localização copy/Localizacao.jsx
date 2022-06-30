@@ -1,5 +1,6 @@
 import React from "react";
 import "./Localizacao.css";
+import Imagem from "./img/imagem.png"
 import img_logo from "./img/logo.png";
 
 import { Link } from "react-router-dom";
@@ -12,7 +13,7 @@ export function LocalizacaoCliente(){
                   <Link to="/"><img className="logo" src={img_logo} alt=""/></Link>
                 </div>
                 <div className="conteudolocalizacao">
-                    <img src alt="" className="imagemlocalizacao"/>
+                    <img src={Imagem} alt="" className="imagemlocalizacao"/>
                     <div className="localizacao">
                        <div className="titulolocalizacao"><h2>Dados de Localização</h2></div>
                             <input type="text" placeholder="CEP" className="caixadetextolocalizacao"/>

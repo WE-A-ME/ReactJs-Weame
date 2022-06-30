@@ -1,5 +1,5 @@
 import React from "react";
-import cadastroempresa from "./cadastroempresa.css";
+import "./cadastroempresa.css";
 import img_logo from "./img/logo.png";
 import group from "./img/Group 47450.png";
 import { Link } from "react-router-dom";
@@ -20,7 +20,7 @@ export function CadastroEmpresa(){
                             <input type="email" placeholder=" Digite seu Email" className="caixadetexto"/>
                             <input type="tel" placeholder=" Digite seu Telefone" className="caixadetexto"/>
                             <input type="password" placeholder=" Digite sua Senha" className="caixadetexto"/>
-                        <button className="btn-cadastro">Cadastrar-se</button>
+                            <Link to='/localizacao'><button className="btn-cadastro">Cadastrar-se</button></Link>
                     </div>
                 </div>
             </main>
