@@ -1,0 +1,55 @@
+
+.conteudolocalizacao {
+    display: flex;
+}
+.logo {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 110px;
+    margin-left: 30px;
+}
+.imagemlocalizacao{
+    margin-left: 90px;
+    width: 45vw;
+}
+.localizacao {
+    background-color: #012169;
+    width: 363px;
+    height: 540px;
+    border-radius: 8px; 
+    margin-left: 200px;
+    display: grid;
+}
+
+.localizacao input[type=text]{
+    padding: 12px 16px 14px;
+}
+.titulolocalizacao{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.titulolocalizacao h2{
+    font-size: 25px;
+}
+
+.caixadetextolocalizacao{
+    width: 303px;
+    height: 53px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.botaolocalizacao {
+    font-size: 17px;
+    font-weight: 700;
+    color: #012169;
+    background: #fdfafa;
+    width: 161px;
+    height: 53px;
+    border-radius: 8px;
+    margin-left: 91px;
+    text-align: center;
+    margin-top: 20px;
+}
