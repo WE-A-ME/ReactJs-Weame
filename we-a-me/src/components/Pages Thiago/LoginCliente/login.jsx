@@ -10,24 +10,24 @@ import { Link } from "react-router-dom";
 export function LoginCliente() {
   return (
     <div>
-    <div className="container-">
-     <a href="/"><img className="header--logo" src={logo} alt="" /></a>
-      <div className="conteudo">
-        <div className="main--img">
-         <img src={img_login} alt="" />
-        </div>
+      <div className="container-">
+        <a href="/"><img className="header--logo" src={logo} alt="" /></a>
+        <div className="conteudo">
+          <div className="main--img">
+            <img src={img_login} alt="" />
+          </div>
 
-        <div className="main--login">
-          <div className="main--inputs">
-            <input className="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
-            <input className="button-senha" type="password" placeholder="Senha" />
-          <a href="/paginacliente"><button className="btn-entrar">Entrar</button></a>
-            <a href="#">ou cadastre-se aqui !</a>
-            <button className="btn--login--google"><img src={logo_google} alt="" />Entrar com o Google</button>
-            <button className="btn--login--linkedin"><img src={logo_linkedin} alt="" /> Entrar com o Linkedin</button>
+          <div className="main--login">
+            <div className="main--inputs">
+              <input className="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
+              <input className="button-senha" type="password" placeholder="Senha" />
+              <a href="/paginacliente"><button className="btn-entrar">Entrar</button></a>
+              <a href="#">ou cadastre-se aqui !</a>
+              <button className="btn--login--google"><img src={logo_google} alt="" />Entrar com o Google</button>
+              <button className="btn--login--linkedin"><img src={logo_linkedin} alt="" /> Entrar com o Linkedin</button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   );

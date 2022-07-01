@@ -1,5 +1,5 @@
-
 .conteudo {
+    margin-top: 0;
     display: flex;
 }
 
@@ -8,11 +8,17 @@
     margin-left: 35px;
 }
 
+.main--img img {
+    width: 110%;
+}
+
 .main--login {
     width: 363px;
-    height: 495px;
-    border-radius: 8px;
+    height: 30em;
+    border-radius: 30px;
     background: #012169;
+    margin-left: 15em;
+    margin-top: 2em;
 }
 
 .main--inputs {
@@ -35,7 +41,6 @@
     font-size: 20px;
     font-weight: 700;
     color: #012169;
-    margin-top: 20px;
     background: #EAE6E6;
     width: 120px;
     height: 53px;
@@ -49,7 +54,6 @@
     color: #fff;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 50px;
 }
 
 .btn--login--google,
