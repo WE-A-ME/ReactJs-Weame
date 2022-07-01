@@ -22,7 +22,7 @@ export function LoginCliente() {
               <input className="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
               <input className="button-senha" type="password" placeholder="Senha" />
               <a href="/paginacliente"><button className="btn-entrar">Entrar</button></a>
-              <a href="#">ou cadastre-se aqui !</a>
+              <a href="/cadastrocliente">ou cadastre-se aqui !</a>
               <button className="btn--login--google"><img src={logo_google} alt="" />Entrar com o Google</button>
               <button className="btn--login--linkedin"><img src={logo_linkedin} alt="" /> Entrar com o Linkedin</button>
             </div>

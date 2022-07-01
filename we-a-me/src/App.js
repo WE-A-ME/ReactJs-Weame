@@ -74,8 +74,8 @@ function App() {
           <Route path="/perfilprof" element={<PerfilProf />} />
           <Route path="/paraprofissionais" element={<ParaProfissionais />} />
           <Route path="/comofunciona" element={<ComoFunciona />} />
-          <Route path="/localizacao" element={<Localizacao />} />
-
+          <Route path="/cadastroempresa-localizacao" element={<Localizacao />} />
+          <Route path="/cadastrocliente-localizacao" element={<LocalizacaoCliente />} />
 
           {/* Paginas depois de ter feito o login */}
         

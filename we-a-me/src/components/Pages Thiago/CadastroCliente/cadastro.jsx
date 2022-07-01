@@ -25,8 +25,8 @@ export function CadastroCliente() {
             <input class="button-nome" type="text" placeholder="Nome Completo" />
             <input class="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
             <input class="button-senha" type="password" placeholder="Senha" />
-            <Link to="/cadastrocliente/localizacao"><button class="btn-entrar">Cadastrar</button> </Link>
-            <a href="../12-LoginCliente/Login_index.html">Já tenho uma conta !</a>
+            <Link to="/cadastrocliente-localizacao"><button class="btn-entrar">Cadastrar</button> </Link>
+            <a href="/logincliente">Já tenho uma conta !</a>
             <button class="btn--login--google"><img src={logo_google} alt="" /> Cadastrar com o Google</button>
             <button class="btn--login--linkedin"><img src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>
           </div>

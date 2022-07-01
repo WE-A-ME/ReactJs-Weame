@@ -23,7 +23,7 @@ export function LocalizacaoCliente(){
                             <input type="text" placeholder="Logradouro" className="caixadetextolocalizacao"/>
                             <input type="text" placeholder="Número" className="caixadetextolocalizacao"/>
                             <input type="text" placeholder="Complemento" className="caixadetextolocalizacao"/>
-                            <button className="btn botaolocalizacao">Entrar</button>
+                            <Link to="/paginacliente"><button className="btn botaolocalizacao">Entrar</button></Link>
                     </div>
                     
                 </div>
