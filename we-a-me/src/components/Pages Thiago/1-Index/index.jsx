@@ -49,29 +49,6 @@ export function Index() {
                         <div className="main--img--03"><img src={Box3} alt="" /></div>
                     </div>
 
-                    <div className="main--box--04">
-
-                        <div className="card text-center col-3">
-                            <div className="card-body valores">
-                                <h5 className="card-title">Nossa Missão</h5>
-                                <p className="card-text">Visibilidade aos autônomos e acessibilidade  a Microeempreendedores.</p>
-                            </div>
-                        </div>
-                        <div className="card text-center col-3">
-                            <div className="card-body valores">
-                                <h5 className="card-title">Nossa Visão</h5>
-                                <p className="card-text">Conectar os autónomos e as microempresas ao mercado local e a comunidade. </p>
-                            </div>
-                        </div>
-                        <div className="card text-center col-3">
-                            <div className="card-body valores">
-                                <h5 className="card-title">Nossos Valores</h5>
-                                <p className="card-text">Confiança. <br /> Transparência. <br /> Segurança. </p>
-                            </div>
-                        </div>
-
-                    </div>
-
                 </div>
 
             </main>
