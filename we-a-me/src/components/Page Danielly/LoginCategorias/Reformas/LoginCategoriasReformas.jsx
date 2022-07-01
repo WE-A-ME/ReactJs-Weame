@@ -6,6 +6,7 @@ import Profissional3 from './img/imagemprofissional3.jpg';
 import { NavBarIndex } from '../../../Pages Componentes/NavBar Index/NavBarIndex';
 import { NavbarCategorias } from '../../../Pages Componentes/Navbar Categorias/NavbarCategorias';
 import { Footer } from '../../../Pages Componentes/Footer/footer';
+import { Outlet } from 'react-router-dom';
 
 
 export function Reformas() {
@@ -115,7 +116,7 @@ export function Reformas() {
       </main>
 
       <Footer />
-
+      
     </div>
 
   );

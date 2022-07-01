@@ -21,7 +21,7 @@ import './Categorias.css'
 import { NavbarCategorias } from '../../Pages Componentes/Navbar Categorias/NavbarCategorias'
 import { NavBarIndex } from '../../Pages Componentes/NavBar Index/NavBarIndex'
 import { Footer } from '../../Pages Componentes/Footer/footer'
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 
 export function Categorias() {
@@ -31,6 +31,7 @@ export function Categorias() {
 
             <NavBarIndex />
             <NavbarCategorias />
+            
 
             <main className="main--categorias">
                 <div className="titulo">
@@ -100,6 +101,7 @@ export function Categorias() {
                             </div>
                         </div>
                     </div>
+                    <Outlet/>
                 </div>
                 <div className="titulo">
                     <h2>Profissionais qualificados</h2>
@@ -198,8 +200,11 @@ export function Categorias() {
                  </div>
             </main>
 
-            <Footer />
+            <Outlet/>
 
+            <Footer />
+           
+            
         </div>
 
     );
