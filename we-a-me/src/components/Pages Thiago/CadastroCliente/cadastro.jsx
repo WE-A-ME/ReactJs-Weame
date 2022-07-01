@@ -9,12 +9,18 @@ import { Link } from "react-router-dom";
 export function CadastroCliente() {
   return (
     <div className="container-">
-     <Link to='/'><img className="header--logo" src={Logo} alt="" /></Link>
+      <Link to='/'><img className="header--logo" src={Logo} alt="" /></Link>
       <div class="conteudo">
         <div class="main--img">
-         <img src={img_cadastro} alt="" /> 
+          <img src={img_cadastro} alt="" />
         </div>
+
         <div class="main--cadastro">
+
+          <div className="main--title col-12">
+            <h2 id="h1">Cadastra-se. <br /> É rápido e fácil </h2>
+          </div>
+
           <div class="main--inputs">
             <input class="button-nome" type="text" placeholder="Nome Completo" />
             <input class="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
