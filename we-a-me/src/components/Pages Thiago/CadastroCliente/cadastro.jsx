@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export function CadastroCliente() {
   return (
-    <div className="container-">
+    <div className="cadastropagina container-">
       <Link to='/'><img className="header--logo" src={Logo} alt="" /></Link>
       <div class="conteudo">
         <div class="main--img">
