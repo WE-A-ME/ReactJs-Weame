@@ -4,7 +4,7 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Inter', sans-serif;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 :root {
@@ -34,12 +34,12 @@ header img {
 
 .main--img img {
     width: 120%;
-    margin-top: 2em;
+    margin-top: 5em;
 }
 
 .main--title {
-    display:flex;
-    padding: 20px;
+    display: flex;
+    margin-top: 15px;
     color: #fff;
     font-weight: 700;
     font-size: 20px;
@@ -48,19 +48,16 @@ header img {
 
 .main--cadastro {
     width: 363px;
-    border-radius: 1em;
+    height: 34.7em;
+    border-radius: 30px;
     background: var(--AzulEscuro);
-    margin-top: -4em;
     margin-left: 15em;
-    margin-bottom: 1.5em;
 }
 
 .main--inputs {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 17px;
-    padding: 12px 16px 14px;
 
 }
 
@@ -75,7 +72,6 @@ header img {
 .button-email,
 .button-senha,
 .button-nome {
-    margin-top: 20px;
     background: #EAE6E6;
     border-radius: 8px;
     width: 303px;
@@ -98,7 +94,6 @@ header img {
     height: 60px;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 40px;
 }
 
 .btn-entrar:hover {
@@ -111,7 +106,7 @@ header img {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main--inputs a:hover {
@@ -122,7 +117,7 @@ header img {
 .btn--login--linkedin {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     justify-content: space-evenly;
     width: 303px;
     height: 53px;
