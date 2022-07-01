@@ -15,22 +15,16 @@ footer {
   margin-left: 3em;
 }
 
-.footer--topicos h5{
-  margin-left: -10px;
+.footer--topicos h5 {
+  display: flex;
 }
 
 .footer--topicos a {
   display: flex;
-  justify-content: left;
-  margin-left: 2em;
-  margin-top: 0.5em;
+  margin-top: 0.2em;
   font-size: 0.6em;
   text-decoration: none;
   color: #0070BA;
-}
-
-#footer--topicos--01{
-  margin-left: 10px;
 }
 
 .footer--topicos a:hover {
@@ -44,8 +38,9 @@ footer {
 }
 
 .footer--topicos--copy {
+  display: flex;
+  justify-content: center;
   font-size: 17px;
-  margin-top: 1.5em;
+  margin-top: 1em;
   color: #0070BA;
-  text-align: center;
 }
