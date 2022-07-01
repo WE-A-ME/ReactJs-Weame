@@ -47,7 +47,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/paginacliente" element={<PaginaCliente />} />
           <Route path="/suporte" element={<Suporte />} />
           <Route path="/sobrenos" element={<SobreNos />} />
           <Route path="/contratos" element={<Contratos />} />
@@ -57,40 +56,41 @@ function App() {
           <Route path="/cadastrocliente" element={<CadastroCliente />} />
           
 
-          <Route path="/categorias/*" element={<Categorias />} />
-            <Route path="reformas" element={<Reformas />} />
-            <Route path="beleza" element={<Beleza />} />
-            <Route path="auto" element={<Auto />} />
-            <Route path="assistencia" element={<Assistencia />} />
-            <Route path="alimentos" element={<Alimentos />} />
-            <Route path="programacao" element={<Programacao />} />
-            <Route path="limpeza" element={<Limpeza />} />
-            <Route path="design" element={<Design />} />
-            <Route path="comercio" element={<Comercio />} />
-            <Route path="moda" element={<Moda />} />
-          <Route/>
+            <Route path="/categorias" element={<Categorias />} />
+            <Route path="/categorias-reformas" element={<Reformas />} />
+            <Route path="/categorias-beleza" element={<Beleza />} />
+            <Route path="/categorias-auto" element={<Auto />} />
+            <Route path="/categorias-assistencia" element={<Assistencia />} />
+            <Route path="/categorias-alimentos" element={<Alimentos />} />
+            <Route path="/categorias-programacao" element={<Programacao />} />
+            <Route path="/categorias-limpeza" element={<Limpeza />} />
+            <Route path="/categorias-design" element={<Design />} />
+            <Route path="/categorias-comercio" element={<Comercio />} />
+            <Route path="/categorias-moda" element={<Moda />} />
+            <Route path="/logincliente" element={<LoginCliente />} />
+          
           
           <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
           <Route path="/perfilprof" element={<PerfilProf />} />
           <Route path="/paraprofissionais" element={<ParaProfissionais />} />
           <Route path="/comofunciona" element={<ComoFunciona />} />
-          <Route path="/cadastroempresa/localizacao" element={<Localizacao />} />
-          <Route path="/cadastrocliente/localizacao" element={<LocalizacaoCliente />} />
+          <Route path="/localizacao" element={<Localizacao />} />
 
 
           {/* Paginas depois de ter feito o login */}
-          <Route path="/logincliente" element={<LoginCliente />} />
-          <Route path="/logincliente/reformas" element={<PaginaClienteReformas />} />
-          <Route path="/logincliente/beleza" element={<PaginaClienteBeleza />} />
-          <Route path="/logincliente/auto" element={<PaginaClienteAuto />} />
-          <Route path="/logincliente/assistencia" element={<PaginaClienteAssistencia />} />
-          <Route path="/logincliente/alimentos" element={<PaginaClienteAlimentos />} />
-          <Route path="/logincliente/programacao" element={<PaginaClienteProgramacao />} />
-          <Route path="/logincliente/limpeza" element={<PaginaClienteLimpeza />} />
-          <Route path="/logincliente/design" element={<PaginaClienteDesign />} />
-          <Route path="/logincliente/comercio" element={<PaginaClienteComercio />} />
-          <Route path="/logincliente/moda" element={<PaginaClienteModa />} />
-          <Route path="/logincliente/meusdados" element={<MeusDados />} />
+        
+          <Route path="/paginacliente" element={<PaginaCliente />} />
+          <Route path="/paginacliente-reformas" element={<PaginaClienteReformas />} />
+          <Route path="/paginacliente-beleza" element={<PaginaClienteBeleza />} />
+          <Route path="/paginacliente-auto" element={<PaginaClienteAuto />} />
+          <Route path="/paginacliente-assistencia" element={<PaginaClienteAssistencia />} />
+          <Route path="/paginacliente-alimentos" element={<PaginaClienteAlimentos />} />
+          <Route path="/paginacliente-programacao" element={<PaginaClienteProgramacao />} />
+          <Route path="/paginacliente-limpeza" element={<PaginaClienteLimpeza />} />
+          <Route path="/paginacliente-design" element={<PaginaClienteDesign />} />
+          <Route path="/paginacliente-comercio" element={<PaginaClienteComercio />} />
+          <Route path="/paginacliente-moda" element={<PaginaClienteModa />} />
+          <Route path="/paginacliente-meusdados" element={<MeusDados />} />
         </Routes>
       </Router>
 

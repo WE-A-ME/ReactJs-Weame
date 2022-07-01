@@ -42,61 +42,61 @@ export function Categorias() {
                     <div className="row row-cols-1 row-cols-md-3 g-4 align-items-center">
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <Link to='/categorias/reformas'><img src={Reformas} className="card-img-top" id="imagem" /></Link>
+                                <Link to='/categorias-reformas'><img src={Reformas} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Reformas e Reparo</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                              <Link to='/categorias/beleza'><img src={Saude} className="card-img-top" id="imagem" /></Link>
+                              <Link to='/categorias-beleza'><img src={Saude} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Saúde & Beleza</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                            <Link to='/categorias/auto'><img src={Auto} className="card-img-top" id="imagem" /></Link>
+                            <Link to='/categorias-auto'><img src={Auto} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Auto</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                            <Link to='/categorias/assistencia'><img src={Assistência} className="card-img-top" id="imagem" /></Link>
+                            <Link to='/categorias-assistencia'><img src={Assistência} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Assistência Técnica</h5>
                             </div>
                         </div>
                         <div className="col-md-3 align-items-center">
                             <div className="card" id="cartao">
-                               <Link to='/categorias/Alimentos'><img src={Alimentos} className="card-img-top" id="imagem" /></Link>
+                               <Link to='/categorias-alimentos'><img src={Alimentos} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Alimentos</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <Link to="/categorias/Programacao"><img src={Programação} className="card-img-top" id="imagem" /></Link>
+                                <Link to="/categorias-programacao"><img src={Programação} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Programação</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <Link to="/categorias/Limpeza"><img src={Limpeza} class="card-img-top" id="imagem" /></Link>
+                                <Link to="/categorias-limpeza"><img src={Limpeza} class="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Limpeza</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <Link to="/categorias/Design"><img src={Artes} class="card-img-top" id="imagem" /></Link>
+                                <Link to="/categorias-design"><img src={Artes} class="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Artes & Design</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <Link to="/categorias/Comercio"><img src={Comercio} className="card-img-top" id="imagem" /></Link>
+                                <Link to="/categorias-comercio"><img src={Comercio} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Comércio</h5>
                             </div>
                         </div>
                         <div className="col-md-2 align-items-center">
                             <div className="card" id="cartao">
-                                <Link to="/categorias/moda"><img src={Moda} className="card-img-top" id="imagem" /></Link>
+                                <Link to="/categorias-moda"><img src={Moda} className="card-img-top" id="imagem" /></Link>
                                 <h5 className="card-text" id="nome">Moda</h5>
                             </div>
                         </div>
