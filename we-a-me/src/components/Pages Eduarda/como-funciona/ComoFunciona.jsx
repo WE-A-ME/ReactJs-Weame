@@ -10,13 +10,13 @@ export function ComoFunciona() {
   <div> 
     <NavBarIndex/>
      <div className="conteudo">
-        <div className="buttons">
+        <div className="buttonscomofunciona">
            <Link to="/OqVcP"><button><a href="">O que você precisa saber ?</a></button></Link>
            <Link to="/comoavaliar"><button><a href="">Como avaliar ?</a></button></Link>
            <Link to="/comoserparceiro"><button><a href="">Como ser nosso parceiro ?</a></button></Link>
            <Link to="/contratos"><button><a href="">Contratos</a></button></Link>
         </div>
-        <div className="imagem">
+        <div className="imagemcomofunciona">
             <img src={img_comofunciona} alt=""/>
         </div>
     </div>

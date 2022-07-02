@@ -8,7 +8,7 @@
     display: flex;
 }
 
-.buttons button {
+.buttonscomofunciona button {
     background: #0070ba;
     width: 250px;
     height: 45px;
@@ -16,19 +16,23 @@
     border: 0;
 }
 
-.buttons button a {
+.buttonscomofunciona button a {
     color: #fff;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 14px;
 }
 
-.buttons {
+.buttonscomofunciona {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 13em;
+    padding: 7em;
+    margin-left: 5rem;
+    
 }
-.imagem img{
-    margin-left: 5em;
-    margin-top: 10em;
+.imagemcomofunciona img{
+    margin-left: 9em;
+    margin-top: 3em;
+    width: 80vh;
 }
