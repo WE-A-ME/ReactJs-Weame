@@ -36,7 +36,7 @@ export function Reformas() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>  17 Serviços</li>
-                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 98765-0987</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -44,7 +44,7 @@ export function Reformas() {
                     </div>
                   </div>
                   <button id="botao">
-                    <a href="#">Visitar Perfil</a>
+                    <a href="/categorias-reformas-perfilprof">Visitar Perfil</a>
                   </button>
                 </div>
               </div>

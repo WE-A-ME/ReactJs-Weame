@@ -1,6 +1,6 @@
 import React from "react";
 import perfilprof from "./perfilprof.css";
-import img_pintor from "./img/pintor.png";
+import img_pintor from "./img/imagemprofissional.jpg";
 import img_pontoazul from "./img/Vector.svg";
 import img_martelo from "./img/Vector2.svg";
 import img_livro from "./img/book-reader.svg";
@@ -20,22 +20,18 @@ export function PerfilProf (){
         <div className="perfilprof">
             <NavBarIndex/>
             <div className="hight">
-        <div className="box1 ">
+        <div className="box1profissional ">
             <img src={img_pintor} className="imgprofissional" alt="..."/>
-            <h2>Jaison Costa Dos Santos</h2>
+            <h2>Jorge dos Santos</h2>
             <h3>Pintor e Consertos Residenciais</h3>
             <div className="info">
-                <div className="icons">
-                    <img src={img_pontoazul} alt="ponto azul de localização"/>
-                    <p>17 Serviços</p>
-                </div>
-                <div className="icons">
-                    <img src={img_martelo} alt="martelo de cor azul, representando o trabalho realizado."/>
-                    <p>São Paulo</p>
-                </div>
+            <ul class="nav col-12" id="informacoes4">
+                <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
+                <li> <i class="fa-solid fa-hammer"></i>  17 Serviços</li>
+            </ul>
             </div>
         </div>
-        <div className="estrelas">
+        <div className="estrelasprofissional">
             <p>Avaliação do Profissional</p>
             <ul className="avaliacao">
                 <li className="star-icon ativo" data-avaliacao="1"></li>
@@ -54,14 +50,14 @@ export function PerfilProf (){
     <main>
         <section>
             <div className="boxinfos">
-                <h2>Jaison Costa Dos Santos</h2>
+                <h2>Jorge dos Santos</h2>
                 <div className="idade-grade">
                     <h3>27 Anos</h3>
                     <img src={img_livro} alt=""/>
                     <h3>Formado em Arte e Pintura - 2018</h3>
                 </div>
                 <p>
-                    Olá eu me chamo Jailson, tenho 27 anos, fiz curso de Artes e Pintura na USP. Fui o melhor aluno da
+                    Olá eu me chamo Jorge, tenho 27 anos, fiz curso de Artes e Pintura na USP. Fui o melhor aluno da
                     minha turma
                     levando até prêmios por o meu desempenho e meus projetos durante as aulas. Durante essa época
                     comecei
@@ -90,37 +86,37 @@ export function PerfilProf (){
             <div className="card blue trabalho">
                 <h2>Montar a churrasqueira.</h2>
                 <p>Serviços Realizado em 21/03/2020</p>
-                <img className="image" src={img_fundo02} alt="" />
+                <img className="imagetrabalho" src={img_fundo02} alt="" />
             </div>
 
             <div className="card blue trabalho">
                 <h2>Consertar o portão.</h2>
                 <p>Serviços Realizado em 12/03/2020</p>
-                <img className="image" src={img_fundo03} alt="" />
+                <img className="imagetrabalho" src={img_fundo03} alt="" />
             </div>
 
             <div className="card blue trabalho">
-                <h2>Pintura que fiz na escola do meu bairro.</h2>
+                <h2>Pintura feita na escola</h2>
                 <p>Serviços Realizado em 12/06/2020</p>
-                <img className="image" src={img_fundo04} alt="" />
+                <img className="imagetrabalho" src={img_fundo04} alt="" />
             </div>
 
             <div className="card blue trabalho">
                 <h2>Conserto com ármario.</h2>
                 <p>Serviços Realizado em 09/08/2020</p>
-                <img className="image" src={img_fundo05} alt="" />
+                <img className="imagetrabalho" src={img_fundo05} alt="" />
             </div>
 
             <div className="card blue trabalho">
                 <h2>Conserto com o chuveiro.</h2>
                 <p>Serviços Realizado em 07/09/2020</p>
-                <img className="image" src={img_fundo06} alt="" />
+                <img className="imagetrabalho" src={img_fundo06} alt="" />
             </div>
 
             <div className="card blue trabalho">
-                <h2>Conserto com a porta do banheiro e o chuveiro.</h2>
+                <h2>Conserto com o banheiro</h2>
                 <p>Serviços Realizado em 12/03/2020</p>
-                <img className="image" src={img_fundo07} alt="" />
+                <img className="imagetrabalho" src={img_fundo07} alt="" />
             </div>
         </div>
     </main>

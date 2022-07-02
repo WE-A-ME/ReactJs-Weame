@@ -71,7 +71,7 @@ function App() {
           
           
           <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
-          <Route path="/perfilprof" element={<PerfilProf />} />
+          <Route path="/categorias-reformas-perfilprof" element={<PerfilProf />} />
           <Route path="/paraprofissionais" element={<ParaProfissionais />} />
           <Route path="/comofunciona" element={<ComoFunciona />} />
           <Route path="/cadastroempresa-localizacao" element={<Localizacao />} />
