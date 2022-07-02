@@ -14,13 +14,13 @@ export function CadastroEmpresa(){
                 <div className="conteudo">
                     <img src={group} alt="" className="imagem"/>
                     <div className="caixaazul">
-                        <h1>Seja um Parceiro.</h1>
+                        <div className="titulocadastro"><h1>Seja um Parceiro</h1></div>
                             <input type="text" placeholder=" Nome Completo" className="caixadetexto"/>
                             <input type="text" placeholder=" CPF ou CNPJ" className="caixadetexto"/>
                             <input type="email" placeholder=" Digite seu Email" className="caixadetexto"/>
                             <input type="tel" placeholder=" Digite seu Telefone" className="caixadetexto"/>
                             <input type="password" placeholder=" Digite sua Senha" className="caixadetexto"/>
-                            <Link to='/localizacao'><button className="btn-cadastro">Cadastrar-se</button></Link>
+                            <button className="btn-cadastro"><Link to='/localizacao'>Cadastrar-se</Link></button>
                     </div>
                 </div>
             </main>
