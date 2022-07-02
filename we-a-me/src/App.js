@@ -39,6 +39,7 @@ import { ComoFunciona } from "./components/Pages Eduarda/como-funciona/ComoFunci
 import { ParaProfissionais } from "./components/Pages Eduarda/para-profissionais/para-profissionais"
 import { Localizacao } from "./components/Page Danielly/Localização/Localizacao";
 import { LocalizacaoCliente } from "./components/Page Danielly/Localização copy/Localizacao";
+import { PerfilProfissional } from "./components/Page Hasan/perfil-prof copy/perfilprof";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
             <Route path="/categorias-comercio" element={<Comercio />} />
             <Route path="/categorias-moda" element={<Moda />} />
             <Route path="/logincliente" element={<LoginCliente />} />
+            
           
           
           <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
@@ -90,6 +92,7 @@ function App() {
           <Route path="/paginacliente-design" element={<PaginaClienteDesign />} />
           <Route path="/paginacliente-comercio" element={<PaginaClienteComercio />} />
           <Route path="/paginacliente-moda" element={<PaginaClienteModa />} />
+          <Route path="/paginacliente-reformas-perfil" element={<PerfilProfissional />} />
           <Route path="/paginacliente-meusdados" element={<MeusDados />} />
         </Routes>
       </Router>

@@ -9,7 +9,7 @@ export function NavbarCategoriasLogin() {
                 <Link to='/paginacliente-reformas' className="nav-link px-2" id="navbarletra">Reformas e Reparo</Link>
                 <Link to='/paginacliente-beleza' className="nav-link px-2" id="navbarletra">Beleza</Link>
                 <Link to='/paginacliente-auto' className="nav-link px-2" id="navbarletra">Auto</Link>
-                <Link to='/paginacliente-/assistencia' className="nav-link px-2" id="navbarletra">Assistência Técnica</Link>
+                <Link to='/paginacliente-assistencia' className="nav-link px-2" id="navbarletra">Assistência Técnica</Link>
                 <Link to='/paginacliente-alimentos' className="nav-link px-2" id="navbarletra">Alimentos</Link>
                 <Link to='/paginacliente-programacao' className="nav-link px-2" id="navbarletra">Programação</Link>
                 <Link to='/paginacliente-limpeza' className="nav-link px-2" id="navbarletra">Limpeza</Link>
