@@ -35,7 +35,7 @@ export function CadastroCliente() {
               <input className="button-tel" type="text" placeholder="Telefone" />
               <input className="button-senha" type="password" placeholder="Senha" />
             </form>
-            <Link to="/cadastrocliente-localizacao"><button className="btn-entrar">Cadastrar</button> </Link>
+            <button className="btn-entrar">Cadastrar</button>
             <a href="/logincliente">Já tenho uma conta !</a>
             <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
             <button className="btn--login--linkedin"><img className="img-btns" src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>
@@ -62,8 +62,8 @@ const Iemail = document.querySelector(".button-email");
 const Itel = document.querySelector(".button-tel");
 const Isenha = document.querySelector(".button-senha");
 
-formulario.addEventListener('submit', function (event) {
-  event.preventDefault();
+// formulario.addEventListener('submit', function (event) {
+//   event.preventDefault();
 
-  console.log(Inome.value);
-});
+//   console.log(Inome.value);
+// });
