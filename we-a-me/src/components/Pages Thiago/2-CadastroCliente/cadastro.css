@@ -52,7 +52,7 @@ img {
     margin-top: -70px;
 }
 
-.main--inputs {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -28,10 +28,12 @@ export function CadastroCliente() {
           </div>
 
           <div className="main--inputs">
-            <input className="button-nome" type="text" placeholder="Nome Completo" />
-            <input className="button-cpf" type="number" placeholder="CPF"  pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"/>
-            <input className="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
-            <input className="button-senha" type="password" placeholder="Senha" />
+            <form action="">
+              <input className="button-nome" type="text" placeholder="Nome Completo" />
+              <input className="button-cpf" type="number" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" />
+              <input className="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
+              <input className="button-senha" type="password" placeholder="Senha" />
+            </form>
             <Link to="/cadastrocliente-localizacao"><button className="btn-entrar">Cadastrar</button> </Link>
             <a href="/logincliente">Já tenho uma conta !</a>
             <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
