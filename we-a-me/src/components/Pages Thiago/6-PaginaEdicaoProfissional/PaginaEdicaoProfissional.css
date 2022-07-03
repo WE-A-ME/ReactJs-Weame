@@ -1,0 +1,9 @@
+.img--profissional {
+    display: flex;
+    justify-content: center;
+}
+
+.info--profissional{
+    text-align: center;
+}
+
