@@ -31,7 +31,7 @@ export function CadastroCliente() {
             <form action="">
               <input className="button-nome" type="text" placeholder="Nome Completo" />
               <input className="button-cpf" type="number" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" />
-              <input className="button-email" type="text" placeholder="E-mail ou CPF/CNPJ" />
+              <input className="button-email" type="text" placeholder="E-mail" />
               <input className="button-tel" type="text" placeholder="Telefone" />
               <input className="button-senha" type="password" placeholder="Senha" />
             </form>
@@ -46,9 +46,24 @@ export function CadastroCliente() {
   );
 }
 
+// *Front-End
+
+
+
+
+// !BackEnd
+
+
+
 const formulario = document.querySelector("form");
 const Inome = document.querySelector(".button-nome");
 const Icpf = document.querySelector(".button-cpf");
 const Iemail = document.querySelector(".button-email");
-const Itel = document.querySelector(".button-telefone");
+const Itel = document.querySelector(".button-tel");
 const Isenha = document.querySelector(".button-senha");
+
+formulario.addEventListener('submit', function (event) {
+  event.preventDefault();
+
+  console.log(Inome.value);
+});
