@@ -2,7 +2,7 @@ import './navbar.css';
 import Logo from './logo.png'
 import { Link } from "react-router-dom";
 
-function NavBar() {
+export function NavBar() {
   return (
     <div className="container-fluid" id="nav">
       <header className="d-flex flex-wrap align-items-center justify-content-center minha-class py-3 mb-4">
@@ -37,4 +37,3 @@ function NavBar() {
   );
 }
 
-export default NavBar;
