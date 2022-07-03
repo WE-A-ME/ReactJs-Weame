@@ -1,14 +1,14 @@
 import React from "react";
 import { Footer } from "../../Pages Componentes/Footer/footer";
+import { NavBarIndex } from "../../Pages Componentes/NavBar Index/NavBarIndex";
 import "./PaginaEdicaoProfissional.css";
 import img_edicao from "../img/img_edição_profissional.svg";
-import { NavBar } from "../../Pages Componentes/NavBar Input/navbar";
 
 
 export function EdicaoProfissional() {
     return (
         <div>
-            <NavBar/>
+            <NavBarIndex />
 
             <main>
                 <div className="container-">
