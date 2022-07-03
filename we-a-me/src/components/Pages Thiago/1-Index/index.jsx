@@ -36,7 +36,7 @@ export function Index() {
                                 <li>Contrate e ofereça serviços em um só lugar</li>
                                 <li>Oferece segurança na contratação de serviços</li>
                             </ul>
-                            <button className='buttonindex'><Link to='/categorias'>Quero Fazer Parte <i class="fa-solid fa-arrow-right-long"></i></Link> </button>
+                            <button className='buttonindex'><Link to='/categorias'>Quero Fazer Parte <i class="fa-solid fa-arrow-right-long"></i></Link></button>
                         </div>
                     </div>
 

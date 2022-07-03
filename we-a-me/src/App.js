@@ -95,7 +95,7 @@ function App() {
           <Route path="/paginacliente-moda" element={<PaginaClienteModa />} />
           <Route path="/paginacliente-reformas-perfil" element={<PerfilProfissional />} />
           <Route path="/paginacliente-perfil-usuario" element={<PerfilUsuario/>}/>
-          <Route path="/edição-pagina-profissional" element={<EdicaoProfissional/>}/>
+          <Route path="/edicao-pagina-profissional" element={<EdicaoProfissional/>}/>
 
           
         </Routes>
