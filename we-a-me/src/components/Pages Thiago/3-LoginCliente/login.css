@@ -8,13 +8,13 @@
     margin-left: 35px;
 }
 
-.main--img {
-    width: 130%;
+.main--img img {
+    width: 110%;
 }
 
 .main--login {
     width: 363px;
-    height: 28em;
+    height: 30em;
     border-radius: 30px;
     background: #012169;
     margin-left: 15em;
@@ -65,7 +65,4 @@
     height: 53px;
     border-radius: 8px;
     cursor: pointer;
-}
-.img-redes{
-    width: 40px;
 }

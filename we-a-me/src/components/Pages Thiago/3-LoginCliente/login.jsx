@@ -13,8 +13,8 @@ export function LoginCliente() {
       <div className="container-">
         <a href="/"><img className="header--logo" src={logo} alt="" /></a>
         <div className="conteudo">
-          <div>
-            <img className="main--img" src={img_login} alt="" />
+          <div className="main--img">
+            <img src={img_login} alt="" />
           </div>
 
           <div className="main--login">
@@ -23,9 +23,8 @@ export function LoginCliente() {
               <input className="button-senha" type="password" placeholder="Senha" />
               <a href="/paginacliente"><button className="btn-entrar">Entrar</button></a>
               <a href="/cadastrocliente">ou cadastre-se aqui !</a>
-              <button className="btn--login--google"><img className="img-redes
-" src={logo_google} alt="" />Entrar com o Google</button>
-              <button className="btn--login--linkedin"><img className="img-redes"src={logo_linkedin} alt="" /> Entrar com o Linkedin</button>
+              <button className="btn--login--google"><img src={logo_google} alt="" />Entrar com o Google</button>
+              <button className="btn--login--linkedin"><img src={logo_linkedin} alt="" /> Entrar com o Linkedin</button>
             </div>
           </div>
         </div>
