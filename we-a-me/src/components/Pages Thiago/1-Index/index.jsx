@@ -44,7 +44,7 @@ export function Index() {
                         <div className="main--box--03--text col-5">
                             <h1>Você deseja se tornar um Profissional  ?</h1>
                             <p className="col-11">Se tornando um Profissional da We-A-Me é permitido fazer orçamentos e encontrar pedidos, receber encomendas, tudo isso dentro da plataforma,  conversas seguras e protegidas conforme as diretrizes da LGPD.</p>
-                            <button className='buttonindex'><Link to='/categorias'>Tornar um Profissional <i class="fa-solid fa-arrow-right-long"></i></Link></button>
+                            <button className='buttonindex'><Link to='/paraprofissionais'>Tornar um Profissional <i class="fa-solid fa-arrow-right-long"></i></Link></button>
                         </div>
                         <div className="main--img--03"><img src={Box3} alt="" /></div>
                     </div>

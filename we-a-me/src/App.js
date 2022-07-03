@@ -40,6 +40,7 @@ import { Localizacao } from "./components/Page Danielly/Localização/Localizaca
 import { LocalizacaoCliente } from "./components/Page Danielly/Localização copy/Localizacao";
 import { PerfilProfissional } from "./components/Page Hasan/perfil-prof copy/perfilprof";
 import { PerfilUsuario } from "./components/Pages Thiago/5-PerfilCliente/PaginaUsuario";
+import { EdicaoProfissional } from "./components/Pages Thiago/6-PaginaEdicaoProfissional/PaginaEdicaoProfissional";
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
           <Route path="/paginacliente-moda" element={<PaginaClienteModa />} />
           <Route path="/paginacliente-reformas-perfil" element={<PerfilProfissional />} />
           <Route path="/paginacliente-perfil-usuario" element={<PerfilUsuario/>}/>
+          <Route path="/edição-pagina-profissional" element={<EdicaoProfissional/>}/>
 
           
         </Routes>

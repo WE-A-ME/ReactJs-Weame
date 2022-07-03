@@ -20,7 +20,7 @@ export function CadastroEmpresa(){
                             <input type="email" placeholder=" Digite seu Email" className="caixadetexto"/>
                             <input type="tel" placeholder=" Digite seu Telefone" className="caixadetexto"/>
                             <input type="password" placeholder=" Digite sua Senha" className="caixadetexto"/>
-                            <button className="btn-cadastro"><Link to='/localizacao'>Cadastrar-se</Link></button>
+                            <button className="btn-cadastro"><Link to='/cadastroempresa-localizacao'>Cadastrar-se</Link></button>
                     </div>
                 </div>
             </main>
