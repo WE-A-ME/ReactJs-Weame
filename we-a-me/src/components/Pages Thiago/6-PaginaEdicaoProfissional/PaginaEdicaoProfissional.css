@@ -56,12 +56,65 @@ section {
     padding: 0px 30px 8em;
 }
 
-.btn-adicionar-servicos button{
-    width: 19em;
+.btn-adicionar-servicos button {
+    width: 19 em;
     height: 5em;
     background-color: #012169;
     color: #fff;
     font-weight: 600;
     border-radius: 0.4em;
     margin-top: 3em;
+}
+
+.btn-group {
+    margin-bottom: 27em;
+}
+
+.bttn{
+    width: 18em;
+    height: 5em;
+    background: #012169;
+}
+
+.bttn:hover{
+    background: #012169;
+}
+
+.dropdown-menu {
+    background: #F4F4F4;
+    
+}
+
+.box-edicao {
+    width: 17.9em;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-edicao img {
+    width: 250px;
+    margin-bottom: 2em;
+    margin-left: 2.7em;
+}
+
+.box-edicao input{
+    width: 18em;
+    height: 100px;
+    margin-left: 3em;
+    border-radius: 15px;
+}
+
+.box-edicao input[type=text]{
+    font-size: 15px;
+    padding: 10px 8px 10px;
+}
+
+.btn-data{
+    width: 16em;
+    margin-left: 1em;
+    margin-top: 2em;
+    color: #012169;
+    font-weight: 600;
+    background: none;
 }

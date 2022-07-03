@@ -35,7 +35,6 @@ export function EdicaoProfissional() {
                             <h2>Jorge dos Santos</h2>
                             <div className="idade-grade">
                                 <h3>Idade</h3>
-                                {/* <img src= alt="" /> */}
                                 <h3>Formação</h3>
                             </div>
                             <form action="">
@@ -45,12 +44,28 @@ export function EdicaoProfissional() {
                     </section>
 
                     <section>
-
                         <h2>Servicos Já Realizados</h2>
+                        
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="bttn btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-plus"></i> Adicionar Serviços Realizados
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
 
-                        <div className="btn-adicionar-servicos">
-                            <button> <i class="fa-solid fa-circle-plus"></i> Adicionar Serviços Realizados</button>
-                        </div>
+                            <section>
+                                <div className="box-edicao">
+                                    <div>
+                                        <img src={img_edicao} alt="" />
+                                    </div>
+                                    <input type="text" placeholder="Adicione um titulo para este serviço" />
+
+                                    <button className="btn-data" type="text" ><i class="fa-solid fa-calendar-check"></i> Adicionar data da realização </button>
+                                
+                                </div>
+                            </section>
+                            
+                        </ul>
+                    </div>
                     </section>
 
 
