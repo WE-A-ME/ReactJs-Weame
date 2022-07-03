@@ -1,4 +1,4 @@
-
+import React from 'react';
 import ImagemSuporte from './imagem.png'
 import './Suporte.css'
 import { Footer } from '../../Pages Componentes/Footer/footer'

@@ -39,7 +39,7 @@ import { ParaProfissionais } from "./components/Pages Eduarda/para-profissionais
 import { Localizacao } from "./components/Page Danielly/Localização/Localizacao";
 import { LocalizacaoCliente } from "./components/Page Danielly/Localização copy/Localizacao";
 import { PerfilProfissional } from "./components/Page Hasan/perfil-prof copy/perfilprof";
-import { Perfil_Usuario } from "./components/Pages Thiago/5-PerfilUsuario/PerfilUsuario";
+import { PerfilUsuario } from "./components/Pages Thiago/5-PerfilCliente/PaginaUsuario";
 
 function App() {
   return (
@@ -93,7 +93,9 @@ function App() {
           <Route path="/paginacliente-comercio" element={<PaginaClienteComercio />} />
           <Route path="/paginacliente-moda" element={<PaginaClienteModa />} />
           <Route path="/paginacliente-reformas-perfil" element={<PerfilProfissional />} />
-          <Route path="/paginacliente-perfil-usuario" element={<Perfil_Usuario />} />
+          <Route path="/paginacliente-perfil-usuario" element={<PerfilUsuario/>}/>
+
+          
         </Routes>
       </Router>
 
