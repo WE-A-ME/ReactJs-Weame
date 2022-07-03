@@ -3,7 +3,65 @@
     justify-content: center;
 }
 
-.info--profissional{
+.info--profissional {
     text-align: center;
+    color: #012169;
 }
 
+.info {
+    display: flex;
+    column-gap: 10px;
+    width: 20vw;
+
+}
+
+#informacoes4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24.88px;
+    margin-left: 29em;
+    margin-top: 1em;
+}
+
+#informacoes4 li {
+    color: #012169;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 13px;
+    margin-bottom: 5px;
+}
+
+section {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #012169;
+}
+
+.boxinfos {
+    background-color: #e2dcdc9b;
+}
+
+.boxinfos input {
+    width: 40em;
+    height: 13em;
+    border-radius: 2em;
+    border: solid 2px #b0b0b0;
+}
+
+.boxinfos input[type=text] {
+    padding: 0px 30px 8em;
+}
+
+.btn-adicionar-servicos button{
+    width: 19em;
+    height: 5em;
+    background-color: #012169;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.4em;
+    margin-top: 3em;
+}
