@@ -68,7 +68,7 @@ input[type=number] {
 .button-email,
 .button-senha,
 .button-nome,
-.button-cpf {
+.button-cpf,.button-tel {
     background: #EAE6E6;
     border-radius: 8px;
     width: 303px;
