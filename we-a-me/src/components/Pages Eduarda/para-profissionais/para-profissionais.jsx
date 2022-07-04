@@ -12,8 +12,8 @@ export function ParaProfissionais() {
       <h1>Você é um Profissional ou Autônomo ?</h1>
     </div>
     <div className="paragrafo">
-      <p>Se você presta serviços e/ou tem um comercio, saiba  <br/>
-        que você pode fazer parte da nossa plataforma. <br/> 
+      <p>Se você presta serviços e/ou tem um comercio, saiba  
+        que você pode fazer parte da nossa plataforma. 
         Nós te ajudaremos a alavancar o seu negócio. </p>
     </div>
     <div className="btn-cadastro">
