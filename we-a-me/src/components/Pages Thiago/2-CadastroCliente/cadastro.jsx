@@ -26,7 +26,7 @@ export function CadastroCliente() {
           <div className="main--title col-12">
             <h2 id="h1">Cadastra-se. <br /> É rápido e fácil </h2>
           </div>
-
+{/*  */}
           <div className="main--inputs">
             <form action="">
               <input className="button-nome" type="text" placeholder="Nome Completo" />
@@ -51,19 +51,3 @@ export function CadastroCliente() {
 
 
 
-// !BackEnd
-
-
-
-const formulario = document.querySelector("form");
-const Inome = document.querySelector(".button-nome");
-const Icpf = document.querySelector(".button-cpf");
-const Iemail = document.querySelector(".button-email");
-const Itel = document.querySelector(".button-tel");
-const Isenha = document.querySelector(".button-senha");
-
-// formulario.addEventListener('submit', function (event) {
-//   event.preventDefault();
-
-//   console.log(Inome.value);
-// });
