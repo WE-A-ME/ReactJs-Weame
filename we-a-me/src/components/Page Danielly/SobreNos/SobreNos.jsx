@@ -28,7 +28,7 @@ export function SobreNos() {
                             Somos uma equipe formada por 7 pessoas, Danielly Alves, Geovanna Ramalho, Hasan Basam, Maria Eduarda Hais, Mariana Alves, Lennon Manholetto, Thiago Guimarães. Começamos esse projeto no começo de 2022, atualmente só atentemos autônomos e comerciantes da grande São Paulo </p>
 
                     </div>
-                    <div className="main--img--01"><img src={Imagem} alt="" /></div>
+                    <div className="imagemsobrenos"><img src={Imagem} alt="" /></div>
                 </div>
 
                 <div className="main--box--04">

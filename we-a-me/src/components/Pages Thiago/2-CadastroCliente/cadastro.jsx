@@ -107,7 +107,7 @@ export function CadastroCliente() {
           </div>
           {/*  */}
           <div className="main--inputs">
-            <form action="">
+            <form className="formulario" action="">
               <input className="button-nome" name="name" onChange={valueInput} value={user.name} type="text" placeholder="Nome Completo" />
               <input className="button-cpf" name="cpf" onChange={valueInput} value={user.cpf} type="number" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" />
               <input className="button-email" name="email" onChange={valueInput} value={user.email} type="text" placeholder="E-mail" />

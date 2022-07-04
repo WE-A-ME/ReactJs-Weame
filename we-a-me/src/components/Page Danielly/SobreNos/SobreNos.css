@@ -8,6 +8,10 @@
     justify-content: center;
     padding: 4em;
   }
+
+.imagemsobrenos{
+  width: 28em;
+}
   
   .main--box--01--text h1 {
     font-size: 35px;

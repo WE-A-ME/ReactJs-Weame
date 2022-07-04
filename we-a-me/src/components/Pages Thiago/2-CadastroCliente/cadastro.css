@@ -4,6 +4,7 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Inter', sans-serif;
+    margin-top: 1em;
 }
 
 :root {
@@ -13,12 +14,8 @@
     font-weight: 600;
 }
 
-img {
+ .img-btns {
     width: 150px;
-}
-
-.container- {
-    margin-top: 1em;
 }
 
 .conteudo {
@@ -52,7 +49,7 @@ img {
     margin-top: -70px;
 }
 
-form {
+.formulario {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="container-fluid" id="nav">
+    <div className="container-" id="nav">
       <header className="d-flex flex-wrap align-items-center justify-content-center minha-class py-3 mb-4">
 
         <Link to="/paginacliente" className="d-flex  col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
