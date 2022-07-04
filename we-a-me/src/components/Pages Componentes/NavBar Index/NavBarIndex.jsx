@@ -2,7 +2,6 @@ import React from 'react';
 import './NavBarIndex.css';
 import Logo from './logo.png';
 import { Link } from "react-router-dom";
-import { Index } from '../../Pages Thiago/1-Index';
 
 export function NavBarIndex() {
     return (
@@ -19,9 +18,9 @@ export function NavBarIndex() {
 
                     <ul className="navbarletra nav col-12 col-md-auto mb-2 mb-md-0" id='navbar'>
                         <Link className="nav-link px-2" to="/categorias">Categorias</Link>
-                        <a href="#" className="nav-link px-2" >Para Profissionais</a>
+                        <Link className="nav-link px-2" to="/paraprofissionais">Para Profissionais</Link>
                         <Link className="nav-link px-2" to="/suporte">Suporte</Link>
-                        <a href="#" className="nav-link px-2 " >Como Funciona</a>
+                        <Link className="nav-link px-2" to="/comofunciona" >Como Funciona</Link>
                         <Link className="nav-link px-2" to="/sobrenos">Sobre Nós</Link>
                     </ul>
 

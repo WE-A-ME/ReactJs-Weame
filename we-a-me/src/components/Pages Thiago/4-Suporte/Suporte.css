@@ -1,0 +1,49 @@
+.suporte{
+    display: flex;
+    padding: 4em;
+}
+
+  .titulo5 h2{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 61px;
+    color: #012169;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .main--box--02 {
+    display: flex;
+    padding: 2em;
+  }
+
+.caixa{
+  float: right;
+}
+
+.textosuporte{
+  text-align: center;
+  padding: 1rem;
+}
+  
+ #imagemsuporte{
+    width: 520px;
+    height: 550px;
+    margin-top: -2em;
+    justify-content: left;
+  }
+  
+.caixaaz{
+    width: 490px;
+    height: 165px;
+    background-color: #012169;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.caixaaz p{
+  color: #FFFFFF;
+}
+
+  

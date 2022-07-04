@@ -6,14 +6,14 @@ import { Categorias } from "./components/Page Danielly/Categorias/Categorias";
 import { PaginaCliente } from "./components/Page Danielly/Pagina Inicial Cliente/PaginaCliente";
 import { Reformas } from "./components/Page Danielly/LoginCategorias/Reformas/LoginCategoriasReformas";
 import { Moda } from "./components/Page Mariana/Moda/LoginCategoriasModa";
-import { Suporte } from "./components/Pages Thiago/Suporte/Suporte";
+import { Suporte } from "./components/Pages Thiago/4-Suporte/Suporte";
 import { Contratos } from "./components/Page Geovanna/contratos/Contratos";
 import { ComoAvaliar } from "./components/Page Geovanna/comoavaliar/ComoAvaliar";
 import { ComoSerParceiro } from "./components/Page Geovanna/comoserparceiro/ComoSerParceiro";
 import { OqVcP } from "./components/Page Geovanna/oqvcp/OqVcP";
 import { SobreNos } from "./components/Page Danielly/SobreNos/SobreNos";
-import { CadastroCliente } from "./components/Pages Thiago/CadastroCliente/cadastro";
-import { LoginCliente } from "./components/Pages Thiago/LoginCliente/login";
+import { CadastroCliente } from "./components/Pages Thiago/2-CadastroCliente/cadastro";
+import { LoginCliente } from "./components/Pages Thiago/3-LoginCliente/login";
 import { PaginaClienteReformas } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Reformas/PaginaClienteReformas";
 import { PaginaClienteBeleza } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Beleza/PaginaClienteBeleza";
 import { PaginaClienteAuto } from "./components/Page Danielly/Login/Pagina Inicial Cliente/Auto/PaginaClienteAuto";
@@ -32,9 +32,15 @@ import { Programacao } from "./components/Page Lennon/6-Programacao/CategoriasPr
 import { Limpeza } from "./components/Page Lennon/7-Limpeza/CategoriasLimpeza";
 import { Design } from "./components/Page Lennon/8-Design/CategoriasDesign";
 import { Comercio } from "./components/Page Lennon/9-Comércio/CategoriasComercio";
-import { MeusDados } from "./components/Page Danielly/Meus Dados/MeusDados";
 import { CadastroEmpresa } from "./components/Page Hasan/cadastro-empresa/cadastroempresa";
 import { PerfilProf } from "./components/Page Hasan/perfil-prof/perfilprof";
+import { ComoFunciona } from "./components/Pages Eduarda/como-funciona/ComoFunciona";
+import { ParaProfissionais } from "./components/Pages Eduarda/para-profissionais/para-profissionais"
+import { Localizacao } from "./components/Page Danielly/Localização/Localizacao";
+import { LocalizacaoCliente } from "./components/Page Danielly/Localização copy/Localizacao";
+import { PerfilProfissional } from "./components/Page Hasan/perfil-prof copy/perfilprof";
+import { PerfilUsuario } from "./components/Pages Thiago/5-PerfilCliente/PaginaUsuario";
+import { EdicaoProfissional } from "./components/Pages Thiago/6-PaginaEdicaoProfissional/PaginaEdicaoProfissional";
 
 function App() {
   return (
@@ -43,8 +49,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/categorias" element={<Categorias />} />
-          <Route path="/paginacliente" element={<PaginaCliente />} />
           <Route path="/suporte" element={<Suporte />} />
           <Route path="/sobrenos" element={<SobreNos />} />
           <Route path="/contratos" element={<Contratos />} />
@@ -52,31 +56,48 @@ function App() {
           <Route path="/OqVcP" element={<OqVcP />} />
           <Route path="/comoserparceiro" element={<ComoSerParceiro />} />
           <Route path="/cadastrocliente" element={<CadastroCliente />} />
-          <Route path="/categorias/reformas" element={<Reformas />} />
-          <Route path="/categorias/beleza" element={<Beleza />} />
-          <Route path="/categorias/auto" element={<Auto />} />
-          <Route path="/categorias/assistencia" element={<Assistencia />} />
-          <Route path="/categorias/Alimentos" element={<Alimentos />} />
-          <Route path="/categorias/Programacao" element={<Programacao />} />
-          <Route path="/categorias/Limpeza" element={<Limpeza />} />
-          <Route path="/categorias/Design" element={<Design />} />
-          <Route path="/categorias/Comercio" element={<Comercio />} />
-          <Route path="/categorias/moda" element={<Moda />} />
-          <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
-          <Route path="/perfilprof" element={<PerfilProf />} />
-          {/* Paginas depois de ter feito o login */}
+
+
+          <Route path="/categorias" element={<Categorias />} />
+          <Route path="/categorias-reformas" element={<Reformas />} />
+          <Route path="/categorias-beleza" element={<Beleza />} />
+          <Route path="/categorias-auto" element={<Auto />} />
+          <Route path="/categorias-assistencia" element={<Assistencia />} />
+          <Route path="/categorias-alimentos" element={<Alimentos />} />
+          <Route path="/categorias-programacao" element={<Programacao />} />
+          <Route path="/categorias-limpeza" element={<Limpeza />} />
+          <Route path="/categorias-design" element={<Design />} />
+          <Route path="/categorias-comercio" element={<Comercio />} />
+          <Route path="/categorias-moda" element={<Moda />} />
           <Route path="/logincliente" element={<LoginCliente />} />
-          <Route path="/logincliente/reformas" element={<PaginaClienteReformas />} />
-          <Route path="/logincliente/beleza" element={<PaginaClienteBeleza />} />
-          <Route path="/logincliente/auto" element={<PaginaClienteAuto />} />
-          <Route path="/logincliente/assistencia" element={<PaginaClienteAssistencia />} />
-          <Route path="/logincliente/alimentos" element={<PaginaClienteAlimentos />} />
-          <Route path="/logincliente/programacao" element={<PaginaClienteProgramacao />} />
-          <Route path="/logincliente/limpeza" element={<PaginaClienteLimpeza />} />
-          <Route path="/logincliente/design" element={<PaginaClienteDesign />} />
-          <Route path="/logincliente/comercio" element={<PaginaClienteComercio />} />
-          <Route path="/logincliente/moda" element={<PaginaClienteModa />} />
-          <Route path="/logincliente/meusdados" element={<MeusDados />} />
+
+
+
+          <Route path="/cadastroempresa" element={<CadastroEmpresa />} />
+          <Route path="/categorias-reformas-perfilprof" element={<PerfilProf />} />
+          <Route path="/paraprofissionais" element={<ParaProfissionais />} />
+          <Route path="/comofunciona" element={<ComoFunciona />} />
+          <Route path="/cadastroempresa-localizacao" element={<Localizacao />} />
+          <Route path="/cadastrocliente-localizacao" element={<LocalizacaoCliente />} />
+
+          {/* Paginas depois de ter feito o login */}
+
+          <Route path="/paginacliente" element={<PaginaCliente />} />
+          <Route path="/paginacliente-reformas" element={<PaginaClienteReformas />} />
+          <Route path="/paginacliente-beleza" element={<PaginaClienteBeleza />} />
+          <Route path="/paginacliente-auto" element={<PaginaClienteAuto />} />
+          <Route path="/paginacliente-assistencia" element={<PaginaClienteAssistencia />} />
+          <Route path="/paginacliente-alimentos" element={<PaginaClienteAlimentos />} />
+          <Route path="/paginacliente-programacao" element={<PaginaClienteProgramacao />} />
+          <Route path="/paginacliente-limpeza" element={<PaginaClienteLimpeza />} />
+          <Route path="/paginacliente-design" element={<PaginaClienteDesign />} />
+          <Route path="/paginacliente-comercio" element={<PaginaClienteComercio />} />
+          <Route path="/paginacliente-moda" element={<PaginaClienteModa />} />
+          <Route path="/paginacliente-reformas-perfil" element={<PerfilProfissional />} />
+          <Route path="/paginacliente-perfil-usuario" element={<PerfilUsuario/>}/>
+          <Route path="/edicao-pagina-profissional" element={<EdicaoProfissional/>}/>
+
+          
         </Routes>
       </Router>
 

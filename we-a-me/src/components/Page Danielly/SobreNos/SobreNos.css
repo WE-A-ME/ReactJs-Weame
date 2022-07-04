@@ -3,6 +3,49 @@
     padding: 3em;
 }
 
+.main--box--01 {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+  }
+  
+  .main--box--01--text h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #012169;
+  }
+  
+  .main--box--01--text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #696969;
+  }
+
+  .main--box--04 {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 6em;
+    margin-bottom: 5em;
+  }
+  
+  .valores {
+    border: solid 2px #012169;
+    border-radius: 14px;
+  }
+  
+  .card-title {
+    color: #012169;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #696969;
+  }
+
 .titulosobrenos{
     font-weight: 600;
     font-size: 35px;

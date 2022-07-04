@@ -9,7 +9,7 @@ function NavBar() {
 
         <Link to="/paginacliente" className="d-flex  col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
           <img className="header--logo" src={Logo} title="We-a-Me" alt="We-a-Me Logo" />
-          </Link>
+        </Link>
 
         <form className="" id="pesquisa">
           <input type="text" placeholder="Busque por um serviço ou comércio" />
@@ -22,11 +22,11 @@ function NavBar() {
           <li id="local"> <i id="iconelocal" className="fa-solid fa-location-dot" /></li>
           <a id="letra-local" href="#" className="nav-link">Osasco, SP</a>
           <div class="dropdown">
-            <p class="dropdown-toggle navlink"  type="button" id="letra-cliente" data-bs-toggle="dropdown" aria-expanded="false">
+            <p class="dropdown-toggle navlink" type="button" id="letra-cliente" data-bs-toggle="dropdown" aria-expanded="false">
               Olá, Jailson
             </p>
             <ul class="dropdown-menu" aria-labelledby="dropdown">
-              <li><a class="dropdown-item" href="/logincliente/meusdados">Meus Dados</a></li>
+              <li><a class="dropdown-item" href="/paginacliente-perfil-usuario">Meus Dados</a></li>
               <li><a class="dropdown-item" href="/">Sair</a></li>
             </ul>
           </div>

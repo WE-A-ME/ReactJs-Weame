@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.cadastropagina {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --AzulEscuro: #012169;
+    --AzulClaro: #0070ba;
+    --TituloH1: font-size: 35px;
+    font-weight: 600;
+}
+
+img {
+    width: 150px;
+}
+
+.container- {
+    margin-top: 1em;
+}
+
+.conteudo {
+    display: flex;
+    margin-top: 4em;
+}
+
+.header--logo {
+    width: 110px;
+    margin-left: 35px;
+}
+
+.main--img {
+    width: 134%;
+}
+
+.main--title {
+    display: flex;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.main--cadastro {
+    width: 363px;
+    border-radius: 30px;
+    background: var(--AzulEscuro);
+    margin-left: 15em;
+    margin-top: -70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main--inputs input[type=text],
+input[type=password],
+input[type=number] {
+    padding: 12px 16px 14px;
+}
+
+.button-email,
+.button-senha,
+.button-nome,
+.button-cpf,.button-tel {
+    background: #EAE6E6;
+    border-radius: 8px;
+    width: 303px;
+    height: 53px;
+    margin-top: 10px;
+}
+
+.button-email:hover,
+.button-senha:hover,
+.button-nome:hover,
+.button-cpf:hover {
+    box-shadow: 1px 3px 3px #fff;
+}
+
+.btn-entrar {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--AzulEscuro);
+    margin-top: 20px;
+    background: #EAE6E6;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-entrar:hover {
+    box-shadow: 1px 3px 3px #fff;
+}
+
+.main--inputs a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main--inputs a:hover {
+    color: var(--AzulClaro);
+}
+
+.btn--login--google,
+.btn--login--linkedin {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    width: 303px;
+    height: 53px;
+    background: #fff;
+    font-weight: 500;
+    color: #012169;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn--login--google:hover,
+.btn--login--linkedin:hover {
+    box-shadow: 1px 3px 3px #ffffff;
+}
+
+.img-btns {
+    width: 40px;
+}

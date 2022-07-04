@@ -1,0 +1,120 @@
+.img--profissional {
+    display: flex;
+    justify-content: center;
+}
+
+.info--profissional {
+    text-align: center;
+    color: #012169;
+}
+
+.info {
+    display: flex;
+    column-gap: 10px;
+    width: 20vw;
+
+}
+
+#informacoes4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24.88px;
+    margin-left: 29em;
+    margin-top: 1em;
+}
+
+#informacoes4 li {
+    color: #012169;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 13px;
+    margin-bottom: 5px;
+}
+
+section {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #012169;
+}
+
+.boxinfos {
+    background-color: #e2dcdc9b;
+}
+
+.boxinfos input {
+    width: 40em;
+    height: 13em;
+    border-radius: 2em;
+    border: solid 2px #b0b0b0;
+}
+
+.boxinfos input[type=text] {
+    padding: 0px 30px 8em;
+}
+
+.btn-adicionar-servicos button {
+    width: 19 em;
+    height: 5em;
+    background-color: #012169;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.4em;
+    margin-top: 3em;
+}
+
+.btn-group {
+    margin-bottom: 27em;
+}
+
+.bttn{
+    width: 18em;
+    height: 5em;
+    background: #012169;
+}
+
+.bttn:hover{
+    background: #012169;
+}
+
+.dropdown-menu {
+    background: #F4F4F4;
+    
+}
+
+.box-edicao {
+    width: 17.9em;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-edicao img {
+    width: 250px;
+    margin-bottom: 2em;
+    margin-left: 2.7em;
+}
+
+.box-edicao input{
+    width: 18em;
+    height: 100px;
+    margin-left: 3em;
+    border-radius: 15px;
+}
+
+.box-edicao input[type=text]{
+    font-size: 15px;
+    padding: 10px 8px 10px;
+}
+
+.btn-data{
+    width: 16em;
+    margin-left: 1em;
+    margin-top: 2em;
+    color: #012169;
+    font-weight: 600;
+    background: none;
+}

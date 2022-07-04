@@ -25,13 +25,15 @@
     margin-left: 200px;
     display: grid;
 }
-.caixaazul h1{
+.titulocadastro h1{
     margin-top: 20px;
+    margin-left: 70px;
     color: #fff;
     text-align: center;
     font-size: 25px;
     font-style: italic;
 }
+
 .caixadetexto{
     width: 303px;
     height: 53px;
@@ -49,4 +51,15 @@
     border-radius: 8px;
     margin-left: 91px;
     text-align: center;
+    text-decoration: none;
 }
+
+.btn-cadastro a{
+    color: #012169;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+

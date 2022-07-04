@@ -35,7 +35,7 @@ export function Moda() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>  15 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -61,7 +61,7 @@ export function Moda() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>  22 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -87,11 +87,11 @@ export function Moda() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>   Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>   25 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>   Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
-                      <p class="card-text">Sou Miguel Lima, tenho 25 anos sou formado em designer de moda com especialização em estilismo. Desenvolvo estilos de calçados, roupas e acessórios, elaboro croquis e desenho coleções a gosto do cliente, desenvolvo looks de padrinhos de um casamento entre outros trabalhos. Venha conhecer o meu trabalho!</p>
+                      <p class="card-text">Sou Miguel Lima, tenho 25 anos sou formado em designer de moda com especialização em estilismo. Desenvolvo estilos de calçados, roupas e acessórios, elaboro croquis e desenho coleções a gosto do cliente. Venha conhecer o meu trabalho!</p>
                     </div>
                   </div>
                   <button id="botao">
