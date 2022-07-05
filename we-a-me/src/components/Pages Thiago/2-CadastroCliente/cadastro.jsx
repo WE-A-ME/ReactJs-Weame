@@ -78,7 +78,7 @@ export function CadastroCliente() {
         }
       })
       .catch(function (res) { console.log(res) })
-      console.log(status.type, status.mensagem)
+      console.log(status.type, status.mensagem);
 
   }
 
