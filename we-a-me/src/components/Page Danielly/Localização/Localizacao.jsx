@@ -1,5 +1,7 @@
 import React from "react";
 import "./Localizacao.css";
+import { useState } from "react";
+
 import Imagem from "./img/imagem.png"
 import img_logo from "./img/logo.png";
 
@@ -7,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export function Localizacao() {
    
-    const cep = querySelector('cep');
+    const cep = document.querySelector('cep');
     const estado = document.querySelector('estado');
     const cidade = document.querySelector('cidade');
     const bairro = document.querySelector('bairro');

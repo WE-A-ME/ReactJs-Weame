@@ -12,7 +12,7 @@ export function CadastroCliente() {
   const name = document.querySelector('.button-nome');
   const cpf = document.querySelector('.button-cpf');
   const email = document.querySelector('.button-email');
-  const tel = document.querySelector('.button-tel');
+  const tele = document.querySelector('.button-tel');
   const password = document.querySelector('.button-senha');
 
 
@@ -48,21 +48,20 @@ export function CadastroCliente() {
           nome: name.value,
           cpf: cpf.value,
           email: email.value,
-          tel: tel.value,
+          tel: tele.value,
           senha: password.value
         })
       })
-
       // !Mensagem para Informar que esta correto !//
-
+      
       .then(function (res) {
-        console.log(res)
-        console.log('Deu Certo ' + res.status)
+        
 
         if (res.status) {
           setStatus({
-            type: 'success',
+            type: 'succeso',
             mensagem: "Usuário cadastrado com sucesso!"
+            
           });
           setUser({
             name: '',
@@ -79,7 +78,7 @@ export function CadastroCliente() {
         }
       })
       .catch(function (res) { console.log(res) })
-
+      console.log(status.type, status.mensagem)
 
   }
 
@@ -111,7 +110,7 @@ export function CadastroCliente() {
               <input className="button-nome" name="name" onChange={valueInput} value={user.name} type="text" placeholder="Nome Completo" />
               <input className="button-cpf" name="cpf" onChange={valueInput} value={user.cpf} type="number" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" />
               <input className="button-email" name="email" onChange={valueInput} value={user.email} type="text" placeholder="E-mail" />
-              <input className="button-tel" name="tel" onChange={valueInput} value={user.tel} type="text" placeholder="Telefone" />
+              <input className="button-tel" name="tel" onChange={valueInput} value={user.tel} maxLength='11' type="text" placeholder="Telefone" />
               <input className="button-senha" name="password" onChange={valueInput} value={user.password} type="password" placeholder="Senha" />
             </form>
             <button className="btn-entrar" onClick={addUser}>Cadastrar</button>
