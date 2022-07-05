@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 
 export function Localizacao() {
    
-    const cep = getElementById('cep');
-    const estado = document.getElementById('estado');
-    const cidade = document.getElementById('cidade');
-    const bairro = document.getElementById('bairro');
-    const logradouro = document.getElementById('logradouro');
-    const numero = document.getElementById('numero');
-    const complemento = document.getElementById('complemento');
+    const cep = querySelector('cep');
+    const estado = document.querySelector('estado');
+    const cidade = document.querySelector('cidade');
+    const bairro = document.querySelector('bairro');
+    const logradouro = document.querySelector('logradouro');
+    const numero = document.querySelector('numero');
+    const complemento = document.querySelector('complemento');
   
   
   
