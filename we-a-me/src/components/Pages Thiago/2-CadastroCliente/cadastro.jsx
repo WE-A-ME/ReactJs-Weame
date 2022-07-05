@@ -37,7 +37,7 @@ export function CadastroCliente() {
   const addUser = async e => {
     e.preventDefault();
 
-    fetch("http://localhost:8080/cadastros", // * Mudar Local da API ! */
+    fetch("http://localhost:8080/cadastros",
       {
         headers: {
           'Accept': 'application/json',
