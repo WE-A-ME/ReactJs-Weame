@@ -28,7 +28,7 @@ export function PaginaClienteReformas() {
 
                         <div className="col-md-2">
                             <div className="card" id="cartaoprof">
-                                <a href=""><img src={Profissinal1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
+                                <a href="/paginacliente-reformas-perfil"><img src={Profissinal1} className="card-img-top" alt="Foto do Jorge dos Santos que trabalha na área de Reformas e Reparo" title="Jorge dos Santos" id="imagemprof" /></a>
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Jorge dos Santos</h5>
                                     <p className="card-text" id="profissao">Reformas e Reparo</p>

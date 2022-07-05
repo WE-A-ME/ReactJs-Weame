@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container- {}
+
+.main--img img {
+    display: flex;
+    width: 10em;
+    margin-top: 0;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.main--profissional {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-alterar-foto {
+    background: #012169;
+    width: 179px;
+    height: 53px;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 0.5em;
+    font-weight: 600;
+    margin-bottom: 4em;
+}
+
+.main--text {
+    margin-left: 5.5em;
+}
+
+.Buttons {
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.main--buttons-1 h2,
+.main--buttons-2 h2,
+.main--buttons-3 h2,
+.main--buttons-4 h2,
+.main--buttons-5 h2,
+.main--buttons-6 h2 {
+    font-size: 1.5em;
+}
+
+.main--buttons-1 button,
+.main--buttons-2 button,
+.main--buttons-3 button,
+.main--buttons-4 button,
+.main--buttons-5 button,
+.main--buttons-6 button {
+    width: 14em;
+    height: 44px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: solid 2px black;
+}
+
+.main--buttons-2,
+.main--buttons-4,
+.main--buttons-6 {
+    margin-left: 25em;
+}
+
+.btn-editar {
+    background: #012169;
+    font-weight: 600;
+    width: 150px;
+    height: 53px;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 30em;
+    margin-bottom: 4em;
+}
+
+.btn-adicionar{
+    background: #012169;
+    font-weight: 600;
+    width: 230px;
+    height: 53px;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 30em;
+    margin-bottom: 1em;
+}

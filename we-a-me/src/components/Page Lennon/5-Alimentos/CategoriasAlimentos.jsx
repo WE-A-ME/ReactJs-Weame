@@ -35,7 +35,7 @@ export function Alimentos() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>  Comércio</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -62,7 +62,7 @@ export function Alimentos() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>   Comércio</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -88,7 +88,7 @@ export function Alimentos() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>   Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>   298 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>   Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
+.cadastropagina {
     margin: 0%;
     padding: 0%;
     font-family: 'Inter', sans-serif;
+    margin-top: 1em;
 }
 
 :root {
@@ -13,12 +14,8 @@
     font-weight: 600;
 }
 
-header img {
+ .img-btns {
     width: 150px;
-}
-
-.container- {
-    margin-top: 1em;
 }
 
 .conteudo {
@@ -32,51 +29,54 @@ header img {
 }
 
 .main--img {
-    width: 50%;
-    height: 480px;
-    margin-top: 2.4em;
+    width: 134%;
+}
+
+.main--title {
+    display: flex;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
 }
 
 .main--cadastro {
     width: 363px;
-    height: 600px;
-    border-radius: 1em;
+    border-radius: 30px;
     background: var(--AzulEscuro);
-    margin-top: -4em;
-    margin-left: 80px;
-    margin-bottom: 1.5em;
+    margin-left: 15em;
+    margin-top: -70px;
 }
 
-.main--inputs {
+.formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 17px;
-    padding: 12px 16px 14px;
 
 }
 
-.main--inputs input[type=text]{
-    padding: 12px 16px 14px;
-}
-
-.main--inputs input[type=password]{
+.main--inputs input[type=text],
+input[type=password],
+input[type=number] {
     padding: 12px 16px 14px;
 }
 
 .button-email,
 .button-senha,
-.button-nome {
-    margin-top: 20px;
+.button-nome,
+.button-cpf,.button-tel {
     background: #EAE6E6;
     border-radius: 8px;
     width: 303px;
     height: 53px;
+    margin-top: 10px;
 }
 
 .button-email:hover,
 .button-senha:hover,
-.button-nome:hover {
+.button-nome:hover,
+.button-cpf:hover {
     box-shadow: 1px 3px 3px #fff;
 }
 
@@ -90,7 +90,6 @@ header img {
     height: 60px;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 40px;
 }
 
 .btn-entrar:hover {
@@ -103,7 +102,7 @@ header img {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main--inputs a:hover {
@@ -114,7 +113,7 @@ header img {
 .btn--login--linkedin {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     justify-content: space-evenly;
     width: 303px;
     height: 53px;
@@ -128,4 +127,8 @@ header img {
 .btn--login--google:hover,
 .btn--login--linkedin:hover {
     box-shadow: 1px 3px 3px #ffffff;
+}
+
+.img-btns {
+    width: 40px;
 }

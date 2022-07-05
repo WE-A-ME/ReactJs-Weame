@@ -36,7 +36,7 @@ export function Index() {
                                 <li>Contrate e ofereça serviços em um só lugar</li>
                                 <li>Oferece segurança na contratação de serviços</li>
                             </ul>
-                            <button className='buttonindex'><Link to='/categorias'>Quero Fazer Parte <i class="fa-solid fa-arrow-right-long"></i></Link> </button>
+                            <button className='buttonindex'><Link to='/categorias'>Quero Fazer Parte <i class="fa-solid fa-arrow-right-long"></i></Link></button>
                         </div>
                     </div>
 
@@ -44,32 +44,9 @@ export function Index() {
                         <div className="main--box--03--text col-5">
                             <h1>Você deseja se tornar um Profissional  ?</h1>
                             <p className="col-11">Se tornando um Profissional da We-A-Me é permitido fazer orçamentos e encontrar pedidos, receber encomendas, tudo isso dentro da plataforma,  conversas seguras e protegidas conforme as diretrizes da LGPD.</p>
-                            <button className='buttonindex'><Link to='/categorias'>Tornar um Profissional <i class="fa-solid fa-arrow-right-long"></i></Link></button>
+                            <button className='buttonindex'><Link to='/paraprofissionais'>Tornar um Profissional <i class="fa-solid fa-arrow-right-long"></i></Link></button>
                         </div>
                         <div className="main--img--03"><img src={Box3} alt="" /></div>
-                    </div>
-
-                    <div className="main--box--04">
-
-                        <div className="card text-center col-3">
-                            <div className="card-body valores">
-                                <h5 className="card-title">Nossa Missão</h5>
-                                <p className="card-text">Visibilidade aos autônomos e acessibilidade  a Microeempreendedores.</p>
-                            </div>
-                        </div>
-                        <div className="card text-center col-3">
-                            <div className="card-body valores">
-                                <h5 className="card-title">Nossa Visão</h5>
-                                <p className="card-text">Conectar os autónomos e as microempresas ao mercado local e a comunidade. </p>
-                            </div>
-                        </div>
-                        <div className="card text-center col-3">
-                            <div className="card-body valores">
-                                <h5 className="card-title">Nossos Valores</h5>
-                                <p className="card-text">Confiança. <br /> Transparência. <br /> Segurança. </p>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>

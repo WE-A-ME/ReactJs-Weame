@@ -1,4 +1,4 @@
-
+import React from 'react';
 import ImagemSuporte from './imagem.png'
 import './Suporte.css'
 import { Footer } from '../../Pages Componentes/Footer/footer'
@@ -16,7 +16,7 @@ export function Suporte() {
                     <div className="titulo5"><h2 >Algum problema ou dúvida?</h2></div> 
                     <p className="card-text textosuporte">Se você tiver algum problema com o nosso site acesse aos nossos contatos para resolvemos.</p>
   
-                    <div className="card mb-3 caixaazul">
+                    <div className="card mb-3 caixaaz">
                         <div className="card-body linhas">
                         <p className="card-text">Entre em contato por e-mail ou telefone:</p>
                         <p className="card-text">E-mail: ajuda@weame.com.br</p>

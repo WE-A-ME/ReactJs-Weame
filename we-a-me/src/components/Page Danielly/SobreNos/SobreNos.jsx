@@ -6,8 +6,10 @@ import Mariana from './fotos/Mariana.jpg'
 import Geovanna from './fotos/Geovanna.jpg'
 import Thiago from './fotos/Thiago.png'
 import Eduarda from './fotos/Eduarda.jpg'
+import Imagem from './fotos/SobrenosImagem.png'
 import { Footer } from '../../Pages Componentes/Footer/footer'
 import { NavBarIndex } from '../../Pages Componentes/NavBar Index/NavBarIndex'
+
 
 export function SobreNos() {
     return (
@@ -18,8 +20,42 @@ export function SobreNos() {
 
             <main className="main ">
 
+                <div className="main--box--01">
+                    <div className="main--box--01--text col-4">
+                        <h1>Sobre Nós</h1>
+                        <p className="col-11">Somos uma plataforma voltada para ajudar Autônomos e microempreendedores na visibilidade de seus trabalhos. Somos novos desenvolvedores entrando no mercado da tecnologia, trazemos visibilidade ao seu perfil através da nossa plataforma.
+
+                            Somos uma equipe formada por 7 pessoas, Danielly Alves, Geovanna Ramalho, Hasan Basam, Maria Eduarda Hais, Mariana Alves, Lennon Manholetto, Thiago Guimarães. Começamos esse projeto no começo de 2022, atualmente só atentemos autônomos e comerciantes da grande São Paulo </p>
+
+                    </div>
+                    <div className="imagemsobrenos"><img src={Imagem} alt="" /></div>
+                </div>
+
+                <div className="main--box--04">
+
+                    <div className="card text-center col-3">
+                        <div className="card-body valores">
+                            <h5 className="card-title">Nossa Missão</h5>
+                            <p className="card-text">Visibilidade aos autônomos e acessibilidade  a Microeempreendedores.</p>
+                        </div>
+                    </div>
+                    <div className="card text-center col-3">
+                        <div className="card-body valores">
+                            <h5 className="card-title">Nossa Visão</h5>
+                            <p className="card-text">Conectar os autónomos e as microempresas ao mercado local e a comunidade. </p>
+                        </div>
+                    </div>
+                    <div className="card text-center col-3">
+                        <div className="card-body valores">
+                            <h5 className="card-title">Nossos Valores</h5>
+                            <p className="card-text">Confiança. <br /> Transparência. <br /> Segurança. </p>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div className="titulosobrenos">
-                    <h2>Sobre Nós</h2>
+                    <h2>Nosso Time</h2>
                 </div>
 
                 <div className="container">
@@ -29,7 +65,7 @@ export function SobreNos() {
                                 <img src={Danielly} className="card-img-top" alt="Foto da aluna do Instituto Proa chamada Danielly Alves Silva" title="Danielly Alves Silva" id="imagem2" />
                                 <div className="card-body" id="texto">
                                     <h5 className="card-title" id="nome">Danielly Silva</h5>
-                                    <p className="card-title"id="profissao">Desenvolvedora Front-End</p>
+                                    <p className="card-title" id="profissao">Desenvolvedora Front-End</p>
                                 </div>
                             </div>
                         </div>

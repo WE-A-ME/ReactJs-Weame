@@ -6,6 +6,7 @@ import Profissional3 from './img/imagemprofissional3.jpg';
 import { NavBarIndex } from '../../../Pages Componentes/NavBar Index/NavBarIndex';
 import { NavbarCategorias } from '../../../Pages Componentes/Navbar Categorias/NavbarCategorias';
 import { Footer } from '../../../Pages Componentes/Footer/footer';
+import { Outlet } from 'react-router-dom';
 
 
 export function Reformas() {
@@ -35,7 +36,7 @@ export function Reformas() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>  17 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 98765-0987</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -43,7 +44,7 @@ export function Reformas() {
                     </div>
                   </div>
                   <button id="botao">
-                    <a href="#">Visitar Perfil</a>
+                    <a href="/categorias-reformas-perfilprof">Visitar Perfil</a>
                   </button>
                 </div>
               </div>
@@ -61,7 +62,7 @@ export function Reformas() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>  7 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -87,7 +88,7 @@ export function Reformas() {
                       <ul class="nav col-12" id="informacoes3">
                         <li> <i class="fa-solid fa-location-dot"></i>   Osasco</li>
                         <li> <i class="fa-solid fa-hammer"></i>   25 Serviços</li>
-                        <li> <i class="fa-solid fa-circle-check"></i>   Documentos Verificados</li>
+                        <li> <i class="fa-solid fa-phone"></i>   (11) 966664444</li>
                       </ul>
                     </div>
                     <div id="texto1">
@@ -115,7 +116,7 @@ export function Reformas() {
       </main>
 
       <Footer />
-
+      
     </div>
 
   );
