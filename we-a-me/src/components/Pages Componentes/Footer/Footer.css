@@ -3,6 +3,7 @@ footer {
   overflow: hidden;
   background-color: #01216914;
   text-align: center;
+  padding: 0.5rem;
 }
 
 .footer--logo {
@@ -13,6 +14,7 @@ footer {
 .footer--topicos {
   color: #0070BA;
   margin-left: 3em;
+  
 }
 
 .footer--topicos h5 {
@@ -40,8 +42,9 @@ footer {
 .footer--topicos--copy {
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 16.5px;
+  font-weight: 600;
   margin-top: 1em;
-  color: #0070BA;
-  margin-left: 4rem;
+  color: #012169;
+  margin-left: 3.5rem;
 }
