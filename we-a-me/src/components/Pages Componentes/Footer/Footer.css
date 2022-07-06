@@ -42,16 +42,9 @@ footer {
 .footer--topicos--copy {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-  font-size: 18px;
-  margin-top: 1em;
-  color: #0070BA;
-  margin-left: 4rem;
-=======
   font-size: 16.5px;
   font-weight: 600;
   margin-top: 1.7em;
   color: #012169;
   margin-left: 3.8rem;
->>>>>>> f712afb7e26b8034869c2b809c0bcb78694673e6
 }

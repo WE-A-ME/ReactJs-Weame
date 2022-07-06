@@ -12,7 +12,7 @@ export function CadastroCliente() {
   const name = document.querySelector('.button-nome');
   const cpf = document.querySelector('.button-cpf');
   const email = document.querySelector('.button-email');
-  const tele = document.querySelector('.button-tel');
+  const tel = document.querySelector('.button-tel');
   const password = document.querySelector('.button-senha');
 
 
@@ -48,7 +48,7 @@ export function CadastroCliente() {
           nome: name.value,
           cpf: cpf.value,
           email: email.value,
-          tel: tele.value,
+          tel: tel.value,
           senha: password.value
         })
       })
