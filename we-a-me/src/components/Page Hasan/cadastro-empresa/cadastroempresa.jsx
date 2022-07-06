@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 
 export function CadastroEmpresa(){
 
-  const nome_empresa = document.querySelector('.button-nome_empresa');
-  const cpf = document.querySelector('.button-cpf');
-  const cnpj = document.querySelector('.button-cnpj');
-  const email = document.querySelector('.button-email');
-  const telefone = document.querySelector('.button-telefone');
-  const senha = document.querySelector('.button-senha');
+  const nome_empresa = document.getElementById('nome_empresa');
+  const cpf = document.getElementById('cpf');
+  const cnpj = document.getElementById('cnpj');
+  const email = document.getElementById('email');
+  const telefone = document.getElementById('telefone');
+  const senha = document.getElementById('senha');
 
 
 
@@ -93,12 +93,12 @@ export function CadastroEmpresa(){
                     <div className="caixaazul">
                         <div className="titulocadastro"><h1>Seja um Parceiro</h1></div>
                         <div className="caixaparaform">
-                            <input className="button-nome_empresa" name="nome_empresa" onChange={valueInput} value={user.nome_empresa} type="text" placeholder=" Nome Completo" />
-                            <input className="button-cpf" name="cpf" onChange={valueInput} value={user.cpf} type="number" placeholder=" CPF " />
-                            <input className="button-cnpj" name="cnpj" onChange={valueInput} value={user.cnpj} type="number" placeholder=" CNPJ " />
-                            <input className="button-email" name="email" onChange={valueInput} value={user.email} type="email" placeholder=" Digite seu Email" />
-                            <input className="button-telefone" name="telefone" onChange={valueInput} value={user.telefone} type="telefone" placeholder=" Digite seu Telefone" />
-                            <input className="button-senha" name="senha" onChange={valueInput} value={user.senha} type="senha" placeholder=" Digite sua Senha" />
+                            <input className="button-cpf" id="nome_empresa" name="nome_empresa" onChange={valueInput} value={user.nome_empresa} type="text" placeholder=" Nome Completo" />
+                            <input className="button-cpf" id="cpf" name="cpf" onChange={valueInput} value={user.cpf} type="number" placeholder=" CPF " />
+                            <input className="button-cpf" id="cnpj" name="cnpj" onChange={valueInput} value={user.cnpj} type="number" placeholder=" CNPJ " />
+                            <input className="button-cpf" id="email" name="email" onChange={valueInput} value={user.email} type="email" placeholder=" Digite seu Email" />
+                            <input className="button-cpf" id="telefone" name="telefone" onChange={valueInput} value={user.telefone} type="tel" placeholder="    Digite seu Telefone" />
+                            <input className="button-cpf" id="senha" name="senha" onChange={valueInput} value={user.senha} type="password" placeholder="    Digite sua Senha" />
                         </div>
                             <button className="btn-cadastro" onClick={addUser}><Link to='/cadastroempresa-localizacao'>Cadastrar-se</Link></button>
                     </div>
