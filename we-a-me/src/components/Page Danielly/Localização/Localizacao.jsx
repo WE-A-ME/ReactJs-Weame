@@ -77,7 +77,7 @@ export function Localizacao() {
             numero: '',
             complemento: ''
           });
-          navigate('/cadastroempresa-localizacao')
+          navigate('/paginacliente')
         } else {
           setStatus({
             type: 'error',
