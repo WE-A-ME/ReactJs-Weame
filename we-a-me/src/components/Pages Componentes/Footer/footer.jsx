@@ -48,7 +48,11 @@ export function Footer() {
                     </div>
 
                     <div class="footer--topicos--copy col-4">
+<<<<<<< HEAD
                         <p>&copy; 2022 We-A-Me. Todos Direitos Reservado.</p>
+=======
+                        <p>&copy; 2022 We-A-Me. Todos Direitos Reservados.</p>
+>>>>>>> f712afb7e26b8034869c2b809c0bcb78694673e6
 
                     </div>
                 </div>
