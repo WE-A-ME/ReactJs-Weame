@@ -11,7 +11,7 @@ export function ParaProfissionais() {
     <NavBarIndex/>
     <div className="paraprofissionais">
     <div className="texto">
-      <h1>Você é um Micro-Empreendedor ou Autônomo ?</h1>
+      <h1>Você é um Microempreendedor ou Autônomo ?</h1>
     </div>
     <div className="paragrafo">
       <p>Se você presta serviços e/ou tem um comércio, saiba  
