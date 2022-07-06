@@ -108,7 +108,7 @@ export function Localizacao() {
             <input type="text" placeholder="Logradouro" name="logradouro" className="logradouro" />
             <input type="text" placeholder="Número" name="numero" className="numero" />
             <input type="text" placeholder="Complemento" name="complemento" className="complemento" />
-            <button name="" className="btn botaolocalizacao">Entrar</button>
+            <button name="" className="btn botaolocalizacao" onClick={addUser}>Entrar</button>
           </div>
 
         </div>

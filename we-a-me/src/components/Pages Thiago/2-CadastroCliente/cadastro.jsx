@@ -5,7 +5,7 @@ import logo_google from "./img/img-google.png";
 import logo_linkedin from "./img/img-linkedin.png";
 import img_cadastro from "./img/img-cadastro.png";
 import { useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function CadastroCliente() {
 
@@ -15,7 +15,7 @@ export function CadastroCliente() {
   const tel = document.querySelector('.button-tel');
   const password = document.querySelector('.button-senha');
 
-
+  const navigate=useNavigate();
 
   const [user, setUser] = useState({
     name: '',
@@ -78,7 +78,7 @@ export function CadastroCliente() {
         tel: '',
         password: ''
       });
-      Navigate('/cadastro');
+      navigate('/cadastroempresa-localizacao');
     } else {
       setStatus({
         type: 'error',
