@@ -52,10 +52,7 @@ export function CadastroCliente() {
           senha: password.value
         }
         
-const navegar = useNavigate();
-        const clickar = () => {
-          Navigate('/cadastroempresa-localizacao')
-        }
+
         
         
         )
