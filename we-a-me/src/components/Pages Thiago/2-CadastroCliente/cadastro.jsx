@@ -5,7 +5,8 @@ import logo_google from "./img/img-google.png";
 import logo_linkedin from "./img/img-linkedin.png";
 import img_cadastro from "./img/img-cadastro.png";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
+import {toast} from 'react-toastify';
 
 export function CadastroCliente() {
 
@@ -15,7 +16,7 @@ export function CadastroCliente() {
   const tel = document.querySelector('.button-tel');
   const password = document.querySelector('.button-senha');
 
-
+const navigate=useNavigate();
 
   const [user, setUser] = useState({
     name: '',
@@ -70,6 +71,8 @@ export function CadastroCliente() {
             tel: '',
             password: ''
           });
+          // toast.success('Preenchea corretamente')
+          navigate('/cadastroempresa-localizacao')
         } else {
           setStatus({
             type: 'error',
@@ -115,7 +118,7 @@ export function CadastroCliente() {
               <input className="button-senha" name="password" onChange={valueInput} value={user.password} type="password" placeholder="Senha" />
             </form>
 
-            <Link to='/cadastroempresa-localizacao' ><button className="btn-entrar" onClick={addUser}>Cadastrar</button></Link>
+            <button className="btn-entrar" onClick={addUser}>Cadastrar</button>
             <a href="/logincliente">Já tenho uma conta !</a>
             <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
             <button className="btn--login--linkedin"><img className="img-btns" src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>

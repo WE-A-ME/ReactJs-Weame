@@ -100,14 +100,14 @@ export function Localizacao() {
           <img src={Imagem} alt="" className="imagemlocalizacao" />
           <div className="localizacao">
             <div className="titulolocalizacao"><h2>Dados de Localização</h2></div>
-            <input type="text" placeholder="CEP" name="cep" className="caixadetextolocalizacao" />
-            <input type="text" placeholder="Estado" name="estado" className="caixadetextolocalizacao" />
-            <input type="text" placeholder="Cidade" name="cidade" className="caixadetextolocalizacao" />
-            <input type="text" placeholder="Bairro" name="bairro" className="caixadetextolocalizacao" />
-            <input type="text" placeholder="Logradouro" name="logradouro" className="caixadetextolocalizacao" />
-            <input type="text" placeholder="Número" name="numero" className="caixadetextolocalizacao" />
-            <input type="text" placeholder="Complemento" name="complemento" className="caixadetextolocalizacao" />
-            <Link to='/edicao-pagina-profissional'><button name="" className="btn botaolocalizacao">Entrar</button></Link>
+            <input type="text" placeholder="CEP" name="cep" className="cep" />
+            <input type="text" placeholder="Estado" name="estado" className="estado" />
+            <input type="text" placeholder="Cidade" name="cidade" className="cidade" />
+            <input type="text" placeholder="Bairro" name="bairro" className="bairro" />
+            <input type="text" placeholder="Logradouro" name="logradouro" className="logradouro" />
+            <input type="text" placeholder="Número" name="numero" className="numero" />
+            <input type="text" placeholder="Complemento" name="complemento" className="complemento" />
+            <button name="" className="btn botaolocalizacao">Entrar</button>
           </div>
 
         </div>
