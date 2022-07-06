@@ -6,7 +6,7 @@ import logo_linkedin from "./img/img-linkedin.png";
 import img_cadastro from "./img/img-cadastro.png";
 import { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-import {toast} from 'react-toastify';
+import toast from 'react-hot-toast';
 
 export function CadastroCliente() {
 
@@ -71,8 +71,8 @@ const navigate=useNavigate();
             tel: '',
             password: ''
           });
-          // toast.success('Preenchea corretamente')
-          navigate('/cadastroempresa-localizacao')
+          toast.success('Preenchea corretamente')
+          // navigate('/cadastroempresa-localizacao')
         } else {
           setStatus({
             type: 'error',
@@ -82,7 +82,6 @@ const navigate=useNavigate();
       })
       .catch(function (res) { console.log(res) })
     console.log(status.type, status.mensagem)
-    console.log(status.type, status.mensagem);
 
   }
 
