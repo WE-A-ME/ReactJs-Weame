@@ -78,6 +78,7 @@ export function CadastroCliente() {
         tel: '',
         password: ''
       });
+      Navigate('/cadastro');
     } else {
       setStatus({
         type: 'error',
