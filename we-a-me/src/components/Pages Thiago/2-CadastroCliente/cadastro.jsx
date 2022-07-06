@@ -53,15 +53,15 @@ export function CadastroCliente() {
         })
       })
       // !Mensagem para Informar que esta correto !//
-      
+
       .then(function (res) {
-        
+
 
         if (res.status) {
           setStatus({
             type: 'succeso',
             mensagem: "Usuário cadastrado com sucesso!"
-            
+
           });
           setUser({
             name: '',
@@ -73,13 +73,13 @@ export function CadastroCliente() {
         } else {
           setStatus({
             type: 'error',
-            mensagem: "Erro: Usuário não cadastrado com sucesso!"
+            mensagem: "Erro: Usuário não cadastrado !"
           });
         }
       })
       .catch(function (res) { console.log(res) })
-      console.log(status.type, status.mensagem)
-      console.log(status.type, status.mensagem);
+    console.log(status.type, status.mensagem)
+    console.log(status.type, status.mensagem);
 
   }
 
@@ -114,7 +114,8 @@ export function CadastroCliente() {
               <input className="button-tel" name="tel" onChange={valueInput} value={user.tel} maxLength='11' type="text" placeholder="Telefone" />
               <input className="button-senha" name="password" onChange={valueInput} value={user.password} type="password" placeholder="Senha" />
             </form>
-            <button className="btn-entrar" onClick={addUser}>Cadastrar</button>
+
+            <Link to='/cadastroempresa-localizacao' ><button className="btn-entrar" onClick={addUser}>Cadastrar</button></Link>
             <a href="/logincliente">Já tenho uma conta !</a>
             <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
             <button className="btn--login--linkedin"><img className="img-btns" src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>
