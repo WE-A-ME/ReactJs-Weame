@@ -71,8 +71,8 @@ const navigate=useNavigate();
             tel: '',
             password: ''
           });
-          toast.success('Preenchea corretamente')
-          // navigate('/cadastroempresa-localizacao')
+          // toast.success('Preenchea corretamente')
+          navigate('/cadastroempresa-localizacao')
         } else {
           setStatus({
             type: 'error',
