@@ -3,7 +3,7 @@ import "./Localizacao.css";
 import { useState } from "react";
 import Imagem from "./img/imagem.png"
 import img_logo from "./img/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function Localizacao() {
 
@@ -15,7 +15,7 @@ export function Localizacao() {
   const numero = document.querySelector('numero');
   const complemento = document.querySelector('complemento');
 
-
+  const navigate=useNavigate();
 
   const [user, setUser] = useState({
     cep: '',
@@ -77,6 +77,7 @@ export function Localizacao() {
             numero: '',
             complemento: ''
           });
+          navigate('/cadastroempresa-localizacao')
         } else {
           setStatus({
             type: 'error',
