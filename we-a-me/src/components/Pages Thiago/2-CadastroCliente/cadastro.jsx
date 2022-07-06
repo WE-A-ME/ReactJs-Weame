@@ -124,7 +124,7 @@ return (
             <input className="button-senha" name="password" onChange={valueInput} value={user.password} type="password" placeholder="Senha" />
           </form>
 
-          <Link to='/cadastroempresa-localizacao' ><button className="btn-entrar" onClick={addUser}>Cadastrar</button></Link>
+          <button className="btn-entrar" onClick={addUser}>Cadastrar</button>
           <a href="/logincliente">Já tenho uma conta !</a>
           <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
           <button className="btn--login--linkedin"><img className="img-btns" src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>
