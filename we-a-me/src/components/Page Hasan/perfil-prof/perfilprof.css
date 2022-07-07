@@ -115,15 +115,19 @@ section {
     background-color: #e9faf9;
     border-radius: 40px;
     width: 883px;
-    height: 480px;
+    height: fit-content !important;
     padding: 30px 40px 100px 40px;
 }
 .boxinfos .idade-grade {
     display: flex;
     column-gap: 40px;
-    font-size: 20px;
+    font-size: 18px !important;
     color: #012169;
     margin-bottom: 30px;
+}
+
+.idade-grade h3 {
+    font-size: 25px !important;
 }
 .boxinfos h2{
     font-size: 35px;
