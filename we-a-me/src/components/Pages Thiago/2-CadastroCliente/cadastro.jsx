@@ -15,7 +15,7 @@ export function CadastroCliente() {
   const tel = document.querySelector('.button-tel');
   const password = document.querySelector('.button-senha');
 
-  const navigate=useNavigate();
+  const navigate = useNavigate();
 
   const [user, setUser] = useState({
     name: '',
@@ -51,86 +51,75 @@ export function CadastroCliente() {
           tel: tel.value,
           senha: password.value
         }
-        
-
-        
-        
         )
-  }
-
+      }
 
     )
       // !Mensagem para Informar que esta correto !//
 
-      .then(function (res) {
+      .then((res) => {
+        if (res.status === 200) {
+          setStatus({
+            type: 'succeso',
+            mensagem: "Usuário cadastrado com sucesso!"
+
+          });
+          setUser({
+            name: '',
+            cpf: '',
+            email: '',
+            tel: '',
+            password: ''
+          });
+          navigate('/cadastroempresa-localizacao');
+        } else {
+          console.log("ERRROOOOOOOOOOOOOOOOOOOOOO", res);
+          
+          setStatus({
+            type: 'error',
+            mensagem: "Erro: Usuário não cadastrado !"
+          });
+        }
+      })
+      
+  }
+
+  return (
+    <div className="cadastropagina container-">
+      <header>
+        <Link to='/'><img className="header--logo" src={Logo} alt="" /></Link>
+      </header>
 
 
-    if (res.status) {
-      setStatus({
-        type: 'succeso',
-        mensagem: "Usuário cadastrado com sucesso!"
-
-      });
-      setUser({
-        name: '',
-        cpf: '',
-        email: '',
-        tel: '',
-        password: ''
-      });
-      navigate('/cadastroempresa-localizacao');
-    } else {
-      setStatus({
-        type: 'error',
-        mensagem: "Erro: Usuário não cadastrado !"
-      });
-    }
-  })
-    .catch(function (res) { console.log(res) })
-  console.log(status.type, status.mensagem)
-  console.log(status.type, status.mensagem);
-
-}
-
-
-
-
-return (
-  <div className="cadastropagina container-">
-    <header>
-      <Link to='/'><img className="header--logo" src={Logo} alt="" /></Link>
-    </header>
-
-
-    <div className="conteudo">
-      <div >
-        <img className="main--img" src={img_cadastro} alt="" />
-      </div>
-
-      <div className="main--cadastro">
-
-
-
-        <div className="main--title col-12">
-          <h2 id="h1">Cadastra-se. <br /> É rápido e fácil </h2>
+      <div className="conteudo">
+        <div >
+          <img className="main--img" src={img_cadastro} alt="" />
         </div>
-        {/*  */}
-        <div className="main--inputs">
-          <form className="formulario" action="">
-            <input className="button-nome" name="name" onChange={valueInput} value={user.name} type="text" placeholder="Nome Completo" />
-            <input className="button-cpf" name="cpf" onChange={valueInput} value={user.cpf} type="number" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" />
-            <input className="button-email" name="email" onChange={valueInput} value={user.email} type="text" placeholder="E-mail" />
-            <input className="button-tel" name="tel" onChange={valueInput} value={user.tel} maxLength='11' type="text" placeholder="Telefone" />
-            <input className="button-senha" name="password" onChange={valueInput} value={user.password} type="password" placeholder="Senha" />
-          </form>
 
-          <button className="btn-entrar" onClick={addUser}>Cadastrar</button>
-          <a href="/logincliente">Já tenho uma conta !</a>
-          <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
-          <button className="btn--login--linkedin"><img className="img-btns" src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>
+        <div className="main--cadastro">
+
+
+
+          <div className="main--title col-12">
+            <h2 id="h1">Cadastra-se. <br /> É rápido e fácil </h2>
+          </div>
+          {/*  */}
+          <div className="main--inputs">
+            <form className="formulario" action="">
+              <input className="button-nome" name="name" onChange={valueInput} value={user.name} type="text" placeholder="Nome Completo" />
+              <input className="button-cpf" name="cpf" onChange={valueInput} value={user.cpf} type="number" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" />
+              <input className="button-email" name="email" onChange={valueInput} value={user.email} type="text" placeholder="E-mail" />
+              <input className="button-tel" name="tel" onChange={valueInput} value={user.tel} maxLength='11' type="text" placeholder="Telefone" />
+              <input className="button-senha" name="password" onChange={valueInput} value={user.password} type="password" placeholder="Senha" />
+            </form>
+
+            <button className="btn-entrar" onClick={addUser}>Cadastrar</button>
+            <a href="/logincliente">Já tenho uma conta !</a>
+            <button className="btn--login--google"><img className="img-btns" src={logo_google} alt="" /> Cadastrar com o Google</button>
+            <button className="btn--login--linkedin"><img className="img-btns" src={logo_linkedin} alt="" /> Cadastrar com o Linkedin</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
 }
