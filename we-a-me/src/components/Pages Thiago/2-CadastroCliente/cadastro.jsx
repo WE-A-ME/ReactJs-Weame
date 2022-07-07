@@ -80,8 +80,7 @@ export function CadastroCliente() {
             mensagem: "Erro: Usuário não cadastrado !"
           });
         }
-      })
-      
+      })  
   }
 
   return (
